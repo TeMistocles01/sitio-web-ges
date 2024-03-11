@@ -1,0 +1,885 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Sitio oficial GES  </title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+		<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----font-Awesome----->
+   		<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+   		<!----font-Awesome----->
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+		<!----start-slider-script---->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!----//End-slider-script---->
+			<!---- Slider ------>
+	 <link rel="stylesheet" href="css/slider.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider1').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+
+</head>
+	<body>
+		<!-----start-top-header----->
+		<div id="Inicio" class="top-header">
+		<!-- Slideshow 4 -->
+			    <div  id="top" class="callbacks_container">
+					
+			      <ul class="rslides" id="slider4">
+					
+			        <li>
+			          <img src="images/slide.jpg" alt="">
+			          <div class="caption text-center">
+			          	<div class="slide-text-info">
+			          		<h1>Por que tu seguridad es prioridad para nosotros</h1> <!--Preocupados por tu seguridad-->
+			          	</div>
+			          </div>
+			        </li>
+
+			        <li>
+			          <img src="images/slide1.jpg" alt="">
+			          <div class="caption text-center">
+			          	<div class="slide-text-info">
+			          		<h1>Inteligencia, experiencia y tecnología</h1>							
+			          	</div>
+			          </div>
+			        </li>
+			        <li>
+			          <img src="images/slide3.jpg" alt="">
+			           <div class="caption text-center">
+			           	<div class="slide-text-info">
+			          		<h1>Contra el robo de vehículo</h1>
+
+							
+			          	</div>
+			          </div>
+			        </li>
+			      </ul>
+			    </div>
+			    <div class="clear"> </div>
+			<!---- //End-slider----->
+
+		<!-----start-conatiner---->
+		<div class="container">
+			<!-----start-header---->
+			<div class="header">
+				<div class="container">
+				<div class="logo">
+					<a href="#">GES</a>
+				</div>
+				<!----start-top-nav---->
+				 <nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active"><a href="#1" class="scroll">¿Por que surge GES y que es?</a></li>
+						<li class="page-scroll"><a href="#over" class="scroll">Funciones</a></li>
+						<li class="page-scroll"><a href="#share" class="scroll">Resultados</a></li>
+						<li class="page-scroll"><a href="#fea" class="scroll">Destacados</a></li>
+						<li class="page-scroll"><a href="#gall" class="scroll">Lugares de uso</a></li>
+						<li class="page-scroll"><a href="#ven" class="scroll">Beneficios</a></li>
+						<li class="contatct-active" class="page-scroll"><a href="#down" class="scroll">Comprar </a></li>
+						
+					</ul>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+				  </nav>
+				<div class="clear"> </div>
+			</div>
+			<!-----//End-header---->
+			</div>
+			<!-----start-top-header----->
+		</div>
+		
+		<!-- start Como surge GES-->
+
+		<div class="titulo-container">
+			<h1 id="1" >¿Como surge GES?</h1>
+		</div>
+			<div class="container-principal">
+				
+				<div class="card-izquierda">
+					<div class="face front">
+							<h2>¿Sabias que en el ámbito de la seguridad?</h2>
+							<div class="contenido-card">
+								<p>El estado de fuerza operativo que componen: </p> <br>
+								<div class="container-logo1">
+
+									<img src="images/policia-1.png" alt="" class="logo1">
+									<img src="images/patrulla.png" alt="" class="logo1">
+								</div>
+									<div class="list-1">
+										<ul style= "list-style-type: none;">
+											<li>➤ 6 Elementos a pie tierra </li>
+											<li>➤ 2 Auto patrullas </li>
+											<li>➤ 2 Moto patrullas</li>
+										</ul>
+						
+									</div>
+										
+								<p class="parrafo">No son efectivos para que eviten el robo de " 1 " solo vehículo en un lugar con estacionamiento.</p>
+									
+									</div>
+									</div>
+				<div class="face back">
+					<div class="contenido-card">
+						<!--  <p class="parrafo">Esto se debe a factores como:</p> -->
+						<h2>Esto se debe a factores como:</h2>
+						<div class="container-logo1">
+							<img src="images/soborno.png" alt="" class="logo1">
+						</div>
+
+						<div class="list-1">
+							<ul style= "list-style-type: none;">
+								<li>➤ Corrupción </li>
+								<li>➤ Nulo interes por generar una solución al problema </li>
+								<li>➤ Falta de experiencia, analisis e inteligencia</li>
+								<li>➤ Carencia desarrollo e implementación tecnologica</li>
+							</ul>
+						</div>	
+					<p> <strong>Estos factores producen:</strong> Nulos resultados de eficiencia, desperdicio de recursos humanos y materiales. Ademas afectación economica en los bienes materiales de las personas y la creación de una cadena de delitos.</p>			
+					</div>
+				</div>			
+			</div>
+
+			<!-------------------------------------------------->
+			<div class="card-derecha">
+				
+					<h2>Bajo el contexto anterior se crea GES.</h2>
+					<div class="container-logo2">
+						<p>Analisis</p>
+						<img src="images/analisis1.png" alt="" class="logo2">
+						<p>Modelo</p>
+						<img src="images/modelo.png" alt="" class="logo2">
+						<p>Desarrollo</p>
+						<img src="images/programacion1.png" alt="" class="logo2">
+						
+					</div>
+					<div class="contenido-card">
+						<p class="parrafo">El modelo del desarrollo se enfoco en gran medida a generar un sistema altamente preventivo, esto devido a que las personas persiben el realizar una denuncia como:</p><br><br>
+
+						<div class="list-1">
+
+							<ul style= "list-style-type: none;">
+								<li>➤ Una perdida de tiempo: Debido a que no es eficiente en sus resultados</li>
+								<li>➤ Es tedioso, desgastante, genera gastos</li>
+								<li>➤ Muy pocas veces se recupera el vehículo</li>
+								
+							</ul>
+							
+
+						</div>
+						
+							</div>
+				
+			</div>
+
+		</div>
+		
+		<!-- end Como surge GES-->
+
+
+
+
+
+
+
+
+
+
+		<!-- end Como surge GES-->
+
+
+<!--start Tarjetas-->
+<div class="principa-car">
+	<div   class="title-cards">
+		<h1>Gestion Estacionamiento Seguro</h1>
+	</div>
+
+	<!--Inicio targetas-->
+	<div  class="container-card">
+	<div id="card" class="card">
+	<figure>
+		<img src="images/app.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>¿Que es GES?</h3>
+		<p  class="original">Es una aplicación desarrollada para dispositivos móviles 📱 bajo el sistema operativo Android. Su función principal prevenir robo de vehículo en lugares con estacinamiento.<br><br>El nombre GES deriva  de las siglas de las palabras: Gestión Estacionamiento Seguro.</p>
+		
+		
+		<span class="dots">...</span><br><br>
+		
+		<p class="extra">Desde la primera versión publicada en la Play Store en el mes de abril del año 2020, se han venido icorporando más y mejores funciones, con la finalidad de aumentar su poder de prevención en materia de robo de vehículo. <br> <br>
+			➤ GES se implementa como una capa adicional de seguridad.</p>
+		
+		
+			<input class="input-card" type="checkbox" id="btn1" />
+			<label class="label-card" for="btn1"></label>
+			
+	</div>
+	</div>
+	<div class="card">
+	<figure>
+		<img src="images/desarrollador.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Del creador</h3>
+		
+		<p  class="original"><em>El Ingeniero Antonio Aquino.</em><br><br>
+			
+			➤ Con 20 años de experiencia operativa en la prevención de delitos de alto impacto, del fuero común.
+			
+			<br><br>➤ Ostenta el grado jerarquico de Sub oficial</p>
+
+			
+			<span class="dots">...</span><br><br>
+			
+	
+		
+		
+		<p class="extra">➤ Con Posgrado en: Maestría en Sistemas Computacionales. <br><br> Cualificaciones:<br> <br>Honestidad y cero tolerancia a la corrupción 🥇 <br><br> Para más información hecerca del creador puede acceder desde este sitio web al siguiente en lace:<br><a href="http://www.linkedin.com/in/antonio-aquino-de-la-luz-a118b573" target="_blank" rel="noopener noreferrer">Perfil en Linkedin</a> </p>
+			
+			
+			
+		
+		
+		<input class="input-card" type="checkbox" id="btn2"/>
+		<label class="label-card" for="btn2"></label>
+		<!--
+		<a href="#">Leer Màs</a>
+	<p  class="original"> son parte de los valores que caracterizan a su creador.</p>
+	Su experiencia y conocimientos son las características que lo dotan de las herramientas necesarias para gestionar proyectos que involucran: Análisis, diseño, modelado, desarrollo e implementació de sistemas informáticos altamente eficientes y efectivos.  
+
+		-->
+	</div>
+	</div>
+	<div class="card">
+	<figure>
+		<img src="images/objetivos.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Alcance y objetivos</h3>
+		<p  class="original">➤ EL objetivo principal solucionar el problema de robo de vehículo sin violencia en espacios publicos o privados que cuenten con un estacionamiento y que gestionen la entrada y la salida por el mismo acceso.</p>
+		<span class="dots">...</span>
+		<p class="extra"> <br><br><em>"Cabe destacar que lo hace única a esta App 🏆 en su funcionalidad, es que trae implícitamente toda la experiencia del campo operativo de su creador."</em> <br><br>➤ GES es el primera aplicación ya desplegada de un total de 3 sistemas, de las cuales la segunda se encuentra en proceso de desarrollo y la tercera esta en fase de planeación, con la intencion de que las tres trabajen en conjunto para hacer mas robusto el sistema de seguridad prevención a nivel local, nacional y contar con verdadero: Blindaje vehicular.</p>
+		
+		<input class="input-card" type="checkbox" id="btn3"/>
+		<label class="label-card" for="btn3"></label>
+	</div>
+	</div>
+	</div>
+</div>
+<!--end Tarjetas-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----start-features----->
+		<div id="over" class="features text-center">
+			<div class="container">
+
+				
+				<h2 class="titulo"> Funciones Destacadas. </h2>
+				<div class="box-animate">
+                    
+				</div>
+
+					<div class="features-grids text-center">
+						<div class="col-md-4 features-grid">
+							<span> </span>
+							<h3 class="descripccion">Seguridad basada en una contraseña</h3>
+							<p>La cual es creada por el conductor al instante de ingresar su vehículo.</p>
+						</div>
+						<div class="col-md-4 features-grid">
+							<span class="t-icon1"> </span>
+							<h3 class="descripccion">Registro de la ubicación del lugar</h3>
+							<p>Guarda datos generales, en el sistema para integrar un archivo digital.</p>
+						</div>
+						<div class="col-md-4 features-grid">
+							<span class="t-icon2"> </span>
+							<h3 class="descripccion">Creación automatico de un archivo digital</h3>
+							<p>Con datos generales del lugar y fotografia de la persona involucrada.</p>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				<!---- //End-features-grids------>
+			</div>
+		</div>
+		<!-----//End-features----->
+		
+		
+		<!----- start-gallery----->
+		<!----- galeria fotos----->
+		
+		<div id="gall" class="gallery">
+			<div class="container">
+				<img src="images/escudo.png" alt="" class="escudo">
+				<h3>Múltiples lugres para su implementación.</h3>
+				
+				<p>Desafortunadamente muchos los lugares han sido afectados por lo menos en una ocasion con este problema mismos en los que se hace referencia con as fotografias de la parte inferior</p><br><br>
+				
+				
+				
+				
+					
+				    
+			
+				
+			</div>
+			<!--- carrusel Nombre de las imagenes-->
+			<div id="owl-demo3" class="owl-carousel owl-carousel2">
+				                <div class="item">
+									<p class="img_slider">Estacionamientos publicos</p>
+				                	<img class="lazyOwl" data-src="images/imagen1.png" alt="Lazy Owl Image">
+				                </div>
+				                 <div class="item">
+									 <p class="img_slider">Unidades habitacionales </p>
+									 <img class="lazyOwl" data-src="images/imagen2.jpg" alt="Lazy Owl Image">
+				                </div>
+				                 <div class="item">
+									 <p class="img_slider">Mercados </p>
+									 <img class="lazyOwl" data-src="images/imagen1.png" alt="Lazy Owl Image">
+				                </div>
+				                 <div class="item">
+									 <p class="img_slider">Parques</p>
+									 <img class="lazyOwl" data-src="images/imagen2.jpg" alt="Lazy Owl Image">
+				                </div>
+				                 <div class="item">
+									 <p class="img_slider">Escuelas</p>
+									 <img class="lazyOwl" data-src="images/imagen1.png" alt="Lazy Owl Image">
+				                </div>
+				                 <div class="item">
+									 <p class="img_slider">Variedad de negocios </p>
+									 <img class="lazyOwl" data-src="images/imagen2.jpg" alt="Lazy Owl Image">
+				                </div>
+
+								<div class="item">
+									<p class="img_slider">Lugares de recreación familiar </p>
+				                	<img class="lazyOwl" data-src="images/imagen1.png" alt="Lazy Owl Image">
+				                </div>
+								<div class="item">
+									<p class="img_slider">Estacionamientos privados</p>
+				                	<img class="lazyOwl" data-src="images/imagen2.jpg" alt="Lazy Owl Image">
+				                </div>
+				                 
+				                <div class="clearfix"> </div>
+				                
+			           </div>
+		</div>
+		<!----- //End-gallery----->
+		
+
+
+		<!-----start-Share instantly  de uso particular o publico----->
+		<div id="share" class="Share-instantly">
+			<div class="container">
+				<div class="col-md-5 Share-instantly-left">
+					<span> </span>
+				</div>
+				<div class="col-md-7 Share-instantly-right">
+					<h3>Coadyuvar con el Ministerio Púbico</h3>
+					<p class="head-para">GES crea un archivo digital derivado de un suceso del cual el conductor falle al ingresar su contraseña por 2 ocasiones, aunque pueden variar las circunstancias de este hecho, el sistema captura: La fecha, hora, dirección del lugar, número de placa del vehículo  y la foto del conductor.</p><br>
+					<p class="head-para">El operador del sistema puede tomar una captura de pantalla del archivo creado, obteniendo asi las circunstancias del suceso como son: lugar,tiempo y modo datos releventes en una investigación</p>
+					
+					
+					<!----- start-Share-instantly-slider---->
+					 <!-- Prettify -->
+						<link href="css/owl.carousel.css" rel="stylesheet">
+					    <script src="js/owl.carousel.js"></script>
+					    <script>
+						    $(document).ready(function() {
+						      $("#owl-demo , #owl-demo1").owlCarousel({
+						        items : 1,
+						        lazyLoad : true,
+						        autoPlay : true,
+						      });
+						    });
+					    </script>
+					    <script>
+						    $(document).ready(function() {
+						      $("#owl-demo3").owlCarousel({
+						        items : 4,
+						        lazyLoad : true,
+						        autoPlay : true,
+						        navigation: false,
+						        pagination: false,
+						      });
+						    });
+					    </script>
+					<!----- //End-Share-instantly-slider---->
+
+					<!-- start content_slider  you tube  -->
+					     <div class="slider">
+						  	 <div id="da-slider" class="da-slider">
+								<div class="da-slide">
+
+									<!--cambio 2 quitar las clases .p_blanco de las p-->
+											
+									<!-- Falta establecer la referenciar hacia el canal de You tube-->
+
+								  <div class="da-img">   <a href=""> <img src="images/share-slide-pic.png" class="img-responsive" alt=" " /> </a></div>
+								  
+								  
+									 <p class="p_blanco">Visita nuestro el canal oficial de You Tube el cual muestra la aplicación en acción previniendo el robo de vehículo y escucha la opinión de las personas con respecto a la aplicación. </p>
+								  
+								 
+								 
+								  <div class="clear"></div>
+								</div>
+								<div class="da-slide">
+								  <div class="da-img"> <a href="https://www.masterseosem.com/diccionario-seo-glosario-de-terminos-de-marketing-digital/target_blank" target=”_blank”> <img src="images/share-slide-pic.png"   class="img-responsive" alt=" " />  </a> </div>
+								  <div class="slide-text">
+									  <p class="p_blanco">Aprende con respecto del uso y operación de la aplicación visitando nuestro el canal oficial de You Tube. </p>
+								  </div>
+								  <div class="clear"></div>
+								</div>
+                                  
+								<!-- Carrusel you tube comentado-->
+								<!---
+								<div class="da-slide">
+								  <div class="da-img">  <a href=""> <img src="images/share-slide-pic.png"  class="img-responsive" alt=" " /> </a> </div>
+								  <div class="slide-text">
+									  <p class="p_blanco">Texto</p>
+								  </div>
+								  <div class="clear"></div>
+								</div>
+								-->
+							 </div>
+							 
+						</div>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+
+		<!-----//End-Share instantly----->
+
+
+
+
+
+
+		<!-----start-New Feature configure sus numeros de llamada------>
+		<div id="fea" class="feature">
+			<div class="container">
+				<div class="col-md-7 feature-left">
+					<h3>Configure y reconfigura números de emergencia </h3>
+
+					<p class="head-para">Es muy importante contar con una comunicación rápida con las autoridades en el ámbito de la seguridad pública por eso en esta genial App puedes configurar y reconfigurar el número de emergencia:</p>
+					<div class="slider">
+						  	 <div id="da-slider1" class="da-slider1">
+								<div class="da-slide">
+								  <div class="da-img"><img src="images/cuadrantes.png" class="img-responsive" alt=" " /></div>
+								  <div class="slide-text">
+									 <p>¿Vives en la Ciudad de México? En la app puedes establecer el número telefónico de tu comandante de cuadrante, para un pronto auxilio.</p>
+								  </div>
+								  <div class="clear"></div>
+								</div>
+								<div class="da-slide">
+								  <div class="da-img"><img src="images/policia.png" class="img-responsive" alt=" " /></div>
+								  <div class="slide-text">
+									 <p>¿Vives en otra entidad federativa? En la app puedes establecer el número telefónico de tu policía local para auxiliarte.</p>
+								  </div>
+								  <div class="clear"></div>
+								</div>
+								<div class="da-slide">
+								  <div class="da-img"><img src="images/llamada.png" class="img-responsive" alt=" " /></div>
+								  <div class="slide-text">
+									 <p>Reconfiguración y modificación de números de emergencia según tu necesidad. Otra opción más guardia nacional 911.</p>
+								  </div>
+								  <div class="clear"></div>
+								</div>
+						    </div>
+						</div>
+				</div>
+
+				<div class="col-md-5 feature-right">
+					 <span> </span>
+				</div>
+			</div>
+		</div>
+		<!-----//End-New Feature------>
+		
+		<!----- start-Compatibility----->
+		
+		<!-- start targeta giratoria -->
+
+<!--cambio 4-->
+<div id="ven" class="bloke-card">
+			<h3> Beneficios de adquirir GES </h3>
+</div>
+		
+		
+<div class="container-tarjeta">
+	  
+	<div class="card-tarjeta">
+        <div class="face front">
+            <img src="images/bentajas.jpg" alt="">
+            <h3>Extras con la App</h3>
+        </div>
+        <div class="face back">
+            <h3>GES Aplicación</h3>
+            <p>Beneficios al adquirir nuestra App:</p>
+			
+				<div class="container-texto1">
+
+					<ul type="none">
+
+						<li>➤ Entrega de protocolo en pdf  </li>
+						<li>➤ Soporte para su implemetación </li>
+						<li>➤ Soporte para el mantenimiento </li>
+						<li>➤ Actualización de la App 1 año</li>
+					</ul>
+					
+				</div>
+						
+				
+			
+            <div class="link">
+                Solo para vercion: v7.0
+            </div>
+        </div>
+    </div>
+
+    <div class="card-tarjeta">
+        <div class="face front">
+            <img src="images/funciones.jpg" alt="">
+            <h3>Y demás funciones</h3>
+        </div>
+        <div class="face back">
+            <h3>GES Aplicación</h3>
+			<p>Otras de sus funciones son:</p>
+            <div>
+
+				<div class="container-texto2">
+					<ul type="none">
+
+						<li>★ Detección de duplicado de número de placas</li>
+						<li>★ Búsqueda de número de placa por sistema de filtrado</li>
+						<li>★ Conteo total de vehículos ingresados</li>
+						<li>★ Loguin desde la lista de filtrado</li>
+					</ul>
+				
+				</div>
+						
+				
+			   
+			</div>
+				<!--<p>1.- Se implementa como una capa de seguridad extra</p>
+				 <p>2.- Aumento de la seguridad</p>
+				<p>3.- Ahorro en recursos humanos y materiales</p>
+				<p>3.- Un solo sistema proteje multiples</p>-->
+			
+            <div class="link">
+                Solo para vercion: v7.0
+            </div>
+        </div>
+    </div>
+
+    <div class="card-tarjeta">
+
+        <div class="face front">
+            <img src="images/auto1.jpg" alt="">
+
+			
+
+            <h3>Alto valor en su función</h3>
+        </div>
+        <div class="face back">
+            <h3>GES Aplicación</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing </p>
+            
+			
+			<div class="link">
+                Solo para vercion: v7.0
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- and targeta giratoria -->		
+
+		
+
+
+
+
+<!--  satrt modal-->
+<section class="modal" >
+	<div class="modal_container">
+		<h2> Registro</h2>
+			<form>
+				<label for="nombreapellido">Nombre completo</label>
+				<input type="text" id="nombreapellido" class="input-padron" required placeholder="Nombre y Apellido">
+				
+				<label for="correoelectronico">Correo Electrónico</label>
+				<input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+				<label for="telefono">Teléfono</label>
+				<input type="tel" id="telefono" class="input-padron" required placeholder="Lada + Número Telefónico">
+
+				<label for="mensaje">Mensaje</label>
+				                                                <!---cambio 1 a input-padron-->
+				<textarea cols="52" rows="4" id="mensaje" class="input-padron"></textarea>
+				<!--cols y rows esta medida es la zona para escriir del textarea-->
+
+				<fieldset>
+					<legend>¿Cómo le gustaría que lo contactemos? </legend>
+						<!-- Con el name="contacto" a todos los imput se le dice que todos son de un mismo grupo para poder solo selecccionar uno de los tres -->
+						<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+						<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+						<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+
+
+				</fieldset>
+
+
+				<fieldset>
+					<legend> selecione</legend>
+					<select>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Noche</option>
+					</select>
+
+				</fieldset>
+                
+				
+				<label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la App GES?</label>
+
+
+			
+					                
+				      <div class="bnt-container">
+						<input type="submit" value="Enviar" class="btn_enviar_formulario">
+					  </div>
+					
+
+				
+
+			</form>
+	</div>
+
+</section>
+	<!--end modal--->
+
+	
+
+
+	
+		<!-----start-comprar = download---->
+		<div id="down" class="download">
+			<div class="container">
+				<div class="col-md-5 download-left">
+					<a><span> </span></a>
+				</div>
+				<div class="col-md-7 download-right">
+					<div class="titulo">
+						<p class="titulo_p">Todo el poder, para la prevención <br />contra el robo de vehículo<br />en una aplicación.</p>
+						
+					</div>
+
+					<div class="start"><p>Calificada con:</p> ⭐⭐⭐⭐⭐</div>
+					
+					<div class="comprar">
+						
+						<p>Si esta interesado en adquirir la aplicación GES, vaya al formulario e ingrese sus datos para hacerle llegar costo y detalles de nuestra aplicación.</p><br><br>
+					</div>
+				</div>
+						
+					<input type="submit" value="Ir a formulario" class="btn_ir_modal_mostrar">
+				
+				<div class="clearfix"> </div>
+
+			</div>
+
+			<!-- ficha tecnica -->
+
+			<div class="compatibility">
+				<div class="container">
+					<h3>Ficha técnica</h3>
+					<div class="compatibility-grids">
+						<div class="col-md-6 compatibility-left">
+							<h4>Compatibilidad</h4>
+							<p>Es una aplicación desarrollada bajo el sistema operativo Android Version 5.0 Lollipop solo para teléfonos celulares. Esta nueva versión cuenta con una interfaz mas intuitiva brindando una mejor experecia al usuario, nuevas y novedosas funciones.</p>
+							<!--<li><a class="cl-icon3" href="#"><span> </span></a></li>-->
+							
+							<ul class="list-unstyled list-inline">
+								<li><a class="cl-icon1" href="#"><span> </span></a></li>
+								<li><a class="cl-icon2" href="#"><span> </span></a></li>
+								<li><a class="cl-icon4" href="#"><span> </span></a></li>
+							</ul>
+						</div>
+						<div class="col-md-6 compatibility-right">
+							<h4>Novedades</h4>
+							<p>Desde la primera version a esta ultima esta aplicacion cuanta con multiples funciones que se han ido mejorando y .</p>
+							
+								
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-----//end-comprar app End-download---->
+
+
+		<!-----start-pie de pagina----->
+		<footer class="pie-pagina">
+			<div class="grupo-1">
+				<div class="box">
+					<div class="list">
+
+						<h4>Para más información y de la App GES</h4>
+						<ul>
+							<li><p>Contactos:</p></li>
+							<li><p class="list-hover">Horario de atención telefónica<br>lunes a viernes de 09:00 a 18:00<br>✆ 55-78-04-54-44</p></li>
+							<li><p class="list-hover">✉ Correo: outlock@.gesapp.com</p></li>
+						</ul>        
+					</div>
+				   
+				</div>
+	
+				<div class="box">
+					<div class="list">
+						<h4>Para Soporte y Mantenimiento</h4>
+						<ul >
+							<ul>
+								<li><p>Contactos:</p></li>
+								<li><p class="list-hover">Horario de atención telefónica<br>lunes a viernes de 09:00 a 18:00<br>✆ 55-78-04-54-44</p></li>
+								<li><p class="list-hover">✉ Correo: outlock@.gesapp.com</p></li>
+							</ul> 
+						</ul>        
+					</div>
+	
+				</div>
+				
+				<div class="box">
+					<h4>SIGUENOS</h4>
+					<div class="red-social">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-youtube"></a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="grupo-2">
+				<small>&copy; 2024 <b>GES</b> - Todos los Derechos Reservados.</small>
+			</div>
+		</footer>
+		<a href="#top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+		<script type="text/javascript">
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		
+				  var target = $(this.hash);
+				  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				  if (target.length) {
+					$('html,body').animate({
+					  scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				  }
+				}
+			  });
+				});
+		</script>
+		
+
+		<script src="js/modal.js"> </script>
+
+	</body>
+</html>
+
