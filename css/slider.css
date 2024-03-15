@@ -91,8 +91,8 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 }
 
 
-.p_blanco{
-	color: #FFF !important;
+.p_negro{
+	color: #484545 !important;
 }
 
 
@@ -144,7 +144,7 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 	-webkit-border-radius: 1em;
 	-moz-border-radius: 1em;
 	-o-border-radius: 1em;
-	border: 2px solid #AEAEAE;
+	border: 2px solid #a8a7a7;
 	margin: 3px;
 	cursor: pointer;
 }
@@ -159,7 +159,7 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 	-webkit-border-radius:1em;
 	-moz-border-radius:1em;
 	-o-border-radius:1em;
-	border: 2px solid #5fd9fe;
+	border: 2px solid #5a5858;
 }
 .da-arrows{
 	-moz-user-select: none;
