@@ -1159,7 +1159,7 @@ p.img_slider1{
 .gallery .container p{
 	display: inline-block;
 	line-height: 1.6em;
-    font-size: 1.2em;	
+    font-size: 1.5em;	
 }
 
 .escudo{
@@ -1369,17 +1369,64 @@ line-height: 2em;
     width: 50%;
     max-width: 450px;
     max-height: 100%;
-	background: linear-gradient( #5fd9fe 95%,#FFFFFF);
+	background: #5fd9fe;
     border-radius: 30px;
     padding: 2em 1.5em;
     transform: var(--transform);
     transition: var(--transition);
+
 }
 
 .titulo-modal{
+	text-align: center;
 	color: #FFFFFF;
 }
-
+/*loader8*/
+.loader8 {
+	display: flex;
+	gap: 0.6em;
+	list-style: none;
+  }
+  
+  .dots {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #ffffff;
+  }
+  
+  #dot-1 {
+	animation: loader-1 0.6s infinite ease-in-out;
+  }
+  
+  @keyframes loader-1 {
+	50% {
+	  opacity: 0;
+	  transform: translateY(-0.3em);
+	}
+  }
+  
+  #dot-2 {
+	animation: loader-2 0.6s 0.3s infinite ease-in-out;
+  }
+  
+  @keyframes loader-2 {
+	50% {
+	  opacity: 0;
+	  transform: translateY(-0.3em);
+	}
+  }
+  
+  #dot-3 {
+	animation: loader-3 0.6s 0.6s infinite ease-in-out;
+  }
+  
+  @keyframes loader-3 {
+	50% {
+	  opacity: 0;
+	  transform: translateY(-0.3em);
+	}
+  }
 
 /* configuracion de espacio al centro general 
 main{
@@ -1389,13 +1436,61 @@ main{
 */
 form {
 	width: 100%;
-	border: 2px solid #FFFFFF;
-	border-radius: 1em;
-	padding: 3em 2.5em;
+	padding: 0 2em;
+	border: 6px double #FFFFFF;
+	border-radius: 20px;
 }
 
+.inputGroup {
+	margin: 3em 0 2em 0;
+	width: 100%;
+	position: relative;
+  }
+  
+  .inputGroup input {
+	padding: 0.8em;
+	outline: none;
+	border: 2px solid #FFFFFF;
+	/*background-color: transparent;*/
+	border-radius: 20px;
+	width: 100%;
+  }
+  
+  .inputGroup label {
+	font-size: 100%;
+	position: absolute;
+	left: 0;
+	padding: 0.8em;
+	margin-left: 0.5em;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	color: rgb(100, 100, 100);
+	
+  }
+  
+  .inputGroup :is(input:focus, input:valid)~label {
+	transform: translateY(-50%) scale(1);
+	margin: 0em;
+	margin-left: 1.3em;
+	padding: 0.4em;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	color: #5fd9fe;
+  }
+  
+  .inputGroup :is(input:focus, input:valid) {
+	border-color: rgb(150, 150, 200);
+  }
 
-/* Espaciado formulario*/
+  .input-mensaje{
+	display: block;
+	width: 100%;
+	border-radius: 20px;
+	padding: 6px 6px;
+	margin: 0 0 2em 0;	
+}
+
+/* Espaciado formulario
 
 form label, form legend{
 	display: block;
@@ -1410,9 +1505,6 @@ form label, form legend{
 	margin: 0 0 1em;
 	padding: .2em;
 	box-sizing: border-box;
-
-  /* Hacer coincidir los bordes del campo del formulario 
-  border: 1px solid #d41a1a;*/
 }
 
 .input-mensaje{
@@ -1422,6 +1514,9 @@ form label, form legend{
 	padding: .2em;
 	border-radius: 10px;	
 }
+*/
+
+
 
 /*posiciona el checkbox 
 .checkbox {
@@ -1431,15 +1526,16 @@ form label, form legend{
 
 .btn_enviar_formulario{
 	width: 70%;
-    padding: .5em 0;
+    padding: .6em 0;
     font-size: 1.2em;
     font-weight: bold;
 	color:#5fd9fe;
     background: #FFFFFF;
     border:none;
-    border-radius: .5em;
+    border-radius: 1em;
     transition: 1s all;
-    cursor:pointer;	 
+    cursor:pointer;
+	margin: 1em 0 1.5em 0; 	 
 }
 
 .btn_enviar_formulario:hover{
@@ -1593,58 +1689,100 @@ a.cl-icon4 span{
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
     padding: 45px 0px;
+	color: #efebeb;
 }
 
-.pie-pagina .grupo-1 .box .list h4{
-    color: #efefef;
-    margin-bottom: 2em;   
-}
-
-/*Texto siguenos*/
-.pie-pagina .grupo-1 .box h4{
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.box .list  ul li{
-	list-style-type: none;
-    padding-bottom: 1.5em;
-}
-
-.pie-pagina .grupo-1 .list li p{
-    color: #efebeb;  
+.box  p{
+    font-size: 1.2em;
+	
 }
 
 
-.pie-pagina .grupo-1 .list li .list-hover:hover{
-	cursor: pointer;
-}
-
-.pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;    /*ancho del icono*/
-    line-height: 40px; /*centra el icono de red*/
-    color: #fff;
-    margin-right: 10px;
-    text-align: center;
-    transition: all 300ms;
-    border-radius: 10px;
-}
-
+/*
 .pie-pagina .grupo-1 .red-social .fa-facebook:hover{
     background-color: #3B5998;
 }
-.pie-pagina .grupo-1 .red-social .fa-instagram:hover{
-    background-color: #FF3E00;
+*/
+
+/* for all social containers*/
+
+.social-container{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
 }
-.pie-pagina .grupo-1 .red-social .fa-twitter:hover{
-    background-color: #1DA1F2;
-}
-.pie-pagina .grupo-1 .red-social .fa-youtube:hover{
-    background-color: red;
-}
+.socialContainer {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: rgb(44, 44, 44);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	transition-duration: .3s;
+	
+  }
+
+/* instagram*/
+.containerOne:hover {
+	background-color: #d62976;
+	transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+	background-color: #00acee;
+	transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+	background-color: #0072b1;
+	transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+	background-color: #128C7E;
+	transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+	transform: scale(0.9);
+	transition-duration: .3s;
+  }
+  
+  .socialSvg {
+	width: 17px;
+  }
+  
+  .socialSvg path {
+	fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+	animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+	0% {
+	  transform: translateY(-50px);
+	  opacity: 0;
+	}
+  
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+  
+
+
+
+
 
 .pie-pagina .grupo-2{
     background-color: #000;
