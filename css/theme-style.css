@@ -551,8 +551,8 @@ nav a#pull {
 
 .logo1{
 	
-	width: 85px;
-	height:85px;
+	width: 75px;
+	height:75px;
 	margin: 0 5em;
 }
 
@@ -593,6 +593,7 @@ nav a#pull {
   
   .loader-text {
 	font-size: 25px;
+	font-weight: 800;
 	background: #FFFFFF;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -696,9 +697,9 @@ nav a#pull {
 	padding: 1.5em 0;	
 }
 .logo2{
-	width: 70px;
-	height:70px;
-	margin: 0 2em;
+	width: 60px;
+	height:60px;
+	margin: 0 .5em;
 }
 
 
@@ -746,9 +747,12 @@ nav a#pull {
 	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 	border-radius: 20px;
 	transition: 3s;
-	text-align: center;
+	
 	
 }
+
+
+
 
 /*loader 3*/
 .loader3 {
@@ -1071,9 +1075,7 @@ border-radius: 1em;
 	margin: 1em 0 0.5em;
 }
 p.img_slider{
-	color: #FFFFFF;
-	line-height: 1.6em;
-	width: 79%;
+	width: 100%;
 }
 .Share-instantly-right{
 	margin-top:2em;
@@ -1173,7 +1175,7 @@ p.img_slider1{
 .bloke-card{
 	
 	width: 100%;
-	height: 110px;
+	height: 180px;
 	color: #FFFFFF;
 	background:#5fd9fe;
 	text-align: center;
@@ -1184,9 +1186,10 @@ p.img_slider1{
 /* cambio 4*/
 .bloke-card h3{
 	font-size: 2.5em;
+	
 }
 
-/*loader5*/
+/*loader6*/
 .loader6 {
 	display: flex;
 	gap: .5em;
@@ -1391,7 +1394,7 @@ line-height: 2em;
   .dots {
 	width: 15px;
 	height: 15px;
-	border-radius: 50%;
+	border-radius: 10%;
 	background: #ffffff;
   }
   
@@ -1469,17 +1472,18 @@ form {
   }
   
   .inputGroup :is(input:focus, input:valid)~label {
-	transform: translateY(-50%) scale(1);
+	transform: translateY(-90%) scale(1);
 	margin: 0em;
 	margin-left: 1.3em;
 	padding: 0.4em;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	border-radius: 5px;
-	color: #5fd9fe;
+	color: #FFFFFF;
   }
-  
+
+  /*Focus color input */
   .inputGroup :is(input:focus, input:valid) {
-	border-color: rgb(150, 150, 200);
+	border-color: #5fd9fe;
   }
 
   .input-mensaje{
