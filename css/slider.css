@@ -1,7 +1,6 @@
 .da-slider{
 	width: 100%;
-	min-width:280px;
-	height:220px;
+	height:300px;
 	position: relative;
 	margin:0 auto;
 	overflow: hidden;
@@ -10,7 +9,7 @@
 	-o-transition: background-position 1s ease-out 0.3s;
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
-	margin-left: -60px;
+	
 }
 .da-slider1{
 	width:70%;
@@ -51,7 +50,7 @@
 .da-slide .da-img{
 	position: absolute;
 	opacity: 0;
-	left: 110%;
+	left: 100%;
 }
 .da-slider-fb .da-slide h2,
 .da-slider-fb .da-slide p,
@@ -87,11 +86,12 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 	font-family:'Open Sans', sans-serif;
 	color: #777777;
 	margin-bottom:0;
-	text-align: justify;
+	text-align: center;
 }
 
 
 .p_negro{
+	font-size: 1.3em !important;
 	color: #484545 !important;
 }
 
@@ -121,9 +121,9 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 }
 .da-slide .da-img{
 	text-align: center;
-	width: 20%;
+	width: 50%;
 	top:7em;
-	right: 110%; /*60%*/
+	right: 60%; /*60%*/
 }
 .da-dots{
 	width: 100%;
