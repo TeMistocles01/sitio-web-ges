@@ -351,6 +351,10 @@ div.owl-carousel1{
 
 /* carrusel cambios */
 
+.owl-carousel2{
+	padding: 0 1em;
+}
+
 .owl-carousel2 .item{
 	margin-top: 20px;
 	margin-right: 20px;
