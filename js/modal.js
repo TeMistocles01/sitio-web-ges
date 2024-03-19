@@ -3,7 +3,7 @@ const openModal = document.querySelector('.btn_ir_modal_mostrar');
 
 const formularioModal = document.querySelector('.modal');
 
-const closeModal = document.querySelector('.btn_enviar_formulario');
+const closeModal = document.querySelector('.btn_salir_formulario');
 
 openModal.addEventListener('click',(e)=>{
 
