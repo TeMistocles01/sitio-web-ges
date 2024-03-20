@@ -376,11 +376,6 @@ div.owl-carousel1{
 	border-radius: 2em;	
 }
 
-/* pendiente*/
- .owl-carousel .item:hover{
-	-webkit-transform:scale(1.1);transform:scale(1.1);
-	transition: 300ms;
-}
 
 .owl-carousel2{
 	margin-top:3em;
