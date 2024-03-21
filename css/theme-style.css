@@ -415,6 +415,18 @@ nav a#pull {
 /* colores https://es.dreamstime.com/tonos-blancos-cambia-la-paleta-con-nombres-sombras-de-color-blanco-vector-image257782189*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*  strat Tarjeta giratoria*/
 
 
@@ -470,11 +482,9 @@ nav a#pull {
 	transition: 2s;
 }
 
-
 .container-principal h2{
 	text-align: center;
-	color: #FFFFFF;
-	
+	color: #FFFFFF;	
 }
 
 /* loader*/
@@ -618,42 +628,7 @@ nav a#pull {
 	  border-right-color: transparent;
 	}
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.loader4 {
-	width: 45px;
-	height: 40px;
-	background: linear-gradient(#0000 calc(1*100%/6),#fff 0 calc(3*100%/6),#0000 0),
-			  linear-gradient(#0000 calc(2*100%/6),#fff 0 calc(4*100%/6),#0000 0),
-			  linear-gradient(#0000 calc(3*100%/6),#fff 0 calc(5*100%/6),#0000 0);
-	background-size: 10px 400%;
-	background-repeat: no-repeat;
-	animation: matrix 1s infinite linear;
-  }
   
-  @keyframes matrix {
-	0% {
-	  background-position: 0% 100%, 50% 100%, 100% 100%
-	}
-  
-	100% {
-	  background-position: 0% 0%, 50% 0%, 100% 0%
-	}
-  }
-	*/  
 
 /* loader 1 */
 .loader1 {
@@ -701,11 +676,6 @@ nav a#pull {
 	margin: 0 .5em;
 }
 
-
-
-
-
-
 /*loader 2*/
   
 .card-izquierda .back { 
@@ -747,8 +717,6 @@ nav a#pull {
 	border-radius: 20px;
 	transition: 3s;
 }
-
-
 
 
 /*loader 3*/
@@ -795,6 +763,11 @@ nav a#pull {
 	border: 3px solid #FFFFFF;
 	transition: 3s;
  }
+ /*end  como surge GES*/
+
+
+
+
 
 
 /*Cards*/
@@ -982,7 +955,6 @@ border-radius: 1em;
 	}
 }
 
-
 .features .titulo{
 	font-size: 2.5em;
 	color: #FFFFFF;
@@ -991,10 +963,7 @@ border-radius: 1em;
 .features .descripccion{
 	font-size: 1.5em;
 	color: #FFFFFF;
-
 }
-
-
 
 
 /*--imagen de circulos --*/
@@ -1004,7 +973,6 @@ border-radius: 1em;
 	display: inline-block;
 	background: url(../images/top-icons1.png) no-repeat 0px 0px;
 }
-
 
 .features-grid p{
 	font-size: 1.2em;
@@ -1087,20 +1055,11 @@ border-radius: 1em;
 	
 }
 
-
-
-
 /*
 .features-grid span.t-icon1{
 	background-position: -400px 0px;
 }
 */
-
-
-
-
-
-
 
 
 /*-----start-Share-instantly----*/
@@ -1450,10 +1409,6 @@ p.img_slider1{
 	}
   }
 
-.feature-left{
-	
-}
-
 
 /*targeta giratoria */
 
@@ -1710,21 +1665,6 @@ line-height: 2em;
 	  transform: translateY(-20px) translateX(0) rotate(360deg);
 	}
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*loader8*/
 .loader8 {
@@ -1772,10 +1712,6 @@ line-height: 2em;
 	  transform: translateY(-0.3em);
 	}
   }
-
-
-
-
 
 /* configuracion de espacio al centro general 
 main{
@@ -2239,6 +2175,345 @@ a.cl-icon4 span{
  .callbacks_tabs {
 	left: 42%;
  }
+
+
+
+ /* origen ges */
+
+.container-principal
+{
+	width: 100%;
+	background: #5fd9fe;
+	/*background: linear-gradient(#ffffff, #5fd9fe 95%);*/
+	
+}
+
+.card-izquierda {
+	position: relative;
+	display:inline-block;
+    width: 90%;
+    height: 450px;
+	border-radius: 20px;
+	
+	
+}
+
+.card-izquierda .face{
+    position: absolute;
+   
+    backface-visibility: hidden;
+	border-radius: 20px;
+    overflow: hidden;
+    transition: .5s;
+	/*padding: 5em 8em;*/
+	/*background: linear-gradient( #5fd9fe 70% ,#FFFFFF);*/
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+}
+
+ 
+.card-izquierda .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+	transition: 2s;
+}
+
+.container-principal h2{
+	text-align: center;
+	color: #FFFFFF;	
+}
+
+/* loader*/
+
+.container-loader{
+	width: 100%;
+	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
+	justify-content: center;
+ }
+ 
+ .loader {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 6rem;
+	margin-top: 3em;
+	
+
+  }
+	
+  .loader:before,
+	.loader:after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	animation: pulsOut 1.8s ease-in-out infinite;
+	filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.75));
+  }
+  
+  .loader:before {
+	width: 100%;
+	padding-bottom: 100%;
+	box-shadow: inset 0 0 0 1rem #fff;
+	animation-name: pulsIn;
+  }
+  
+  .loader:after {
+	width: calc(100% - 2rem);
+	padding-bottom: calc(100% - 2rem);
+	box-shadow: 0 0 0 0 #fff;
+  }
+  
+  @keyframes pulsIn {
+	0% {
+	  box-shadow: inset 0 0 0 1rem #fff;
+	  opacity: 1;
+	}
+  
+	50%, 100% {
+	  box-shadow: inset 0 0 0 0 #fff;
+	  opacity: 0;
+	}
+  }
+  
+  @keyframes pulsOut {
+	0%, 50% {
+	  box-shadow: 0 0 0 0 #fff;
+	  opacity: 0;
+	}
+  
+	100% {
+	  box-shadow: 0 0 0 1rem #fff;
+	  opacity: 1;
+	}
+  }
+
+.container-logo{
+	text-align: center;
+	padding: 1em 0;
+}
+
+.logo1{
+	
+	width: 75px;
+	height:75px;
+	margin: 0 5em;
+}
+
+.contenido-text {
+	text-align: center;
+	padding: 0 2em;
+}
+
+
+.list-1{
+	line-height: 2em;
+	padding: 1em 0;
+}
+
+
+.text-final-face{
+	font-size: 1.4em;
+	color: #FFFFFF;
+}
+
+
+.logo-back{
+	width: 80px;
+	height:80px;
+
+}
+
+
+
+/*loader 5*/
+.loader5 {
+	position: relative;
+	overflow: hidden;
+	border-right: 3px solid;
+	height: 32px;
+	animation: typewriter 5s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;
+  }
+  
+  .loader-text {
+	font-size: 25px;
+	font-weight: 800;
+	background: #FFFFFF;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes typewriter {
+	0% {
+	  width: 0px;
+	}
+  
+	100% {
+	  width: 500px;
+	}
+  }
+  
+  @keyframes blink {
+	0% {
+	  border-right-color: rgba(255,255,255,.75);
+	  ;
+	}
+  
+	100% {
+	  border-right-color: transparent;
+	}
+  }
+  
+
+/* loader 1 */
+.loader1 {
+	display: flex;
+	align-items: center;
+  }
+  
+  .bar {
+	display: inline-block;
+	width: 5px;
+	height: 20px;
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: 10px;
+	animation: scale-up4 1s linear infinite;
+  }
+  
+  .bar:nth-child(2) {
+	height: 35px;
+	margin: 0 5px;
+	animation-delay: .25s;
+  }
+  
+  .bar:nth-child(3) {
+	animation-delay: .5s;
+  }
+  
+  @keyframes scale-up4 {
+	20% {
+	  background-color: #ffff;
+	  transform: scaleY(1.5);
+	}
+  
+	40% {
+	  transform: scaleY(1);
+	}
+  }
+
+.container-logo2{
+	text-align: center;
+	padding: 1.5em 0;	
+}
+.logo2{
+	width: 60px;
+	height:60px;
+	margin: 0 .5em;
+}
+
+/*loader 2*/
+  
+.card-izquierda .back { 
+    transform: perspective(600px) rotateX(180deg);
+    box-shadow: 0 5px 10px #000;
+	transition: 2s;
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+}
+
+.parrafo{
+	font-size: 1.1em;
+	
+}
+
+.card-izquierda:hover .front {
+	cursor: pointer;
+    transform: perspective(900px) rotateX(180deg);
+	border: 4px solid #FFFFFF;
+	
+	/*transform: scale(1.1);*/
+}
+
+.card-izquierda:hover .back {
+	cursor: pointer;
+    transform: perspective(900px) rotateY(360deg);
+	/*transform: scale(1.1);*/
+	border: 4px solid #FFFFFF;
+}
+
+
+.card-derecha{
+	position: relative;
+    display:inline-block;
+    width: 90%;
+    height: 450px;
+	
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 20px;
+	transition: 3s;
+
+}
+
+
+/*loader 3*/
+.loader3 {
+	width: 70%;
+	height: 2px;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
+  }
+  
+  .loader3::before {
+	content: "";
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	width: 0%;
+	height: 100%;
+	border-radius: 2px;
+	animation: load 3.5s ease-in-out infinite;
+	box-shadow: rgb(255, 255, 255) 0px 2px 29px 0px;
+  }
+  
+  .container-loader3 {
+    display: flex;
+	width: 70%;
+  }
+  
+  @keyframes load {
+	50% {
+	  width: 100%;
+	}
+  
+	100% {
+	  right: 0;
+	  left: unset;
+	}
+  }
+
+.card-derecha:hover {
+	cursor: pointer;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+	border-radius: 20px;
+	transform: scale(1.1);
+	border: 3px solid #FFFFFF;
+	transition: 3s;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .features h3 {
 	font-size: 2em;
  }
@@ -2347,21 +2622,11 @@ p.cousel_demo{
  .callbacks_tabs {
 	left: 40%;
  }
- .apple {
-	width: 170px;
-	height: 45px;
- }
- .play-btn {
-	width: 170px;
-	height: 45px;
- }
- .play-btn {
-	background: url(../images/download-btns.png) no-repeat -170px 0px;
-	background-size: 190%;
- }
+ 
  .head-para {
 	width: 100%;
  }
+ 
  div.owl-carousel1 {
 	width: 100%;
  }
