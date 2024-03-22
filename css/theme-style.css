@@ -997,6 +997,7 @@ border-radius: 1em;
 .escudo{
 	width: 120px;
 	height: 120px;
+	
 }
 
 /*end galeria*/
@@ -1049,12 +1050,19 @@ border-radius: 1em;
 	padding: 1em 4em;
 }
 
+
+#tamaño{
+	width: 170px;
+	height: 100px;
+	
+}
+
 /* icon you tube*/
 
 .img-youtube
 {
-	width: 140px;
-	height: 70px;
+	width: 110px;
+	height: 60px;
 	
 }
 
@@ -1989,6 +1997,7 @@ a.cl-icon4 span{
 	display: block;
 	background: url(../images/multiple-divice1.png) no-repeat -129px -7px;
 }
+
 
 /* strart Pie de Pagina*/
 
