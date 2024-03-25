@@ -349,35 +349,4 @@ div.owl-carousel1{
 
 /*-----*/
 
-/* carrusel cambios */
-
-.owl-carousel2{
-	padding: 0 1em;
-}
-
-.owl-carousel2 .item{
-	margin-top: 20px;
-	margin-right: 20px;
-	text-align: center;
-;
-	
-}
-/*carrusel cambios*/
-.owl-carousel2 .item .img_slider{
-    font-size: 1.4em;
-	border-radius: 10px;
-	
-}
-
-/* imagen carrusel*/
-.owl-carousel2 .lazyOwl{
-	float:none;
-	width:100%;
-	border-radius: 2em;	
-}
-
-
-.owl-carousel2{
-	margin-top:3em;
-}
 
