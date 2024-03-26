@@ -1116,14 +1116,15 @@ td,th{
 
 .head-para{
 	width: 70%;
-	margin: 1em 0 0.5em;
+	
 }
 
 p.img_slider{
-	
-	line-height: 1.4em;
+	color: #AEAEAE;
+	line-height: 1.5em;
 	width: 79%;
 }
+
 #youtube{
 	width: 100px;
 	height: 90px;
@@ -1363,8 +1364,8 @@ p.img_slider{
 }
 
 .feature p {
-	line-height: 1.6;
-    font-size: 1.2em;
+	line-height: 1.5;
+   
 	
 }
 .feature p span{
@@ -1503,14 +1504,14 @@ p.img_slider{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 55vh;
+    min-height: 70vh;
 	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 300px;
-    height: 450px;
+    width: 310px;
+    height: 500px;
     margin: 20px;
 	
 }
@@ -1555,10 +1556,11 @@ p.img_slider{
 	/*rgba(95,217,254,.9);*/
 }
 
+/*modificar*/
 .card-tarjeta .back {
     transform: perspective(600px) rotateY(180deg);
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
    /*justify-content: space-between;*/
@@ -1586,20 +1588,19 @@ p.img_slider{
 	
 }
  
+/*checar*/
 
 .card-tarjeta .back .container-texto1{
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
-	padding-left: 1em;
-	line-height: 3em;
+	line-height: 3.3em;
 		  
 	}
-	
+	/*checar*/
 
 .card-tarjeta .back .container-texto2{
 padding-top: 1.2em;
 padding-bottom: 1.2em;
-padding-left: 1em;
 line-height: 2em;
 	  
 }
@@ -1956,7 +1957,7 @@ text-align: center;
 	cursor: pointer;
 	}
 .download-right .titulo .titulo_p{
-font-size: 2.5em;
+
 color: #FFFFFF;
 }
 .start{

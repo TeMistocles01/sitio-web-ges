@@ -1,7 +1,7 @@
 .da-slider{
-	width: 100%;
-	min-width:280px;
-	height:240px;
+	width: 70%;
+	min-width:200px;
+	height:220px;
 	position: relative;
 	margin:0 auto;
 	overflow: hidden;
@@ -10,13 +10,15 @@
 	-o-transition: background-position 1s ease-out 0.3s;
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
-	margin-left: -60px;
+	margin-left: -30px;
+	background:#fff;
+	
 	
 }
 .da-slider1{
 	width:70%;
 	min-width:200px;
-	height:240px;
+	height:220px;
 	position: relative;
 	margin:0 auto;
 	overflow: hidden;
@@ -36,7 +38,8 @@
 	top: -60px;
 	left: 12px;
 	text-align: left;
-
+	
+	
 	
 }
 .da-slide-current{
@@ -84,20 +87,20 @@ CSS que configura los 2 sladers configuracion de llamada y resultados y eficienc
 
 .da-slide p{
 	width: 45%;
-	top:6em;
-	font-size:1.1em;
+	top:8em;
+	font-size:0.90em;
 	line-height:1.5em;
 	overflow: hidden;
 	font-family:'Open Sans', sans-serif;
-	color: #777777;
+	color: #AEAEAE;
 	margin-bottom:0;
-	text-align: center;
+	
 }
 
 
 .p_negro{
-	font-size: 1.3em !important;
-	color: #484545 !important;
+	font-size: 0.9em !important;
+	
 }
 
 
