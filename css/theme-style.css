@@ -37,7 +37,17 @@ body a{
 
 .logo_ges{
 	width: 120px;
-	height: 70px;
+	height: 70px;	
+}
+
+.logo_ges_titulo{
+	width: 250px;
+	height: 140px;
+}
+
+.logo-center{
+	width: 100%;
+	text-align: center;
 	
 }
 .logo a{
@@ -424,17 +434,18 @@ nav a#pull {
 .titulo-container{
 	padding: 50px 0;
 	width: 100%;
-	background: url(/images/bg.jpg);
-    
+	background: url(/images/bg.jpg);   
 }
 
-
-
-.titulo-container h1 {
+.container-center h2 {
 	text-align: center;
-	color: #FFFFFF;
 }
 
+.container-loader{
+	width: 100%;
+	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
+	justify-content: center;
+ }
 
 
 /*loader12*/
@@ -523,10 +534,10 @@ nav a#pull {
   }
 
 
+
 .container-center{
 	padding-top: 40px;
-	background: #5fd9fe;
-    
+	background: #5fd9fe;  
 }
 
 .card-center{
@@ -538,14 +549,11 @@ nav a#pull {
 	padding-bottom: 30px;
 }
 
-    
-
 .container-cards{
 	width: 100%;
-	height: 450px;
-	padding: 2em 3em;
-	background: #5fd9fe;
-	
+	height: 500px;
+	padding: 3em 3em;
+	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
 .card-izqui{
@@ -556,8 +564,6 @@ nav a#pull {
 	height: 410px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
-	
-
 	}
 
 .card-derech{
@@ -681,82 +687,16 @@ h3{
 */
 /* loader*/
 
-.container-loader{
-	width: 100%;
-	display: flex;  /*para que los elementos se posicionen en horizontal uno al lado de otro*/
-	justify-content: center;
- }
  
- .loader {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	max-width: 6rem;
-	margin-top: 3em;
-	
-
-  }
-	
-  .loader:before,
-	.loader:after {
-	content: "";
-	position: absolute;
-	border-radius: 50%;
-	animation: pulsOut 1.8s ease-in-out infinite;
-	filter: drop-shadow(0 0 1rem rgba(255, 255, 255, 0.75));
-  }
-  
-  .loader:before {
-	width: 100%;
-	padding-bottom: 100%;
-	box-shadow: inset 0 0 0 1rem #fff;
-	animation-name: pulsIn;
-  }
-  
-  .loader:after {
-	width: calc(100% - 2rem);
-	padding-bottom: calc(100% - 2rem);
-	box-shadow: 0 0 0 0 #fff;
-  }
-  
-  @keyframes pulsIn {
-	0% {
-	  box-shadow: inset 0 0 0 1rem #fff;
-	  opacity: 1;
-	}
-  
-	50%, 100% {
-	  box-shadow: inset 0 0 0 0 #fff;
-	  opacity: 0;
-	}
-  }
-  
-  @keyframes pulsOut {
-	0%, 50% {
-	  box-shadow: 0 0 0 0 #fff;
-	  opacity: 0;
-	}
-  
-	100% {
-	  box-shadow: 0 0 0 1rem #fff;
-	  opacity: 1;
-	}
-  }
-
 .container-logo{
 	text-align: center;
 	padding: 1em 0;
-	
 }
 
 .logo1{
-	
 	width: 75px;
 	height:75px;
-	margin: 0 5em;
-	
+	margin: 0 5em;	
 }
 
 .contenido-text {
@@ -770,18 +710,13 @@ h3{
 	padding: 1em 0;
 }
 
-
 .text-final-face{
 	font-size: 1.2em;
-
 }
-
 
 .logo-back{
 	width: 80px;
 	height:80px;
-	
-
 }
 
 
@@ -967,7 +902,7 @@ h3{
 /*Cards*/
 /*box-shadow: inset 30px 30px 40px 50px  #5fd9fe;*/
 .principa-car{
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 		
 }
 
@@ -1085,7 +1020,7 @@ h3{
 .features{
 	padding:2em 0 3em;
 	/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 	/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
 	
 }
@@ -1207,7 +1142,7 @@ border-radius: 1em;
 /*-----start-gallery----*/
 .gallery{
 	padding: 2.5em 0 0 0;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 	/*box-shadow: inset 0 0 40px #5fd9fe;  sombra de borde en el bloque principal*/
 	
 }
@@ -1236,25 +1171,26 @@ border-radius: 1em;
 }
 
 .container-imgs{
-	padding: 6em 0 .5em 0;
+	padding: 6em 1em 2em 1em;
 }
 
 .container-img{
     position: relative;
     display: inline-block;
-    width: 23%;
-    height: 300px;
-	margin: 0 1em 0 1em;
+    width: 24%;
+    height: 250px;
+	margin: 0 .5em 0 .5em;
+	
 	
 }
 
 .container-img figure{
 	position:relative;
 	width: 100%;
-    height: 300px;
+    height: 250px;
 	 cursor: pointer;
 	 overflow: hidden;
-	 border-radius: 15px;
+	 border-radius: 10px;
 	 box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
  }
 
@@ -1331,7 +1267,7 @@ border-radius: 1em;
 .container-accion{
 	width: 100%;
 	height: 900px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
 .container-accion h2{
@@ -1356,7 +1292,8 @@ border-radius: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
- .secc-mapa h3{
+ .secc-mapa h4{
+	font-size: 1.4em;
 	padding: .5em 0;
 	text-align: start;
  }
@@ -1456,7 +1393,7 @@ td,th{
 
 .Share-instantly{
 	padding-top: 1em;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);	
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);	
 }
 
 
@@ -1554,7 +1491,7 @@ p.img_slider{
 
 /*------ start-feature----*/
 .feature{
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 	padding-top:3em;
 }
 .feature h2 {
@@ -1610,7 +1547,7 @@ p.img_slider{
     align-items: center;
     justify-content: center;
     min-height: 80vh;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
 .container-tarjeta .card-tarjeta{
@@ -2003,7 +1940,7 @@ text-align: center;
 .download{
 	/*background-color: #5fd9fe;*/
 
-	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95%,#FFFFFF);
 	padding: 3em 0;
 }
 .download-left{
@@ -2051,7 +1988,7 @@ color: #FFFFFF;
 /* boton mostrar modal*/
 .btn_ir_modal_mostrar{
 	width: 30%;
-    padding: .5em 0;
+    padding: .8em 0;
     font-size: 1.2em;
     font-weight: bold;
     color:#5fd9fe;
@@ -2308,11 +2245,7 @@ a.cl-icon4 span{
     width: 100%;
     height: 430px;
 	border-radius: 20px;
-	margin: 0 0 3em 0;
-	
-
-
-	
+	margin: 0 0 3em 0;	
 }
 
 .card-izquierda .face{
