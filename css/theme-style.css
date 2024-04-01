@@ -41,8 +41,8 @@ body a{
 }
 
 .logo_ges_titulo{
-	width: 250px;
-	height: 140px;
+	width: 220px;
+	height: 120px;
 }
 
 .logo-center{
@@ -1171,23 +1171,21 @@ border-radius: 1em;
 }
 
 .container-imgs{
-	padding: 6em 1em 2em 1em;
+	padding: 6em 1em .5em 1em;
 }
 
 .container-img{
     position: relative;
     display: inline-block;
     width: 24%;
-    height: 250px;
+    height: 330px;
 	margin: 0 .5em 0 .5em;
-	
-	
 }
 
 .container-img figure{
 	position:relative;
 	width: 100%;
-    height: 250px;
+    height: 300px;
 	 cursor: pointer;
 	 overflow: hidden;
 	 border-radius: 10px;
@@ -1201,9 +1199,9 @@ border-radius: 1em;
 	will-change: transform;
 }
 
-.container-img .img-derecha{
+.container-img .img-card{
     width: 100%;
-    height: 450px;
+    height: 300px;
 	transition: all 400ms ease-out;
     will-change: transform;
 }
@@ -1246,11 +1244,6 @@ border-radius: 1em;
 	max-width: 220px;
 	margin: auto;
 }
-
-
-
-
-
 
 /*end galeria*/
 
@@ -1833,89 +1826,42 @@ form {
 
 /* Boton enviar formulario */
 
-.botones{
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	padding: 1.5em 0;
-}
-
-button {
-
-  font-family: inherit;
-  font-size: 1.2em;
-  background: #ffffff;
-  color: #5fd9fe;
-  padding: 0.7em 2em;
-  padding-left: 0.9em;
-  display: flex;
-  align-items: center;
-  border: none;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all 0.2s;
-  cursor: pointer;
-  margin: 0 1em;
-  }
-  
-  button span {
-	display: block;
-	margin-left: 0.3em;
-	transition: all 0.3s ease-in-out;
-  }
-  
-  button svg {
-	display: block;
-	transform-origin: center center;
-	transition: transform 0.3s ease-in-out;
-  }
-  
-  button:hover .svg-wrapper {
-	animation: fly-1 0.6s ease-in-out infinite alternate;
-  }
-  
-  button:hover svg {
-	transform: translateX(.5em) rotate(45deg) scale(1.1);
-  }
-  
-  button:hover span {
-	transform: translateX(.5em);
-
-  }
-
-  button:hover{
-	color: #ffffff;
-	background: #5fd9fe;
-    transform: scale(1.1);
-	border: 2px solid #FFFFFF;
-
-  }
-  
-  button:active {
-	transform: scale(0.95);
-  }
-  
-  @keyframes fly-1 {
-	from {
-	  transform: translateY(0.1em);
-	}
-  
-	to {
-	  transform: translateY(-0.1em);
-	}
-  }
-  
 
 /*Boton salir formulario*/
-.btn_salir_formulario{
-	width: 40%;
-	padding: 0.7em 1em;
+
+.btn_enviar_formulario{
+	width: 35%;
+	padding: 0.5em .5em;
     font-family: inherit;
     font-size: 1.2em;
 	color:#5fd9fe;
     background: #FFFFFF;
     border:none;
-	border-radius: 16px;
+	border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+	margin: 0 1em 1.5em 0;
+	
+}
+
+.btn_enviar_formulario:hover{
+	color: #ffffff;
+	background: #5fd9fe;
+    transform: scale(1.1);
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
+    
+}
+
+.btn_salir_formulario{
+	width: 35%;
+	padding: 0.5em .5em;
+    font-family: inherit;
+    font-size: 1.2em;
+	color:#5fd9fe;
+    background: #FFFFFF;
+    border:none;
+	border-radius: 10px;
     transition: 1s all;
     cursor:pointer;
 	
@@ -1929,6 +1875,9 @@ button {
 	border: 2px solid #FFFFFF;
     
 }
+
+
+
 
 /*transform:scale(3)rotate(800deg) para rotar*/
 .botones{
