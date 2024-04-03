@@ -1216,14 +1216,14 @@ border-radius: 1em;
 	opacity: 0;
 	visibility: hidden;
     text-align: center;
-	padding: 0 4em;
+	padding: 0 1.5em;
 }
 .container-img figure:hover > .capa {
 	opacity: 1;
 	visibility: visible;
 }
 .container-img figure:hover > .capa h3{
-	margin-top: 70px;
+	margin-top: 30px;
 	margin-bottom: 15px;
 }
 .container-img figure:hover > img{
@@ -1676,7 +1676,7 @@ line-height: 3em;
 .modal--show{
     opacity: 1;
     pointer-events: unset;
-    transition: opacity .6s;  /* */
+    transition: opacity .6s;  
     --transform:translateY(0);
     --transition:transform .8s .8s;
 }
@@ -1700,52 +1700,6 @@ line-height: 3em;
 }
 
 
-/*loader8*/
-.loader8 {
-	display: flex;
-	gap: 0.6em;
-	list-style: none;
-  }
-  
-  .dots {
-	width: 15px;
-	height: 15px;
-	border-radius: 10%;
-	background: #ffffff;
-  }
-  
-  #dot-1 {
-	animation: loader-1 0.6s infinite ease-in-out;
-  }
-  
-  @keyframes loader-1 {
-	50% {
-	  opacity: 0;
-	  transform: translateY(-0.3em);
-	}
-  }
-  
-  #dot-2 {
-	animation: loader-2 0.6s 0.3s infinite ease-in-out;
-  }
-  
-  @keyframes loader-2 {
-	50% {
-	  opacity: 0;
-	  transform: translateY(-0.3em);
-	}
-  }
-  
-  #dot-3 {
-	animation: loader-3 0.6s 0.6s infinite ease-in-out;
-  }
-  
-  @keyframes loader-3 {
-	50% {
-	  opacity: 0;
-	  transform: translateY(-0.3em);
-	}
-  }
 
 /* configuracion de espacio al centro general 
 main{
