@@ -1520,11 +1520,10 @@ p.img_slider{
 	width: 100%;
 	height: 20px;
 	background:#5fd9fe;
-	padding: 1em 0 0 0;	
+	padding: 2em 0 4em 0;	
 }
 /* cambio 4*/
 .bloke-card h2{
-	
 	text-align: center;	
 }
   
@@ -1533,7 +1532,7 @@ p.img_slider{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 60vh;
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
@@ -1649,6 +1648,8 @@ line-height: 3em;
 
 
 
+
+
 /* start Modal */
 
 .modal{
@@ -1685,15 +1686,17 @@ line-height: 3em;
     padding: 2em 1.5em;
     transform: var(--transform);
     transition: var(--transition);
-
 }
 
 .titulo-modal{
 	text-align: center;
-	color: #FFFFFF;
+	
 }
 
+.options{
+	height: 110px;
 
+}
 
 /* configuracion de espacio al centro general 
 main{
@@ -1723,7 +1726,6 @@ form {
 	width: 100%;
   }
 
-  
   .inputGroup label {
 	font-size: 100%;
 	position: absolute;
@@ -1733,7 +1735,6 @@ form {
 	pointer-events: none;
 	transition: all 0.3s ease;
 	color: rgb(100, 100, 100);
-	
   }
 
 
@@ -2153,25 +2154,27 @@ a.cl-icon4 span{
 	margin: 0 .2em 0 .2em;
 }
 
-
-.container-img figure:hover > .capa h3{
-	margin-top: 5px;
-	margin-bottom: 5px;
+.container-img figure:hover > .capa .title-foto{
+	font-size: 1.5em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.container-img figure:hover > img{
+	transform: scale(1.2);
 }
 
-
-.container-img figure .capa h3{
+.container-img figure .capa .title-foto{
 	color: #FFFFFF;
 	font-weight: 400;
+	font-size: 1.7em;
+	margin-bottom: 120px;
 	transition: all 400ms ease-out;
 	margin-top: 30px;
-	margin-bottom: 120px;
 }
-
 .container-img figure .capa p{
 	color: #FFFFFF;
-	font-size: 1.2em;
-	line-height: 1.5;
+	font-size: 1em;
+	line-height: 1.3;
 	width: 100%;
 	max-width: 220px;
 	margin: auto;
@@ -2214,6 +2217,7 @@ a.cl-icon4 span{
 	
 }
 
+
 .card .contenido-card{
 	padding: 15px;
 	text-align: center;
@@ -2224,60 +2228,91 @@ a.cl-icon4 span{
 
 /* ges en accion  */
 
-.titulo-accion{
-	width: 100%;
-	background:  #5fd9fe;
-	text-align: center;
+.container-accion-mapa{
+	position: relative;
+	display: inline-block;
+	width: 100%;	
 }
 
-.titulo-accion h1{
-	color: #FFFFFF;	
+.secc-mapa {
+    width:90%;
+    height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.container-accion
-{
-	width: 100%;
-	height: 800px;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-	
-}
-.seccion-mapa {
-	position: relative;
-	display:block;
-    width:100%;
-    height: 400px;	
-}
- .seccion-mapa h3{
-	color: #FFFFFF;
-	text-align: center;
+ .secc-mapa h4{
+	font-size: 1.4em;
+	padding: .5em 0;
+	text-align: start;
  }
 
-.seccion-video{
-	position: relative;
-    display:block;
-    width: 100%;
-    height: 400px;
-	
-
-}
-.seccion-video h3{
-	color: #FFFFFF;
-	text-align: center;
-	
-}
-.contenido-accion{
+ .conten-map{
+	display: block;
 	width: 100%;
-	padding: 1em 4em;
+	padding: 1em 2em;
 	
 }
+
+.container-tablas{
+	width: 100%;
+	background: #5fd9fe;
+	
+}
+
+.seccion-tabla-izquierda {
+	position: relative;
+	float: left;
+	display:block;
+    width: 50%;
+    /*border: 2px solid #FFFFFF;*/
+	/*border-radius: 5px;*/
+	
+    
+}
+.seccion-tabla-derecha {
+	position: relative;
+	float: right;
+	display:block;
+	width: 50%;
+	/*border: 2px solid #FFFFFF;*/
+	/*border-radius: 5px;*/
+	
+   
+}
+
 .contenido-tabla{
 	width: 100%;
-	padding: 1em 4em 0 4em;
+}
+
+.center-text{
+	text-align: center;
 }
 
 table{
-	width: 100%;
-	height: 300px;	
+	width: 96%;
+	height: 250px;
+	margin: 15px 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+.sin-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+.con-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #FFFFFF;
+    padding: 8px 15px;
+}
+
 
 /* icon you tube*/
 .img-youtube
@@ -2290,17 +2325,16 @@ table{
 
 /*coadyubar */
 .Share-instantly{
-	
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+	padding-bottom: 25px;
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);	
 }
 
 .Share-instantly-right h2{
 	color: #FFFFFF;
-	
 }
+
 .Share-instantly-right p{
-	line-height: 1.3;
-   	
+	line-height: 1.3;   	
 }
 
  .header{
@@ -2321,6 +2355,20 @@ table{
  .slide-text-info {
 	margin-top: 7%;
  }
+
+ .container-tarjeta{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+}
+
+
+
+
+
  
  /* Funciones destacadas*/
  .features-grid span {
