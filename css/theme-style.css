@@ -415,7 +415,7 @@ nav a#pull {
 	font-weight: bold;
 }
 .slide-text-info{
-	margin-top: 10%;
+	margin-top: 17%;
 }
 
 /* Problematica */
@@ -1327,7 +1327,8 @@ border-radius: 1em;
 	
 }
 
-.center-text{
+.center-text, h3, h4{
+	width: 100%;
 	text-align: center;
 }
 
@@ -2115,7 +2116,8 @@ a.cl-icon4 span{
  .container-center{
 	padding-top: 40px;
 	background: #5fd9fe;
-	padding: 1em 3em;
+	padding: 1em 2.8em;
+	margin: 0 auto;
 }
  .card-center{
 	width: 100%;
@@ -2151,20 +2153,21 @@ a.cl-icon4 span{
 
 
 .container-imgs{
-	padding: 4em 1em 0 1em;
+	
+	margin: 0 auto;
 }
 
 .container-img{
     position: relative;
     display: inline-block;
-    width: 24%;
+    width: 24.1%;
     height: 330px;
 	margin: 0 .2em 0 .2em;
 }
 
 .container-img figure:hover > .capa .title-foto{
 	font-size: 1.5em;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 15px;
 }
 .container-img figure:hover > img{
@@ -2181,8 +2184,8 @@ a.cl-icon4 span{
 }
 .container-img figure .capa p{
 	color: #FFFFFF;
-	font-size: 1em;
-	line-height: 1.3;
+	font-size: 1.2em;
+	line-height: 1;
 	width: 100%;
 	max-width: 220px;
 	margin: auto;
@@ -2208,9 +2211,8 @@ a.cl-icon4 span{
 	margin: auto;
 	padding: 30px;
 	text-align: center;
-	background: linear-gradient( #5fd9fe 98%,#FFFFFF );
+	background: linear-gradient( #5fd9fe 85%,#FFFFFF );
 	/*background-color: #5fd9fe;*/
-	
 }
 
 .card{
@@ -2222,9 +2224,7 @@ a.cl-icon4 span{
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
 	cursor: default;
-	
 }
-
 
 .card .contenido-card{
 	padding: 15px;
@@ -2236,14 +2236,29 @@ a.cl-icon4 span{
 
 /* ges en accion  */
 
+
+.container-accion{
+	width: 100%;
+	height: 800px;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+}
+
+
 .container-accion-mapa{
 	position: relative;
 	display: inline-block;
 	width: 100%;	
 }
 
+
+.container-accion h2{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 1em 0 0 0;
+}
+
 .secc-mapa {
-    width:90%;
+    width:80%;
     height: 300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -2258,13 +2273,11 @@ a.cl-icon4 span{
 	display: block;
 	width: 100%;
 	padding: 1em 2em;
-	
 }
 
 .container-tablas{
 	width: 100%;
-	background: #5fd9fe;
-	
+	background: #5fd9fe;	
 }
 
 .seccion-tabla-izquierda {
@@ -2274,18 +2287,15 @@ a.cl-icon4 span{
     width: 50%;
     /*border: 2px solid #FFFFFF;*/
 	/*border-radius: 5px;*/
-	
-    
 }
+
 .seccion-tabla-derecha {
 	position: relative;
 	float: right;
 	display:block;
 	width: 50%;
 	/*border: 2px solid #FFFFFF;*/
-	/*border-radius: 5px;*/
-	
-   
+	/*border-radius: 5px;*/   
 }
 
 .contenido-tabla{
@@ -2293,10 +2303,20 @@ a.cl-icon4 span{
 }
 
 .center-text{
+	width: 100%;
+	height: 50px;
+}
+
+.center-text, h3, h4{
+	
+	font-size: 1em;
 	text-align: center;
+	
+
 }
 
 table{
+
 	width: 96%;
 	height: 250px;
 	margin: 15px 0 0 0;
@@ -2328,6 +2348,8 @@ td,th{
 	width: 140px;
 	height: 70px;
 }
+
+
 
 /* end ges en accion */
 
@@ -2373,10 +2395,6 @@ td,th{
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
-
-
-
-
  
  /* Funciones destacadas*/
  .features-grid span {
@@ -2385,10 +2403,10 @@ td,th{
 	background-size: 446%;
  }
  .features-grid span.t-icon1 {
-    background-position: -195px 0px;
+    background-position: -210px 0px;
  }
  .features-grid span.t-icon2 {
-    background-position: -395px 0px;
+    background-position: -410px 0px;
  }
 
  
@@ -2405,7 +2423,6 @@ td,th{
  }
 
 
-
  .download-left a span {
 	background-size:100%;
 	width: 250px;
@@ -2414,16 +2431,24 @@ td,th{
 	border-radius: 30px;
  }
 
- .titulo_p{
+ .download-right .titulo .titulo_p{
+	font-size: 2.2em; 
+	color: #FFFFFF;
+	}
+ 
+ .start{
+	margin: .5em 0;
+}
+.start p{
+	font-size: 1.5em;
 
- }
- .download-right .comprar{
-	margin-top: 5px;
-    font-size: 1em;	
 }
 
+ .download-right .comprar{
+	margin-top: 5px;
+    font-size: .8em;	
+}
 
- 
 
 p.cousel_demo{
 	display:none;
@@ -2431,12 +2456,26 @@ p.cousel_demo{
 
 }
 
+
+
+
+
 @media (max-width:800px){
  .top-nav ul li a {
 	color: #FFF;
-	padding: 2em 0.6em;
+	padding: 2em 0.4em;
 	font-size: 0.8125em;
  }
+
+ .logo_ges{
+	width: 110px;
+	height: 60px;	
+}
+
+.slide-text-info{
+	margin-top: 17%;
+}
+
  .slide-text-info h1 {
 	font-size: 2em;
  }
@@ -2454,6 +2493,181 @@ p.cousel_demo{
 	width: 100%;
  }
  
+
+ /* cards gestion estacionamiento seguro*/
+
+.principa-car{
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
+}
+
+.container-card{
+	width: 98%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.title-cards{
+	width: 85%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 30px;
+	text-align: center;
+	background: linear-gradient( #5fd9fe 80%,#FFFFFF );
+	/*background-color: #5fd9fe;*/
+	
+}
+
+.card{
+	width: 100%;
+	margin: .3em;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#FFFFFF;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+	
+}
+
+
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+
+/*Multiples */
+
+
+.container-imgs{
+	padding: 4em 1em 0 1em;
+}
+
+.container-img{
+    position: relative;
+    display: inline-block;
+    width: 48%;
+    height: 330px;
+	margin: 0 .4em 0 .4em;
+}
+
+.container-img figure:hover > .capa .title-foto{
+	font-size: 1.5em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.container-img figure:hover > img{
+	transform: scale(1.2);
+}
+
+.container-img figure .capa .title-foto{
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 1.7em;
+	margin-bottom: 120px;
+	transition: all 400ms ease-out;
+	margin-top: 20px;
+}
+.container-img figure .capa p{
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 1.3;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+/* ges en accion  */
+
+.container-accion-mapa{
+	position: relative;
+	display: inline-block;
+	width: 100%;	
+}
+
+.secc-mapa {
+    width:90%;
+    height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ .secc-mapa h4{
+	font-size: 1.4em;
+	padding: .5em 0;
+	text-align: start;
+ }
+
+ .conten-map{
+	display: block;
+	width: 100%;
+	padding: 1em .5em;
+}
+
+.container-tablas{
+	width: 100%;
+	background: #5fd9fe;	
+}
+
+.seccion-tabla-izquierda {
+	position: relative;
+	float: left;
+	display:block;
+    width: 50%;
+    /*border: 2px solid #FFFFFF;*/
+	/*border-radius: 5px;*/
+}
+
+.seccion-tabla-derecha {
+	position: relative;
+	float: right;
+	display:block;
+	width: 50%;
+	/*border: 2px solid #FFFFFF;*/
+	/*border-radius: 5px;*/   
+}
+
+.contenido-tabla{
+	width: 100%;
+}
+
+.center-text{
+	text-align: center;
+}
+
+table{
+	width: 96%;
+	height: 250px;
+	margin: 15px 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sin-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+.con-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #FFFFFF;
+    padding: 8px 15px;
+}
+
+
+/* icon you tube*/
+.img-youtube
+{
+	width: 140px;
+	height: 70px;
+}
+
+/* end ges en accion */
+
  div.owl-carousel1 {
 	width: 100%;
  }
@@ -2482,6 +2696,12 @@ p.cousel_demo{
 	font-size: 1.5em;
  }
 }
+
+
+
+
+
+
 @media (max-width:768px){
  .top-nav ul li.active a, .top-nav ul li a:hover {
 	color: #5fd9fe;
