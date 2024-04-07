@@ -1137,9 +1137,7 @@ border-radius: 1em;
 /*-----start-gallery----*/
 .gallery{
 	padding: 2.5em 0 0 0;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-	/*box-shadow: inset 0 0 40px #5fd9fe;  sombra de borde en el bloque principal*/
-	
+	background: #5fd9fe;	
 }
 
 .gallery .container-centrado{
@@ -1167,6 +1165,7 @@ border-radius: 1em;
 
 .container-imgs{
 	padding: 6em 1em 0 1em;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
 .container-img{
@@ -1323,9 +1322,16 @@ border-radius: 1em;
 
 .contenido-tabla{
 	width: 100%;
-	
-	
 }
+
+/*
+
+.center-text{
+	width: 100%;
+	height: 50px;
+}
+
+*/
 
 .center-text, h3, h4{
 	width: 100%;
@@ -1519,14 +1525,14 @@ p.img_slider{
 /*targeta giratoria */
 
 /* cambio 4*/
-.bloke-card{
+.titulo-beneficios{
 	width: 100%;
 	height: 20px;
 	background:#5fd9fe;
 	padding: 2em 0 4em 0;	
 }
 /* cambio 4*/
-.bloke-card h2{
+.titulo-beneficios h2{
 	text-align: center;	
 }
   
@@ -1535,7 +1541,7 @@ p.img_slider{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 60vh;
+    min-height: 70vh;
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
@@ -1558,6 +1564,8 @@ p.img_slider{
 	cursor: pointer;
 	
 }
+
+
 
 .card-tarjeta .front {
     transform: perspective(600px) rotateY(0deg);
@@ -1611,9 +1619,7 @@ p.img_slider{
     font-size: 1.5em;
 	color: #FFFFFF;
 	text-align: center;
-	padding-bottom: 1em;
-	
-	
+	padding-bottom: 1em;	
 }
  
 /*checar*/
@@ -1877,7 +1883,6 @@ color: #FFFFFF;
 }
 .start p{
 	font-size: 1.5em;
-
 }
 
 .download-right .comprar{
@@ -1911,9 +1916,6 @@ color: #FFFFFF;
 
 
 /* container ficha tecnica  */
-
-
-
 .compatibility h3{
 	text-align: start;
 	border-bottom: 1px solid #FFFFFF; /*CBCBCB*/
@@ -1996,6 +1998,8 @@ a.cl-icon4 span{
   padding: 25px 25px;
   gap: 20px;
 }
+
+
 .socialContainer {
 	width: 52px;
 	height: 52px;
@@ -2006,7 +2010,6 @@ a.cl-icon4 span{
 	justify-content: center;
 	overflow: hidden;
 	transition-duration: .3s;
-	
   }
 
 /* instagram*/
@@ -2062,12 +2065,9 @@ a.cl-icon4 span{
 
 .pie-pagina .grupo-2{
     background-color: #000;
-    padding: 15px 10px;
+    padding: 15px 15px;
     text-align: center;
     color: #fff;
-}
-.pie-pagina .grupo-2 small{
-    font-size: 15px;
 }
 
 #toTop {
@@ -2095,7 +2095,7 @@ a.cl-icon4 span{
 	filter: alpha(opacity=0);
 }
 
-/*  media querys*/
+/*  media querys 1024*/
 /*--responsive design--*/
 @media (max-width:1024px){
  .top-nav ul li a {
@@ -2150,11 +2150,9 @@ a.cl-icon4 span{
 
 
 /*Multiples */
-
-
 .container-imgs{
-	
 	margin: 0 auto;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
 .container-img{
@@ -2192,7 +2190,7 @@ a.cl-icon4 span{
 }
 
 
-/* cards gestion estacionamiento seguro*/
+/* multiples lugares cards */
 
 .principa-car{
 	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
@@ -2229,27 +2227,24 @@ a.cl-icon4 span{
 .card .contenido-card{
 	padding: 15px;
 	text-align: center;
-	
-	
 }
 
 
+
+
+
 /* ges en accion  */
-
-
 .container-accion{
 	width: 100%;
 	height: 800px;
 	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
-
 .container-accion-mapa{
 	position: relative;
 	display: inline-block;
 	width: 100%;	
 }
-
 
 .container-accion h2{
 	text-align: center;
@@ -2308,15 +2303,11 @@ a.cl-icon4 span{
 }
 
 .center-text, h3, h4{
-	
 	font-size: 1em;
 	text-align: center;
-	
-
 }
 
 table{
-
 	width: 96%;
 	height: 250px;
 	margin: 15px 0 0 0;
@@ -2349,8 +2340,6 @@ td,th{
 	height: 70px;
 }
 
-
-
 /* end ges en accion */
 
 /*coadyubar */
@@ -2370,6 +2359,8 @@ td,th{
  .header{
 	left:0;
  }
+
+
  .download-right p {
 	font-size: 1.8em;
  }
@@ -2395,7 +2386,31 @@ td,th{
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
- 
+
+
+
+
+
+
+
+/*beneficios*/
+
+.container-tarjeta{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+}
+
+.container-tarjeta .card-tarjeta{
+    position: relative;
+    width: 300px;
+    height: 470px;
+    margin: 15px;	
+}
+
  /* Funciones destacadas*/
  .features-grid span {
 	width: 120px;
@@ -2408,7 +2423,6 @@ td,th{
  .features-grid span.t-icon2 {
     background-position: -410px 0px;
  }
-
  
  .Share-instantly-left span{
 	background-size:65%;
@@ -2421,7 +2435,6 @@ td,th{
 	width: 270px;
 	height: 430px;	
  }
-
 
  .download-left a span {
 	background-size:100%;
@@ -2441,7 +2454,6 @@ td,th{
 }
 .start p{
 	font-size: 1.5em;
-
 }
 
  .download-right .comprar{
@@ -2449,16 +2461,18 @@ td,th{
     font-size: .8em;	
 }
 
-
 p.cousel_demo{
 	display:none;
 }
 
+
+/*  footer*/
+
+.box {
+margin-left: 25px;
 }
-
-
-
-
+  
+}
 
 @media (max-width:800px){
  .top-nav ul li a {
@@ -2492,7 +2506,6 @@ p.cousel_demo{
  .head-para {
 	width: 100%;
  }
- 
 
  /* cards gestion estacionamiento seguro*/
 
@@ -2526,19 +2539,17 @@ p.cousel_demo{
 	background:#FFFFFF;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 	transition: all 400ms ease-out;
-	cursor: default;
-	
+	cursor: default;	
 }
-
 
 .card .contenido-card{
 	padding: 15px;
 	text-align: center;
 }
 
+
+
 /*Multiples */
-
-
 .container-imgs{
 	padding: 4em 1em 0 1em;
 }
@@ -2612,17 +2623,13 @@ p.cousel_demo{
 	float: left;
 	display:block;
     width: 50%;
-    /*border: 2px solid #FFFFFF;*/
-	/*border-radius: 5px;*/
 }
 
 .seccion-tabla-derecha {
 	position: relative;
 	float: right;
 	display:block;
-	width: 50%;
-	/*border: 2px solid #FFFFFF;*/
-	/*border-radius: 5px;*/   
+	width: 50%; 
 }
 
 .contenido-tabla{
@@ -2658,8 +2665,6 @@ td,th{
     padding: 8px 15px;
 }
 
-
-/* icon you tube*/
 .img-youtube
 {
 	width: 140px;
@@ -2668,9 +2673,58 @@ td,th{
 
 /* end ges en accion */
 
- div.owl-carousel1 {
-	width: 100%;
- }
+
+/*beneficios*/
+
+.container-tarjeta{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+}
+
+.container-tarjeta .card-tarjeta{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 5px;
+	
+}
+
+.card-tarjeta .back .container-card1{
+	padding-top: .5em;
+	padding-bottom: 1em;
+	line-height: 2.5em;
+		  
+	}
+	/*checar*/
+
+.card-tarjeta .back .container-card2{
+padding-top: .5em;
+padding-bottom: 1em;
+line-height: 1.6em;
+	  
+}
+
+.card-tarjeta .back .container-card3{
+	padding-top: .5em;
+	padding-bottom: .5em;
+	line-height: 1.4em;
+		  
+	}
+	.card-tarjeta .back h3 {
+		font-size: 1.5em;
+		color: #FFFFFF;
+		text-align: center;
+		padding-bottom: 1em;	
+	}
+	
+/*end  beneficios*/
+
+
+
  div.col-md-5.Share-instantly-left, div.col-md-5.feature-right{
     text-align: center;
  }
@@ -2684,23 +2738,49 @@ td,th{
     text-align: center;
  }
     
-    
-    
  .download {
-	padding: 10px 0 10px;
+	padding: 3em 0;
  }
+
+.container-btn-formulario{
+	text-align: center;
+}
+
+
  .footer {
 	padding:10px 0;
  }
  .Share-instantly-right h3, .feature h3{
 	font-size: 1.5em;
  }
+
+ .pie-pagina{
+    width: 100%;
+	background: url(/images/bg.jpg);
+    
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:2px;
+    padding: 45px 0px;
+	color: #efebeb;
+}
+	
+.box {
+	margin-left: 25px;
+	}
+.box  p{
+    font-size: 1em;
 }
 
 
 
-
-
+}
 
 @media (max-width:768px){
  .top-nav ul li.active a, .top-nav ul li a:hover {
@@ -2746,7 +2826,475 @@ td,th{
  .feature-right span {
 	height: 320px;
  }
+
+/* origen ges 640 */
+
+.container-center{
+	padding-top: 40px;
+	background: #5fd9fe;
+	padding: 1em 1em;
+	margin: 0 auto;
 }
+ .card-center{
+	width: 100%;
+	display: block;
+	border:  2px #FFFFFF solid;
+	border-radius: 5px;
+}
+.container-cards{
+	width: 100%;
+	height: 830px;
+	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+	padding: 1em 1em;
+}
+
+.card-izqui{
+	display:inline-block;
+    width: 100%;
+	height: 380px;
+    border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	}
+
+.card-derech{
+	display:inline-block;
+	width: 100%;
+	height: 380px;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	margin: 2em 0;
+}
+
+
+.container-logo{
+	text-align: center;
+	padding: 1em 0;
+}
+
+.logo1{
+	width: 75px;
+	height:75px;
+	margin: 0 5em;	
+}
+
+.contenido-text {
+	text-align: center;
+	padding: 0 2em;
+}
+
+
+.list-1{
+	line-height: 1.5em;
+	padding: 1em 0;
+}
+
+.text-final-face{
+	font-size: 1.1em;
+}
+
+.logo-back{
+	width: 80px;
+	height:80px;
+}
+
+/* cards gestion estacionamiento seguro 640 */
+
+.principa-car{
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
+}
+
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.title-cards{
+	width: 85%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	background: linear-gradient( #5fd9fe 80%,#FFFFFF );
+	/*background-color: #5fd9fe;*/
+	
+}
+
+.card{
+	width: 100%;
+	margin: .2em;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#FFFFFF;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;	
+}
+
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+
+/*Multiples */
+.container-imgs{
+	padding: 4em .2em 0 .2em;
+}
+
+.container-img{
+    position: relative;
+    display: inline-block;
+    width: 47%;
+    height: 330px;
+	margin: 0 .4em 0 .4em;
+}
+
+.container-img figure:hover > .capa .title-foto{
+	font-size: 1.5em;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+.container-img figure:hover > img{
+	transform: scale(1.2);
+}
+
+.container-img figure .capa .title-foto{
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 1.7em;
+	margin-bottom: 120px;
+	transition: all 400ms ease-out;
+	margin-top: 20px;
+}
+.container-img figure .capa p{
+	color: #FFFFFF;
+	font-size: 1em;
+	line-height: 1.3;
+	width: 100%;
+	max-width: 220px;
+	margin: auto;
+}
+/* ges en accion  */
+
+.titulo-accion{
+	width: 100%;
+	padding: 2.5em auto;
+	text-align: center;
+	background:  #5fd9fe;	
+}
+
+
+.container-accion{
+	width: 100%;
+	height: 1200px;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+}
+
+.container-accion h2{
+	font-size: 1.9em;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 1em 0 0 0;
+	
+
+}
+
+.container-accion-mapa{
+	position: relative;
+	display: inline-block;
+	width: 100%;	
+}
+
+.secc-mapa {
+    width:97%;
+    height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ .secc-mapa h4{
+	font-size: 1.4em;
+	padding: .5em .5em;
+	text-align: start;
+ }
+
+ .conten-map{
+	display: block;
+	width: 100%;
+	padding: 1em .5em;
+}
+
+.container-tablas{
+	width: 100%;
+	background: #5fd9fe;	
+}
+
+.seccion-tabla-izquierda {
+	position: relative;
+	display:block;
+    width: 100%;
+}
+
+.seccion-tabla-derecha {
+	position: relative;
+	display:block;
+	width: 100%; 
+}
+
+.contenido-tabla{
+	width: 100%;
+}
+
+.center-text, h3, h4{
+	font-size: 1.1em;
+	text-align: center;
+}
+
+table{
+	width: 96%;
+	height: 250px;
+	margin: 15px 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sin-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+.con-ges{
+    background: #8fadc6;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #FFFFFF;
+    padding: 8px 15px;
+}
+
+.img-youtube
+{
+	width: 140px;
+	height: 70px;
+}
+.center-text{
+	width: 100%;
+	height: 60px;
+}
+
+/* end ges en accion */
+
+/*beneficios*/
+
+.container-tarjeta{
+	
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+}
+
+.container-tarjeta .card-tarjeta{
+    position: relative;
+    width: 350px;
+    height: 500px;
+	margin: 1.2em 0;
+   
+	
+}
+
+.card-tarjeta .back .container-card1{
+	padding-top: .5em;
+	padding-bottom: 2.5em;
+	line-height: 4.3em;
+		  
+	}
+	/*checar*/
+
+.card-tarjeta .back .container-card2{
+padding-top: .5em;
+padding-bottom: 2em;
+line-height: 3em;
+	  
+}
+
+.card-tarjeta .back .container-card3{
+	padding-top: .5em;
+	
+	line-height: 2.7em;
+		  
+	}
+	.card-tarjeta .back h3 {
+		font-size: 1.5em;
+		color: #FFFFFF;
+		text-align: center;
+		padding-bottom: 1em;	
+	}
+	
+/*end  beneficios*/
+
+
+.download {
+	padding: 3em 0;
+ }
+
+.container-btn-formulario{
+	text-align: center;
+}
+
+
+ .footer {
+	padding:10px 0;
+ }
+ .Share-instantly-right h3, .feature h3{
+	font-size: 1em;
+ }
+
+ .pie-pagina{
+    width: 100%;
+	background: url(/images/bg.jpg);
+    
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+    padding: 45px 0px;
+	color: #efebeb;
+}
+	
+.box {
+	
+	}
+.box  p{
+    font-size: 1em;
+}
+
+
+.social-container{
+	width: fit-content;
+	height: fit-content;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 25px;
+	gap: 20px;
+  }
+  
+  
+  .socialContainer {
+	  width: 52px;
+	  height: 52px;
+	  border-radius: 50%;
+	  background-color: rgb(44, 44, 44);
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  overflow: hidden;
+	  transition-duration: .3s;
+	}
+  
+  /* instagram*/
+  .containerOne:hover {
+	  background-color: #d62976;
+	  transition-duration: .3s;
+	}
+	/* twitter*/
+	.containerTwo:hover {
+	  background-color: #00acee;
+	  transition-duration: .3s;
+	}
+	/* linkdin*/
+	.containerThree:hover {
+	  background-color: #0072b1;
+	  transition-duration: .3s;
+	}
+	/* Whatsapp*/
+	.containerFour:hover {
+	  background-color: #128C7E;
+	  transition-duration: .3s;
+	}
+	
+	.socialContainer:active {
+	  transform: scale(0.9);
+	  transition-duration: .3s;
+	}
+	
+	.socialSvg {
+	  width: 17px;
+	}
+	
+	.socialSvg path {
+	  fill: rgb(255, 255, 255);
+	}
+	
+	.socialContainer:hover .socialSvg {
+	  animation: slide-in-top 0.3s both;
+	}
+	
+	@keyframes slide-in-top {
+	  0% {
+		transform: translateY(-50px);
+		opacity: 0;
+	  }
+	
+	  100% {
+		transform: translateY(0);
+		opacity: 1;
+	  }
+	}
+	
+  
+  .pie-pagina .grupo-2{
+	  background-color: #000;
+	  padding: 15px 15px;
+	  text-align: center;
+	  color: #fff;
+  }
+  
+  #toTop {
+	  display: none;
+	  text-decoration: none;
+	  position: fixed;
+	  bottom: 26px;
+	  right: 3%;
+	  overflow: hidden;
+	  width: 40px;
+	  height: 40px;
+	  border: none;
+	  text-indent: 100%;
+	  background: url("../images/to-top.png") no-repeat 0px 0px;
+	  border-radius: 30em;
+  }
+  #toTopHover {
+	  width: 40px;
+	  height: 40px;
+	  display: block;
+	  overflow: hidden;
+	  float: right;
+	  opacity: 0;
+	  -moz-opacity: 0;
+	  filter: alpha(opacity=0);
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width:480px){ 
  .slide-text-info h1 {
 	font-size: 1.5em;
@@ -2790,6 +3338,12 @@ td,th{
 	margin-bottom: -4px;
  }
 }
+
+
+
+
+
+
 @media (max-width:320px){
  .footer-right input[type="text"] {
     width:100%;
