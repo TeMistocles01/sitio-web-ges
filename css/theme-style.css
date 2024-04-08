@@ -2121,20 +2121,21 @@ a.cl-icon4 span{
 }
  .card-center{
 	width: 100%;
+	height: 370px;
 	display: block;
 	border:  2px #FFFFFF solid;
 	border-radius: 5px;
 }
 .container-cards{
 	width: 100%;
-	height: 1000px;
+	height: 900px;
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
 .card-izqui{
 	display:inline-block;
     width: 100%;
-	height: 410px;
+	height: 370px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	}
@@ -2142,7 +2143,7 @@ a.cl-icon4 span{
 .card-derech{
 	display:inline-block;
 	width: 100%;
-	height: 410px;
+	height: 370px;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	margin: 3em 0;
@@ -2361,6 +2362,10 @@ td,th{
  }
 
 
+
+
+
+
  .download-right p {
 	font-size: 1.8em;
  }
@@ -2386,13 +2391,6 @@ td,th{
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
-
-
-
-
-
-
-
 /*beneficios*/
 
 .container-tarjeta{
@@ -2400,16 +2398,42 @@ td,th{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 80vh;
+    min-height: 85vh;
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
 .container-tarjeta .card-tarjeta{
     position: relative;
     width: 300px;
-    height: 470px;
+    height: 450px;
     margin: 15px;	
 }
+
+.card-tarjeta .back .container-card1{
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	line-height: 3.7em;
+		  
+	}
+	/*checar*/
+
+.card-tarjeta .back .container-card2{
+padding-top: 1.2em;
+padding-bottom: 1.2em;
+line-height: 2.5em;
+	  
+}
+
+.card-tarjeta .back .container-card3{
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	line-height: 2.2em;
+		  
+	}
+
+
+
+
 
  /* Funciones destacadas*/
  .features-grid span {
