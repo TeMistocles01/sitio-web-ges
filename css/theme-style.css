@@ -2851,6 +2851,7 @@ line-height: 1.6em;
 	height: 320px;
  }
 
+
 /* origen ges 640 */
 
 .container-center{
@@ -2963,7 +2964,7 @@ line-height: 1.6em;
 
 /*Multiples */
 .container-imgs{
-	padding: 4em .2em 0 .2em;
+	padding: auto;
 }
 
 .container-img{
@@ -2971,7 +2972,7 @@ line-height: 1.6em;
     display: inline-block;
     width: 47%;
     height: 330px;
-	margin: 0 .4em 0 .4em;
+	margin: 0 .5em 0 .5em;
 }
 
 .container-img figure:hover > .capa .title-foto{
