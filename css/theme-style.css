@@ -1287,7 +1287,13 @@ border-radius: 1em;
 	display: block;
 	width: 100%;
 	padding: 1em 4em;
-	
+}
+.barras{
+	text-align: center;
+}
+.img-barras{
+	width: 70px;
+	height: 70px;
 }
 
 .container-tablas{
