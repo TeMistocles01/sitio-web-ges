@@ -3286,17 +3286,15 @@ td,th{
 
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 500px;
+    height: 350px;
 	margin: 1.2em 0;
-   
-	
 }
 
 .card-tarjeta .back .container-card1{
 	padding-top: .5em;
 	padding-bottom: 2.5em;
-	line-height: 4.3em;
+	line-height: 2em;
 		  
 	}
 	/*checar*/
@@ -3304,14 +3302,14 @@ td,th{
 .card-tarjeta .back .container-card2{
 padding-top: .5em;
 padding-bottom: 2em;
-line-height: 3em;
+line-height: 1.5em;
 	  
 }
 
 .card-tarjeta .back .container-card3{
 	padding-top: .5em;
 	
-	line-height: 2.7em;
+	line-height: 1.3em;
 		  
 	}
 	.card-tarjeta .back h3 {
