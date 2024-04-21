@@ -429,7 +429,18 @@ nav a#pull {
 .titulo-container{
 	padding: 50px 0;
 	width: 100%;
-	background: url(/images/bg.jpg);   
+	/*background: url(/images/bg.jpg);*/   
+	background: linear-gradient(#5fd9fe 80% ,#FFFFFF);
+}
+.sub-title{
+	padding-bottom: 20px;
+}
+
+.gradiente-blanco{
+	width: 100%;
+	height: 100%;
+	
+	
 }
 
 .container-center h2 {
@@ -451,6 +462,7 @@ nav a#pull {
 	width: 60px;
 	height: 60px;
 	color: #FFFFFF;
+	
   }
   
   .loader12:before,
@@ -542,13 +554,20 @@ nav a#pull {
 	border:  2px #FFFFFF solid;
 	border-radius: 5px;
 	padding-bottom: 30px;
+	transition: 3s;
 }
+.card-center:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 9px #FFFFFF;
+	transition: 2s;
+}
+
 
 .container-cards{
 	width: 100%;
-	height: 500px;
+	height: 470px;
 	padding: 3em 3em;
-	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .card-izqui{
@@ -556,9 +575,16 @@ nav a#pull {
 	float: left;
 	display:block;
     width: 44%;
-	height: 410px;
+	height: 370px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
+	transition: 3s;
+	}
+
+	.card-izqui:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 9px #FFFFFF;
+	transition: 2s;
 	}
 
 .card-derech{
@@ -566,20 +592,24 @@ nav a#pull {
 	float: right;
 	display:block;
 	width: 54%;
-	height: 410px;
+	height: 370px;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
+	transition: 3s;
+}
+
+.card-derech:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 9px #FFFFFF;
+	transition: 2s;
+
 }
 
 h3{
 	text-align: center;
 }
 
-.card-izqui, .card-derech, .card-center  {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 3px 7px #FFFFFF;
-	transition: 2s;
-}
+
 
 		
 /*como surge ges 2
@@ -692,7 +722,9 @@ h3{
 	width: 75px;
 	height:75px;
 	margin: 0 5em;	
+	box-shadow: 0 3px 8px #FFFFFF;
 }
+
 
 .contenido-text {
 	text-align: center;
@@ -706,12 +738,13 @@ h3{
 }
 
 .text-final-face{
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .logo-back{
 	width: 80px;
 	height:80px;
+	box-shadow: 0 3px 8px #FFFFFF;
 }
 
 
@@ -799,6 +832,7 @@ h3{
 	width: 60px;
 	height:60px;
 	margin: 0 .5em;
+	box-shadow: 0 3px 8px #FFFFFF;
 }
 
   
@@ -890,23 +924,19 @@ h3{
  /*end  como surge GES*/
 
 
-
-
-
-
 /*Cards*/
 /*box-shadow: inset 30px 30px 40px 50px  #5fd9fe;*/
 .principa-car{
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-		
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);		
 }
+
 .title-cards{
 	width: 100%;
 	max-width: 1080px;
 	margin: auto;
 	padding: 30px;
 	text-align: center;
-	background: linear-gradient( #5fd9fe 85%,#FFFFFF );	
+	background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
 }
 
 .container-card{
@@ -936,14 +966,11 @@ h3{
 .card img{
 	width: 100%;
 	height: 210px;
-	
 }
 
 .card .contenido-card{
 	padding: 15px;
 	text-align: center;
-	
-	
 }
 
 /* Configuracion efecto Leer Más*/
@@ -1012,7 +1039,7 @@ h3{
 .features{
 	padding:2em 0 3em;
 	/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
 	
 }
@@ -1057,8 +1084,6 @@ border-radius: 1em;
 		transform: rotate(360deg);
 	}
 }
-
-
 
 .features .descripccion{
 	font-size: 1.3em;
@@ -1140,10 +1165,14 @@ border-radius: 1em;
 .gallery .container-centrado{
 	text-align: center;
 }
+.gallery .container-centrado h2{
+	color: #FFFFFF;
+}
+
 .gallery .container p{
 	display: inline-block;
 	line-height: 1.3em;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .escudo{
@@ -1162,7 +1191,7 @@ border-radius: 1em;
 
 .container-imgs{
 	padding: 6em 1em 0 1em;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .container-img{
@@ -1251,24 +1280,20 @@ border-radius: 1em;
 }
 .container-accion{
 	width: 100%;
-	height: 900px;
+	height: 950px;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .container-accion h2{
 	text-align: center;
 	color: #FFFFFF;
-	padding: 1em 0 0 0;
-	
-
+	padding: .5em 0 0 0;
 }
 
 .container-accion-mapa{
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	
-	
 }
 
 .secc-mapa {
@@ -1277,6 +1302,7 @@ border-radius: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
+
  .secc-mapa h4{
 	font-size: 1.4em;
 	padding: .5em 0;
@@ -1292,8 +1318,8 @@ border-radius: 1em;
 	text-align: center;
 }
 .img-barras{
-	width: 70px;
-	height: 70px;
+	width: 90px;
+	height: 90px;
 }
 
 .container-tablas{
@@ -1645,7 +1671,7 @@ p.img_slider{
 .card-tarjeta .back .container-card1{
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
-	line-height: 4.5em;
+	line-height: 4.9em;
 		  
 	}
 	/*checar*/
@@ -1864,9 +1890,7 @@ text-align: center;
 /*----- start-download-----*/
 
 .download{
-	/*background-color: #5fd9fe;*/
-
-	background: linear-gradient( #5fd9fe 95%,#FFFFFF);
+	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
 	padding: 3em 0;
 }
 .download-left{
@@ -2115,6 +2139,28 @@ a.cl-icon4 span{
 	filter: alpha(opacity=0);
 }
 
+/* 
+Con 1 sólo breakpoint de resolucion
+
+@media and (mind-width:480px){
+
+}
+ 
+@media and (mind-width:480px) and (max-width:780){
+
+}
+
+para dispositivo 
+
+@media and (orientation:landscape) and (mind-width:480px)
+
+para modo obscuro
+@media screen and (prefers-color-scheme:dark){
+
+}
+
+*/
+
 /* Media querys 1024*/
 
 
@@ -2143,7 +2189,7 @@ a.cl-icon4 span{
 	margin: 0 auto;
 }
  .card-center{
-	width: 100%;
+	width: 90%;
 	height: 370px;
 	display: block;
 	border:  2px #FFFFFF solid;
@@ -2152,31 +2198,32 @@ a.cl-icon4 span{
 .container-cards{
 	width: 100%;
 	height: 900px;
-	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .card-izqui{
 	display:inline-block;
-    width: 100%;
+    width: 90%;
 	height: 370px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
+	margin-left: 3em;
 	}
 
 .card-derech{
 	display:inline-block;
-	width: 100%;
+	width: 90%;
 	height: 370px;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
-	margin: 3em 0;
+	margin: 4em 0;
+	margin-right: 4em;
 }
 
 /* gestion estacionamiento seguro card*/
 
-
 .principa-car{
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);	
 }
 
 .container-card{
@@ -2192,7 +2239,7 @@ a.cl-icon4 span{
 	margin: auto;
 	padding: 30px;
 	text-align: center;
-	background: linear-gradient( #5fd9fe 85%,#FFFFFF );
+	background: linear-gradient( #5fd9fe 70%,#FFFFFF );
 	/*background-color: #5fd9fe;*/
 }
 
@@ -2212,13 +2259,23 @@ a.cl-icon4 span{
 	text-align: center;
 }
 
+.list-lugares {
+	font-size: 1.2em;
+	list-style: none;
+	line-height: 1.5;
+	
+}
 
-
+.gallery .container p{
+	display: inline-block;
+	line-height: 1.3em;
+    font-size: 1.4em;
+}
 
 /* multiples lugares cards */
 .container-imgs{
 	padding: 3em 5px 0 5px;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .container-img{
@@ -2257,14 +2314,11 @@ a.cl-icon4 span{
 	margin: auto;
 }
 
-
-
-
 /* ges en accion  */
 .container-accion{
 	width: 100%;
-	height: 800px;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+	height: 930px;
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .container-accion-mapa{
@@ -2273,11 +2327,14 @@ a.cl-icon4 span{
 	width: 100%;	
 }
 
-.container-accion h2{
-	text-align: center;
-	color: #FFFFFF;
-	padding: 1em 0 0 0;
+.titulo-accion h3{
+	font-size: 1.4em;	
 }
+.secc-mapa h4{
+	font-size: 1.4em;
+	padding: .5em 0;
+	text-align: start;
+ }
 
 .secc-mapa {
     width:90%;
@@ -2316,7 +2373,6 @@ a.cl-icon4 span{
 	float: right;
 	display:block;
 	width: 50%;
-	
 }
 
 .contenido-tabla{
@@ -2384,10 +2440,6 @@ td,th{
  }
 
 
-
-
-
-
  .download-right p {
 	font-size: 1.8em;
  }
@@ -2434,9 +2486,10 @@ td,th{
 .card-tarjeta .back .container-card1{
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
-	line-height: 3.7em;
-		  
+	line-height: 4.2em; 
 	}
+
+	/* Se crea no existe en la vista mayor a 1024 */
 	.card-tarjeta .front h3 {
 		font-size: 1.5em;
 		position: absolute;
@@ -2449,25 +2502,19 @@ td,th{
 		/*rgba(95,217,254,.9);*/
 	}
 	
-	/*checar*/
+	
 
 .card-tarjeta .back .container-card2{
 padding-top: 1.2em;
 padding-bottom: 1.2em;
-line-height: 2.5em;
-	  
+line-height: 1.9em;
 }
 
 .card-tarjeta .back .container-card3{
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
-	line-height: 2.2em;
-		  
+	line-height: 2.1em;  
 	}
-
-
-
-
 
  /* Funciones destacadas*/
  .features-grid span {
@@ -2532,6 +2579,8 @@ margin-left: 25px;
   
 }
 
+
+
 @media (max-width:800px){
  .top-nav ul li a {
 	color: #FFF;
@@ -2540,9 +2589,51 @@ margin-left: 25px;
  }
 
  .logo_ges{
-	width: 110px;
-	height: 60px;	
+	width: 90px;
+	height: 50px;	
 }
+
+
+/* origen ges 800 */
+
+.container-center{
+	padding-top: 40px;
+	background: #5fd9fe;
+	padding: .5em 3em;
+	margin: 0 auto;
+}
+ .card-center{
+	width: 100%;
+	height: 350px;
+	display: block;
+	border:  2px #FFFFFF solid;
+	border-radius: 5px;
+	transition: 3s;
+}
+.container-cards{
+	width: 100%;
+	height: 900px;
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+}
+
+.card-izqui{
+	display:inline-block;
+    width: 100%;
+	height: 370px;
+    border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	margin-left: .1em;
+	}
+
+.card-derech{
+	display:inline-block;
+	width: 100%;
+	height: 370px;
+	border: 2px solid #FFFFFF;
+	border-radius: 5px;
+	margin: 3em 0;
+}
+
 
 .slide-text-info{
 	margin-top: 17%;
@@ -2606,6 +2697,14 @@ margin-left: 25px;
 }
 
 
+.features-grid,.descripccion p{
+	font-size: 1em;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+
 
 /*Multiples */
 .container-imgs{
@@ -2645,6 +2744,7 @@ margin-left: 25px;
 	max-width: 220px;
 	margin: auto;
 }
+
 /* ges en accion  */
 
 .container-accion-mapa{
@@ -2659,7 +2759,11 @@ margin-left: 25px;
 	margin-left: auto;
 	margin-right: auto;
 }
- .secc-mapa h4{
+ 
+.titulo-accion h3{
+	font-size: 1.4em;	
+}
+.secc-mapa h4{
 	font-size: 1.4em;
 	padding: .5em 0;
 	text-align: start;
@@ -2750,34 +2854,36 @@ td,th{
     margin: 5px;
 	
 }
-
+.card-tarjeta .back h3 {
+	font-size: 1.5em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: .2em;
+		
+}
 .card-tarjeta .back .container-card1{
+	line-height: 2.6em;
 	padding-top: .5em;
-	padding-bottom: 1em;
-	line-height: 2.5em;
 		  
 	}
 	/*checar*/
 
 .card-tarjeta .back .container-card2{
+
+line-height: 1.4em;
 padding-top: .5em;
-padding-bottom: 1em;
-line-height: 1.6em;
 	  
 }
 
 .card-tarjeta .back .container-card3{
+	line-height: 1.3em;
 	padding-top: .5em;
-	padding-bottom: .5em;
-	line-height: 1.4em;
+	
 		  
 	}
-	.card-tarjeta .back h3 {
-		font-size: 1.5em;
-		color: #FFFFFF;
-		text-align: center;
-		padding-bottom: 1em;	
-	}
+	
+
+	
 	
 /*end  beneficios*/
 
@@ -2797,7 +2903,8 @@ line-height: 1.6em;
  }
     
  .download {
-	padding: 3em 0;
+	background: linear-gradient( #5fd9fe 96%,#FFFFFF);
+	padding: 4em 0;
  }
 
 .container-btn-formulario{
@@ -2865,9 +2972,15 @@ line-height: 1.6em;
  .header {
 	position: absolute;
 	top: 0;
-	z-index: 999;
+	z-index: 777;
 	right: 0;
  }
+
+
+ .logo_ges{
+	width: 70px;
+	height: 40px;	
+}
  .slide-text-info h1 {
 	font-size: 1.5em;
  }
@@ -2891,26 +3004,28 @@ line-height: 1.6em;
 .container-center{
 	padding-top: 40px;
 	background: #5fd9fe;
-	padding: 1em 1em;
+	padding: .5em 1em;
 	margin: 0 auto;
 }
  .card-center{
-	width: 100%;
+	width: 90%;
+	height: 290px;
 	display: block;
 	border:  2px #FFFFFF solid;
 	border-radius: 5px;
+	transition: 3s;
 }
 .container-cards{
 	width: 100%;
 	height: 830px;
-	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
-	padding: 1em 1em;
+	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	
 }
 
 .card-izqui{
 	display:inline-block;
     width: 100%;
-	height: 380px;
+	height: 350px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	}
@@ -2918,23 +3033,40 @@ line-height: 1.6em;
 .card-derech{
 	display:inline-block;
 	width: 100%;
-	height: 380px;
+	height: 350px;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
-	margin: 2em 0;
+	margin: 3em 0;
 }
 
 
 .container-logo{
 	text-align: center;
-	padding: 1em 0;
+	padding: .5em 0;
 }
 
 .logo1{
-	width: 75px;
-	height:75px;
-	margin: 0 5em;	
+	width: 45px;
+	height:45px;
+	
 }
+
+.container-logo2{
+	text-align: center;
+	padding: .5em 0;	
+}
+.logo2{
+	width: 40px;
+	height:40px;
+	margin: 0 .5em;
+	box-shadow: 0 3px 8px #FFFFFF;
+}
+
+.logo-back{
+	width: 45px;
+	height: 45px;
+}
+
 
 .contenido-text {
 	text-align: center;
@@ -2951,10 +3083,6 @@ line-height: 1.6em;
 	font-size: 1.1em;
 }
 
-.logo-back{
-	width: 80px;
-	height:80px;
-}
 
 /* cards gestion estacionamiento seguro 640 */
 
@@ -3046,7 +3174,7 @@ line-height: 1.6em;
 
 .container-accion{
 	width: 100%;
-	height: 1200px;
+	height: 1280px;
 	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
