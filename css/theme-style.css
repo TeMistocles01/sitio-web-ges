@@ -1199,7 +1199,7 @@ border-radius: 1em;
     display: inline-block;
     width: 24%;
     height: 330px;
-	margin: 0 .5em 0 .5em;
+	margin: 0 .4em 0 .4em;
 }
 
 .container-img figure{
@@ -1244,7 +1244,7 @@ border-radius: 1em;
 }
 .container-img figure:hover > .capa .title-foto{
 	font-size: 1.7em;
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-bottom: 15px;
 }
 .container-img figure:hover > img{
