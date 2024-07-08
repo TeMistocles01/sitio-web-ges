@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;	
+    font-family: 'Montserrat', sans-serif;
+		
 }
 
 /*
@@ -32,14 +33,14 @@ body a{
 
 /*logo titulo slider superior derecho */
 .logo_ges{
-	width: 120px;
-	height: 70px;	
+	width: 10em;
+	height: 6em;	
 }
 
 /*Logo ges central */
 .logo_ges_titulo{
-	width: 220px;
-	height: 120px;
+	width: 16em;
+	height: 9em;
 }
 
 .logo-center{
@@ -304,7 +305,7 @@ nav a#pull {
 	padding: 10px 20px;
 	margin: 0;
 	max-width: none;
-	top: 10%;
+	top: 5%;
 	text-align: center;
 }
 .callbacks_nav {
@@ -452,7 +453,8 @@ nav a#pull {
 	background: linear-gradient(#5fd9fe 80% ,#FFFFFF);
 }
 .sub-title{
-	padding-bottom: 20px;
+	font-size: 2em;
+	padding-bottom: 1.3em;
 }
 
 .gradiente-blanco{
@@ -843,9 +845,26 @@ h3{
   }
 
 .container-logo2{
-	text-align: center;
-	padding: 1.5em 0;	
+	
+	margin: 1em 6em;	
 }
+
+.experiencia{
+	display: inline-block;
+}
+
+.analisis1{
+	display: inline-block;
+}
+.modelo{
+	display: inline-block;
+
+}
+
+.programacion1{
+	display: inline-block;
+}
+
 .logo2{
 	width: 60px;
 	height:60px;
@@ -952,10 +971,15 @@ h3{
 	width: 100%;
 	max-width: 1080px;
 	margin: auto;
-	padding: 30px;
+	padding: 1.8em;
 	text-align: center;
 	background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
 }
+
+.title_card{
+	font-size: 2em;
+}
+
 
 .container-card{
 	width: 100%;
@@ -981,13 +1005,14 @@ h3{
 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
 	transform: translateY(-3%);
 }
+
 .card img{
 	width: 100%;
-	height: 210px;
+	height: 13.5em;
 }
 
 .card .contenido-card{
-	padding: 15px;
+	padding: 1em;
 	text-align: center;
 }
 
@@ -2559,6 +2584,7 @@ line-height: 1.9em;
 	height: 430px;	
  }
 
+
  .download-left a span {
 	background-size:100%;
 	width: 250px;
@@ -3494,7 +3520,7 @@ line-height: 1.5em;
 
 
 
-
+/*
 
 @media screen and (min-width:0) and (max-width:480px){ 
  .slide-text-info h1 {
@@ -3540,7 +3566,7 @@ line-height: 1.5em;
  }
 }
 
-
+/*
 
 /*320 medias querys */
 
@@ -3549,7 +3575,7 @@ line-height: 1.5em;
 		display: block;
 		position: absolute;
 		z-index: 2;
-		font-size: 16px;
+		font-size: 1.2em;
 		text-shadow: none;
 		color: #FFFFFF;
 		left: 0;
@@ -3557,19 +3583,19 @@ line-height: 1.5em;
 		padding: 3px 3px;
 		margin: 0;
 		max-width: none;
-		top: 25%;
+		top: 1%;
 		text-align: center;
 	}
 
 	.logo_ges_titulo{
-		width: 160px;
-		height: 80px;
+		width: 10em;
+		height: 5em;
 	}
 	
 
 	.container-center h2 {
 		text-align: center;
-		font-size: 18px;
+		font-size: 1.3em;
 	}
 	
 	.container-center{
@@ -3578,6 +3604,7 @@ line-height: 1.5em;
 	}
 	
 	.card-center{
+	    font-size: small;
 		width: 100%;
 		height: 20%;
 		margin-left: auto;
@@ -3637,21 +3664,106 @@ line-height: 1.5em;
 			transition: 3s;
 		}
 		
-
-
 		.container-logo2{
-			
-			padding: 1.5em 0;	
+	
+			margin: .3em 0em;	
 		}
+		
+		.experiencia{
+			display: inline-block;
+		}
+		
+		.analisis1{
+			
+			display: inline-block;
+		}
+		.modelo{
+			margin-top: 1em;
+			display: inline-block;
+		
+		}
+		
+		.programacion1{
+			margin-top: 1em;
+			display: inline-block;
+		}
+		
+
+
 		.logo2{
 			width: 40px;
 			height:40px;
-			
 			box-shadow: 0 3px 8px #FFFFFF;
 		}
 		
 
+
+            /* Definicion*/
+
+			.title-cards{
+				width: 100%;
+				max-width: 1080px;
+				margin: auto;
+				padding: .1em;
+				text-align: center;
+				background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
+			}
+
+			.title_card{
+				font-size: 1.3em;
+			}
+
+			.container-card{
+				width: 90%;
+				display: flex;
+				max-width: 1100px;
+				margin: auto;
+				display: inline-block;
+				
+			}
+			
+			.card{
+				
+				width: 90%;		
+				border-radius: 3px;
+				overflow: hidden;
+				background:#FFFFFF;
+				box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+				transition: all 400ms ease-out;
+				cursor: default;
+				margin: 2.2em;
+				
+			}
+			
+			.card:hover{
+				box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+				transform: translateY(-3%);
+			}
+
+			
+			.card img{
+				width: 100%;
+				height: 9em;
+			}
+			
+			.card .contenido-card{
+				text-align: justify;
+				font-size: small;
+			}
+			/*fin card*/
+
+		/*funciones destacadas */		
+           .features-grid,.descripccion p{
+			font-size: 1em;
+			width: 100%;
+			margin: 0 auto;
+			}
+
+
+			
+
 		.loader5 {
+			
 			position: relative;
 			overflow: hidden;
 			border-right: 3px solid;
