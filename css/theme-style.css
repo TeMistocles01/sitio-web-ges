@@ -3759,11 +3759,90 @@ line-height: 1.5em;
 			margin: 0 auto;
 			}
 
-
+  		/*Multiples sitios*/
 			
+		  .list-lugares{
+			font-size: medium;
+		  }
+
+		  .container-imgs{
+		
+			background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+		}
+		.container-img{
+			position: relative;
+			display: inline-block;
+			width: 100%;
+			
+		}
+		.container-img figure{
+			position:relative;
+			width: 100%;
+			height: 300px;
+			cursor: pointer;
+			overflow: hidden;
+			border-radius: 10px;
+			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+		 }
+		
+		 .container-img figure img{
+			width: 100%;
+			height: 100%;
+			transition: all 400ms ease-out;
+			will-change: transform;
+		}
+		
+		.container-img .img-card{
+			width: 100%;
+			height: 100%;
+			transition: all 400ms ease-out;
+			will-change: transform;
+		}
+		
+		.container-img figure .capa{
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,103,123,0.7);
+			transition: all 400ms ease-out;
+			opacity: 0;
+			visibility: hidden;
+			text-align: center;
+			padding: 0 1.5em;
+		}
+		.container-img figure:hover > .capa {
+			opacity: 1;
+			visibility: visible;
+		}
+		.container-img figure:hover > .capa .title-foto{
+			font-size: 1.7em;
+			margin-top: 30px;
+			margin-bottom: 15px;
+		}
+		.container-img figure:hover > img{
+			transform: scale(1.3);
+		}
+		
+		.container-img figure .capa .title-foto{
+			color: #FFFFFF;
+			font-weight: 400;
+			font-size: 1.7em;
+			margin-bottom: 120px;
+			transition: all 400ms ease-out;
+			margin-top: 30px;
+		}
+		.container-img figure .capa p{
+			color: #FFFFFF;
+			font-size: 1.2em;
+			line-height: 1.3;
+			width: 100%;
+			max-width: 220px;
+			margin: auto;
+		}
+		
 
 		.loader5 {
-			
 			position: relative;
 			overflow: hidden;
 			border-right: 3px solid;
