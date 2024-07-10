@@ -17,6 +17,14 @@
 }
 */
 
+/*clase para expandir y evitar que la pantalla se genere un scroll de forma horizontal*/
+
+.container-limit{
+	width: 100%;
+	overflow: hidden;
+}
+
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -3520,54 +3528,7 @@ line-height: 1.5em;
 
 
 
-/*
-
-@media screen and (min-width:0) and (max-width:480px){ 
- .slide-text-info h1 {
-	font-size: 1.5em;
-	margin-top:50px;
- }
- .slide-text-info-btns {
-	display: none;
- }
- .callbacks_tabs {
-	left: 33%;
-	top:80%;
- }
- .logo a {
-	font-size: 2.5em;
- }
- nav a#pull img {
-	margin-top: -20px;
- }
-  .Share-instantly-left span, .feature-right span {
-	background-size: 59%;
-	width: 180px;
-	height: 170px;
-	display: inline-table;
- }
- .Share-instantly-left span, .feature-right span{
- 	background-position:30px 0;
- }
- .download-left a span {
-	background-size: 70%;
-	width: 220px;
-	height: 165px;
-	background-position:38px 0;
- }
- .download-right p {
-	font-size: 1.4em;
- }
- .download-right a {
-	font-size: 1em;
- }
- div.col-md-5.Share-instantly-left, div.col-md-5.feature-right {
-	margin-bottom: -4px;
- }
-}
-
-/*
-
+/*Ruta para definir medias querys https://risi.cl/media-queries-para-dispositivos-moviles-css3/ */
 /*320 medias querys */
 
 @media screen and (min-width:0px) and (max-width:320px){
@@ -3766,22 +3727,25 @@ line-height: 1.5em;
 		  }
 
 		  .container-imgs{
-		
 			background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 		}
 		.container-img{
 			position: relative;
 			display: inline-block;
 			width: 100%;
+			height:auto;
+			margin-left: auto;
+		    margin-right: auto;
+			margin-bottom: 1em;
 			
 		}
 		.container-img figure{
 			position:relative;
 			width: 100%;
-			height: 300px;
+			height: 24em;
 			cursor: pointer;
 			overflow: hidden;
-			border-radius: 10px;
+			border-radius: 5px;
 			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 		 }
 		
@@ -3816,9 +3780,8 @@ line-height: 1.5em;
 			visibility: visible;
 		}
 		.container-img figure:hover > .capa .title-foto{
-			font-size: 1.7em;
-			margin-top: 30px;
-			margin-bottom: 15px;
+			font-size: large;
+			
 		}
 		.container-img figure:hover > img{
 			transform: scale(1.3);
@@ -3827,14 +3790,14 @@ line-height: 1.5em;
 		.container-img figure .capa .title-foto{
 			color: #FFFFFF;
 			font-weight: 400;
-			font-size: 1.7em;
+			font-size: 1.3em;
 			margin-bottom: 120px;
 			transition: all 400ms ease-out;
 			margin-top: 30px;
 		}
 		.container-img figure .capa p{
 			color: #FFFFFF;
-			font-size: 1.2em;
+			font-size: 1em;
 			line-height: 1.3;
 			width: 100%;
 			max-width: 220px;
