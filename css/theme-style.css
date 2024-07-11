@@ -1360,11 +1360,7 @@ border-radius: 1em;
 	text-align: start;
  }
 
- .conten-map{
-	display: block;
-	width: 100%;
-	padding: 1em 4em;
-}
+ 
 .barras{
 	text-align: center;
 }
@@ -1449,8 +1445,8 @@ td,th{
 
 .img-youtube
 {
-	width: 110px;
-	height: 60px;
+	width: 7em;
+	height: 4em;
 	
 	
 }
@@ -3742,10 +3738,10 @@ line-height: 1.5em;
 		.container-img figure{
 			position:relative;
 			width: 100%;
-			height: 24em;
+			height: 19em;
 			cursor: pointer;
 			overflow: hidden;
-			border-radius: 5px;
+			border-radius: 8px;
 			box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 		 }
 		
@@ -3804,6 +3800,46 @@ line-height: 1.5em;
 			margin: auto;
 		}
 		
+       /* ges en accion 320px */
+
+	   .titulo-accion{
+		padding: 0em .3em;
+		text-align: center;
+		background:  #5fd9fe;	
+	}
+.titulo-accion.text-youtube{
+	font-size: smaller;
+}
+		/* icon you tube*/
+
+.img-youtube
+{
+	width: 5em;
+	height: 3em;
+	
+	
+}
+
+
+
+.container-accion-mapa{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.secc-mapa {
+    width:100%;
+   padding: 0em 1em;
+	
+}
+iframe {
+	max-width: 100%;
+	height: 150px;
+   }
+
+
+
 
 		.loader5 {
 			position: relative;
