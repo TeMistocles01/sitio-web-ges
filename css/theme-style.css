@@ -443,7 +443,7 @@ nav a#pull {
 
 /* Cambia de posicion del texto de los sliders  */
 .slide-text-info{
-	margin-top: 14%;
+	margin-top: 9%;
 }
 
 /* Problematica */
@@ -570,7 +570,8 @@ nav a#pull {
   }
 
 .container-center{
-	padding-top: 40px;
+	width: 100%;
+	padding-top: 20px;
 	background: #5fd9fe;  
 }
 
@@ -3518,12 +3519,6 @@ line-height: 1.5em;
 }
 
 
-
-
-
-
-
-
 /*Ruta para definir medias querys https://risi.cl/media-queries-para-dispositivos-moviles-css3/ */
 /*320 medias querys */
 
@@ -3556,26 +3551,31 @@ line-height: 1.5em;
 	}
 	
 	.container-center{
-		padding-top: 10px;
+		width: 100%;
 		background: #5fd9fe;  
 	}
 	
 	.card-center{
 	    font-size: small;
 		width: 100%;
-		height: 350px;
-		margin-left: auto;
-		margin-right: auto;
+		height: 330px;
 		border:  2px #FFFFFF solid;
 		border-radius: 3px;
 		transition: 3s;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.container-logo{
 		text-align: center;
 		
 	}
-
+	.card-center:hover{
+		transform: scale(1.0);
+		box-shadow: 0 4px 9px #FFFFFF;
+		transition: 2s;
+	}
+	
 	.logo1{
 		width: 45px;
 		height:45px;
@@ -3594,7 +3594,6 @@ line-height: 1.5em;
 	.container-cards{
 		width: 100%;
 		height: 1100px;
-		
 		background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	}
 	
@@ -3603,13 +3602,18 @@ line-height: 1.5em;
 		float: left;
 		display:block;
 		width: 100%;
-		height: 520px;
+		height: 470px;
 		border: 2px solid #FFFFFF;
 		border-radius: 3px;
 		transition: 3s;
+		padding: .1em;
 		}
 	
-
+		.card-izqui:hover{
+			transform: scale(1.0);
+			box-shadow: 0 4px 9px #FFFFFF;
+			transition: 2s;
+			}
 		.card-derech{
 			position: relative;
 			float: right;
