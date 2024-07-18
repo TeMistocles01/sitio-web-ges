@@ -596,7 +596,7 @@ nav a#pull {
 
 .container-cards{
 	width: 100%;
-	height: 470px;
+	height: 440px;
 	padding: 1.5em 1.5em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
@@ -605,7 +605,7 @@ nav a#pull {
 	position: relative;
 	float: left;
 	display:block;
-    width: 44%;
+    width: 49%;
 	height: 370px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
@@ -622,12 +622,14 @@ nav a#pull {
 	position: relative;
 	float: right;
 	display:block;
-	width: 54%;
+	width: 49%;
 	height: 370px;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
 }
+
+
 
 .card-derech:hover{
 	transform: scale(1.1);
@@ -641,7 +643,10 @@ h3{
 }
 
 
-
+.container-logo2{
+	text-align: center;
+	margin: 1em 4em;	
+}
 		
 /*como surge ges 2
 .container-principal
@@ -748,8 +753,8 @@ h3{
 
 
 .logo1{
-	width: 75px;
-	height:75px;
+	width: 65px;
+	height:65px;
 	margin: 0 5em;	
 	box-shadow: 0 3px 8px #FFFFFF;
 }
@@ -757,12 +762,12 @@ h3{
 
 .contenido-text {
 	text-align: center;
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 
 .list-1{
-	line-height: 2em;
+	line-height: 1.5em;
 	padding: 1em 0;
 }
 
@@ -771,8 +776,8 @@ h3{
 }
 
 .logo-back{
-	width: 80px;
-	height:80px;
+	width: 70px;
+	height:70px;
 	box-shadow: 0 3px 8px #FFFFFF;
 }
 
@@ -853,11 +858,12 @@ h3{
 	}
   }
 
-.container-logo2{
-	
-	margin: 1em 6em;	
+  /* contenedor de los 4 iconos*/
+.container-4-img{
+	text-align: center;
+	margin: 1em 1em;	
 }
-
+ /*
 .experiencia{
 	display: inline-block;
 }
@@ -873,7 +879,7 @@ h3{
 .programacion1{
 	display: inline-block;
 }
-
+*/
 .logo2{
 	width: 60px;
 	height:60px;
@@ -988,7 +994,6 @@ h3{
 .title_card{
 	font-size: 2em;
 }
-
 
 .container-card{
 	width: 100%;
@@ -3086,7 +3091,6 @@ padding-top: .5em;
 	margin: 3em 0;
 }
 
-
 .container-logo{
 	text-align: center;
 	padding: .5em 0;
@@ -3095,14 +3099,12 @@ padding-top: .5em;
 .logo1{
 	width: 45px;
 	height:45px;
-	
 }
 
-.container-logo2{
-	text-align: center;
-	padding: .5em 0;	
-}
 .logo2{
+	margin-left: auto;
+	margin-left: auto;
+	display:block;
 	width: 40px;
 	height:40px;
 	margin: 0 .5em;
@@ -3114,12 +3116,10 @@ padding-top: .5em;
 	height: 45px;
 }
 
-
 .contenido-text {
 	text-align: center;
 	padding: 0 2em;
 }
-
 
 .list-1{
 	line-height: 1.5em;
@@ -3575,6 +3575,12 @@ line-height: 1.5em;
 		box-shadow: 0 4px 9px #FFFFFF;
 		transition: 2s;
 	}
+	.card-derech:hover{
+		transform: scale(1.0);
+		box-shadow: 0 4px 9px #FFFFFF;
+		transition: 2s;
+	
+	}
 	
 	.logo1{
 		width: 45px;
@@ -3625,9 +3631,9 @@ line-height: 1.5em;
 			transition: 3s;
 		}
 		
-		.container-logo2{
-	
-			margin: .3em 0em;	
+		.container-4-img{
+			
+			margin: 1em 5em;	
 		}
 		
 		.experiencia{
@@ -3652,6 +3658,7 @@ line-height: 1.5em;
 
 
 		.logo2{
+			margin: .2em;
 			width: 40px;
 			height:40px;
 			box-shadow: 0 3px 8px #FFFFFF;
