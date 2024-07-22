@@ -1246,7 +1246,7 @@ border-radius: 1em;
 /*Multiples lugares*/
 
 .container-imgs{
-	padding: 6em 1em 0 1em;
+	padding: 1em 1em 0 1em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
@@ -1341,12 +1341,13 @@ border-radius: 1em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
-.container-accion h2{
-	text-align: center;
-	color: #FFFFFF;
-	padding: .5em 0 0 0;
-}
 
+.titulo-mapa{
+	text-align: center;
+	display: block;
+	font-size: xx-large;
+
+}
 .container-accion-mapa{
 	position: relative;
 	display: inline-block;
@@ -1366,7 +1367,26 @@ border-radius: 1em;
 	text-align: start;
  }
 
- 
+
+ .text-youtube{
+	font-size: large;
+
+ }
+ .text-map1{
+	font-size: large;
+	
+ }
+iframe{
+	margin-top: 1em;
+}
+.text-map2{
+	text-align: center;
+	font-size: xx-large;
+	color: #FFFFFF;
+}
+
+
+
 .barras{
 	text-align: center;
 }
@@ -3559,12 +3579,11 @@ line-height: 1.5em;
 	.card-center{
 	    font-size: small;
 		width: 100%;
-		height: 330px;
+		height: 350px;
 		border:  2px #FFFFFF solid;
 		border-radius: 3px;
 		transition: 3s;
-		margin-left: auto;
-		margin-right: auto;
+		margin: auto;
 	}
 
 	.container-logo{
@@ -3585,11 +3604,12 @@ line-height: 1.5em;
 		box-shadow: 0 3px 8px #FFFFFF;
 	}
 	.list-1{
+		font-size: small;
 		line-height: 1.5em;
 		padding: 1em 0;
 	}
 	.text-final-face{
-		font-size: 1em;
+		font-size: small;
 	}
 	
 	
@@ -3600,6 +3620,7 @@ line-height: 1.5em;
 	}
 	
 	.card-izqui{
+		font-size: small;
 		position: relative;
 		float: left;
 		display:block;
@@ -3608,7 +3629,7 @@ line-height: 1.5em;
 		border: 2px solid #FFFFFF;
 		border-radius: 3px;
 		transition: 3s;
-		padding: .1em;
+		
 		}
 		.card-izqui:hover{
 			transform: scale(1.0);
@@ -3616,6 +3637,7 @@ line-height: 1.5em;
 			transition: 2s;
 			}
 		.card-derech{
+			font-size: small;
 			position: relative;
 			float: right;
 			display:block;
@@ -3624,6 +3646,7 @@ line-height: 1.5em;
 			border: 2px solid #FFFFFF;
 			border-radius: 3px;
 			transition: 3s;
+			
 		}
 		.card-derech:hover{
 			transform: scale(1.0);
@@ -3668,13 +3691,14 @@ line-height: 1.5em;
 				width: 100%;
 				max-width: 1080px;
 				margin: auto;
-				padding: .1em;
+				padding: 1em;
 				text-align: center;
 				background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
 			}
 
 			.title_card{
-				font-size: 1.3em;
+				text-align: center;
+		        font-size: 1.5em;
 			}
 
 			.container-card{
@@ -3718,10 +3742,15 @@ line-height: 1.5em;
 
 		/*funciones destacadas */		
            .features-grid,.descripccion p{
-			font-size: 1em;
+			font-size: small;
 			width: 100%;
 			margin: 0 auto;
 			}
+
+.titulo-features{
+	text-align: center;
+	font-size: small;
+}
 
   		/*Multiples sitios*/
 			
@@ -3867,8 +3896,8 @@ iframe {
    .text-map2{
 	margin: 0em .7em;
 	font-size: small;
-	
    }
+
    .img-barras{
 	width: 3.5em;
 	height: 3.5em;
