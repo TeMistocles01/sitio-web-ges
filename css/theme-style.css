@@ -629,19 +629,15 @@ nav a#pull {
 	transition: 3s;
 }
 
-
-
 .card-derech:hover{
 	transform: scale(1.1);
 	box-shadow: 0 4px 9px #FFFFFF;
 	transition: 2s;
-
 }
 
 h3{
 	text-align: center;
 }
-
 
 .container-logo2{
 	text-align: center;
@@ -748,10 +744,6 @@ h3{
 */
 /* loader*/
 
- 
-
-
-
 .logo1{
 	width: 65px;
 	height:65px;
@@ -759,12 +751,11 @@ h3{
 	box-shadow: 0 3px 8px #FFFFFF;
 }
 
-
 .contenido-text {
+	font-size: medium;
 	text-align: center;
 	padding: 0 1em;
 }
-
 
 .list-1{
 	line-height: 1.5em;
@@ -1373,7 +1364,7 @@ border-radius: 1em;
 
  }
  .text-map1{
-	font-size: large;
+	font-size: medium;
 	
  }
 iframe{
@@ -1408,24 +1399,24 @@ iframe{
     width: 50%;
     /*border: 2px solid #FFFFFF;*/
 	/*border-radius: 5px;*/
-	
-    
 }
+
+.text-sin-ges{
+	font-size: large;
+}
+
 .seccion-tabla-derecha {
 	position: relative;
 	float: right;
 	display:block;
 	width: 50%;
-	/*border: 2px solid #FFFFFF;*/
-	/*border-radius: 5px;*/
-	
-   
 }
+
 
 .contenido-tabla{
 	width: 100%;
-	
 }
+
 
 /*
 
