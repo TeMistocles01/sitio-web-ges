@@ -445,14 +445,11 @@ nav a#pull {
 .slide-text-info{
 	margin-top: 9%;
 }
-
 /* Problematica */
 
 /* colores https://es.dreamstime.com/tonos-blancos-cambia-la-paleta-con-nombres-sombras-de-color-blanco-vector-image257782189*/
 
-
 /*  strat Tarjeta giratoria*/
-
 
 .titulo-container{
 	padding: 50px 0;
@@ -460,11 +457,29 @@ nav a#pull {
 	/*background: url(/images/bg.jpg);*/   
 	background: linear-gradient(#5fd9fe 80% ,#FFFFFF);
 }
-.sub-title{
-	font-size: 2em;
-	padding-bottom: 1.3em;
+
+.sub-titles{
+	text-align: center;
+	font-size: x-large;
+	margin-bottom: .5em;
+}
+.sub-title-cards{
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
 }
 
+.text-container-estado{
+	
+	font-weight: bold;
+}
+
+.text-container{
+	margin: 0em 0em .5em 0em;
+	font-weight: bold;
+	
+
+}
 .gradiente-blanco{
 	width: 100%;
 	height: 100%;
@@ -571,11 +586,12 @@ nav a#pull {
 
 .container-center{
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 1.3em;
 	background: #5fd9fe;  
 }
 
 .card-center{
+	padding: 1em 0em;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -585,7 +601,7 @@ nav a#pull {
 }
 .container-logo{
 	text-align: center;
-	padding: .5em 0;
+	margin: 1.5em 0em;
 }
 
 .card-center:hover{
@@ -596,17 +612,17 @@ nav a#pull {
 
 .container-cards{
 	width: 100%;
-	height: 440px;
+	height: 400px;
 	padding: 1.5em 1.5em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .card-izqui{
+	padding: 1em 0em;
 	position: relative;
 	float: left;
 	display:block;
     width: 49%;
-	height: 370px;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
@@ -623,7 +639,7 @@ nav a#pull {
 	float: right;
 	display:block;
 	width: 49%;
-	height: 370px;
+	padding: 1em 0em;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
@@ -754,17 +770,15 @@ h3{
 .contenido-text {
 	font-size: medium;
 	text-align: center;
-	padding: 0 1em;
 }
+
+
 
 .list-1{
 	line-height: 1.5em;
-	padding: 1em 0;
+	margin: 1em 0em;
 }
 
-.text-final-face{
-	font-size: 1.1em;
-}
 
 .logo-back{
 	width: 70px;
@@ -784,7 +798,8 @@ h3{
   }
   
   .loader-text {
-	font-size: 25px;
+	
+	font-size: 20px;
 	font-weight: 800;
 	background: #FFFFFF;
 	-webkit-background-clip: text;
@@ -852,7 +867,7 @@ h3{
   /* contenedor de los 4 iconos*/
 .container-4-img{
 	text-align: center;
-	margin: 1em 1em;	
+	margin: 1.5em 1em;	
 }
  /*
 .experiencia{
@@ -886,10 +901,6 @@ h3{
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
-.parrafo{
-	font-size: 1.1em;
-	
-}
 
 .card-izquierda:hover .front {
 	cursor: pointer;
