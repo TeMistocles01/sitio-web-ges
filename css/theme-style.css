@@ -1221,17 +1221,21 @@ border-radius: 1em;
 	line-height: 1.3em;
     font-size: 1.6em;
 }
+.container-title {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: x-large;
+
+}
 
 .escudo{
-	width: 120px;
-	height: 120px;
+	width: 140px;
+	height: 140px;
 }
 
 .list-lugares {
-	font-size: 1.3em;
+	font-size: large;
 	list-style: none;
-	line-height: 1.6;
-	
 }
 
 /*Multiples lugares*/
@@ -1364,15 +1368,14 @@ border-radius: 1em;
 
  }
  .text-map1{
-	font-size: medium;
+	margin-bottom: 1em;
+	font-size: large;
 	
  }
-iframe{
-	margin-top: 1em;
-}
 .text-map2{
+	margin-top: 1em;
 	text-align: center;
-	font-size: xx-large;
+	font-size: x-large;
 	color: #FFFFFF;
 }
 
@@ -1382,8 +1385,8 @@ iframe{
 	text-align: center;
 }
 .img-barras{
-	width: 90px;
-	height: 90px;
+	width: 120px;
+	height: 100px;
 }
 
 .container-tablas{
@@ -1427,9 +1430,13 @@ iframe{
 
 */
 
-.center-text, h3, h4{
+.center-text {
+	font-size: large;
 	width: 100%;
 	text-align: center;
+}
+.center-text .title{
+	font-size: larger;
 }
 
 table{
