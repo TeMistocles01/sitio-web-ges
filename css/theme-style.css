@@ -461,7 +461,8 @@ nav a#pull {
 .sub-titles{
 	text-align: center;
 	font-size: x-large;
-	margin-bottom: .5em;
+	margin-bottom: .8em;
+	margin-top: .8em;
 }
 .sub-title-cards{
 	font-weight: bold;
@@ -470,26 +471,18 @@ nav a#pull {
 }
 
 .text-container-estado{
-	
 	font-weight: bold;
 }
 
 .text-container{
 	margin: 0em 0em .5em 0em;
 	font-weight: bold;
-	
-
 }
 .gradiente-blanco{
 	width: 100%;
 	height: 100%;
-	
-	
 }
 
-.container-center h2 {
-	text-align: center;
-}
 
 .container-loader{
 	width: 100%;
@@ -586,7 +579,7 @@ nav a#pull {
 
 .container-center{
 	width: 100%;
-	padding-top: 1.3em;
+	padding-top: 1.5em;
 	background: #5fd9fe;  
 }
 
@@ -612,7 +605,7 @@ nav a#pull {
 
 .container-cards{
 	width: 100%;
-	height: 400px;
+	height: 420px;
 	padding: 1.5em 1.5em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
@@ -772,8 +765,6 @@ h3{
 	text-align: center;
 }
 
-
-
 .list-1{
 	line-height: 1.5em;
 	margin: 1em 0em;
@@ -798,7 +789,6 @@ h3{
   }
   
   .loader-text {
-	
 	font-size: 20px;
 	font-weight: 800;
 	background: #FFFFFF;
@@ -1195,7 +1185,7 @@ border-radius: 1em;
 }
 
 .features-grid p{
-	font-size: 1em;
+	font-size: medium;
 	width: 85%;
 	margin: 0 auto;
 }
@@ -1252,16 +1242,22 @@ border-radius: 1em;
 /*Multiples lugares*/
 
 .container-imgs{
-	padding: 1em 1em 0 1em;
+	width: 100%;
+	text-align: center;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
 .container-img{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	
     position: relative;
     display: inline-block;
-    width: 24%;
-    height: 330px;
-	margin: 0 .4em 0 .4em;
+	
+    
+	
 }
 
 .container-img figure{
@@ -1343,7 +1339,7 @@ border-radius: 1em;
 
 .container-accion{
 	width: 100%;
-	height: 950px;
+	height: 70em;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 }
 
@@ -1386,7 +1382,7 @@ border-radius: 1em;
 .text-map2{
 	margin-top: 1em;
 	text-align: center;
-	font-size: x-large;
+	font-size: xx-large;
 	color: #FFFFFF;
 }
 
@@ -1445,9 +1441,22 @@ border-radius: 1em;
 	font-size: large;
 	width: 100%;
 	text-align: center;
+	margin-bottom: .5em;
 }
 .center-text .title{
 	font-size: larger;
+}
+
+.container-lis2{
+	height: 100%;
+	margin-left: 4em;
+    font-size: large;
+
+}
+
+.list2{
+	margin-top: .5em;
+	margin-left: 4em;
 }
 
 table{
@@ -1588,11 +1597,7 @@ p.img_slider{
 .owl-carousel2{
 	margin-top:2em;
 }
-
-
-
-
-  
+ 
 
 .logo-back:hover{
 		-webkit-transform: rotateY(180deg);
@@ -1631,8 +1636,7 @@ p.img_slider{
 }
 
 .feature-right span:hover{
-	transform: scale(.9);
-	
+	transform: scale(.9);	
 
 }
 
@@ -3574,11 +3578,17 @@ line-height: 1.5em;
 		height: 5em;
 	}
 	
-
-	.container-center h2 {
+	.sub-titles{
 		text-align: center;
-		font-size: 1.3em;
+		font-size: large;
+		margin-bottom: .5em;
 	}
+	.sub-title-cards{
+		font-weight: bold;
+		text-align: center;
+		font-size: medium;
+	}
+	
 	
 	.container-center{
 		width: 100%;
