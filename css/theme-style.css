@@ -463,11 +463,13 @@ nav a#pull {
 	font-size: x-large;
 	margin-bottom: .8em;
 	margin-top: .8em;
+	font-weight: lighter;
 }
+
 .sub-title-cards{
-	font-weight: bold;
 	text-align: center;
 	font-size: large;
+	font-weight: lighter;
 }
 
 .text-container-estado{
@@ -475,8 +477,9 @@ nav a#pull {
 }
 
 .text-container{
-	margin: 0em 0em .5em 0em;
-	font-weight: bold;
+	text-align: center;
+	
+	
 }
 .gradiente-blanco{
 	width: 100%;
@@ -598,49 +601,53 @@ nav a#pull {
 }
 
 .card-center:hover{
-	transform: scale(1.1);
-	box-shadow: 0 4px 9px #FFFFFF;
+	transform: scale(1.0);
+	box-shadow: 0 10px 20px #FFFFFF;
 	transition: 2s;
 }
 
-.container-cards{
+.container-2-cards-superior{
+	margin-top: 2em;
 	width: 100%;
-	height: 420px;
-	padding: 1.5em 1.5em;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	height: 25em;
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
 }
 
 .card-izqui{
-	padding: 1em 0em;
+	padding: 1em 1em;
 	position: relative;
 	float: left;
 	display:block;
-    width: 49%;
+    width: 47%;
     border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
+	margin-left: 2em;
+	margin-right: 0em;
 	}
 
 	.card-izqui:hover{
-	transform: scale(1.1);
-	box-shadow: 0 4px 9px #FFFFFF;
+	transform: scale(1.0);
+	box-shadow: 0 10px 20px #FFFFFF;
 	transition: 2s;
 	}
 
-.card-derech{
+.card-derecha{
+	padding: 1em 1em;
 	position: relative;
 	float: right;
 	display:block;
-	width: 49%;
-	padding: 1em 0em;
+	width: 47%;
 	border: 2px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
+	margin-left: 0em;
+	margin-right: 2em;
 }
 
-.card-derech:hover{
-	transform: scale(1.1);
-	box-shadow: 0 4px 9px #FFFFFF;
+.card-derecha:hover{
+	transform: scale(1.0);
+	box-shadow: 0 10px 20px #FFFFFF;
 	transition: 2s;
 }
 
@@ -767,6 +774,7 @@ h3{
 
 .list-1{
 	line-height: 1.5em;
+	text-align: center;
 	margin: 1em 0em;
 }
 
@@ -908,22 +916,12 @@ h3{
 }
 
 
-.card-derecha{
-	position: relative;
-    float: right;
-    display:block;
-    width: 49%;
-    height: 430px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-	border-radius: 20px;
-	transition: 3s;
-}
 
 
 /*loader 3*/
 .loader3 {
-	width: 70%;
+	
+	width: 90%;
 	height: 2px;
 	border-radius: 2px;
 	background-color: rgba(0, 0, 0, 0.2);
@@ -935,14 +933,14 @@ h3{
 	position: absolute;
 	background-color: rgb(255, 255, 255);
 	width: 0%;
-	height: 100%;
+	height: 90%;
 	border-radius: 2px;
 	animation: load 3.5s ease-in-out infinite;
 	box-shadow: rgb(255, 255, 255) 0px 2px 29px 0px;
   }
   
   .container-loader3 {
-    display: flex;
+   margin: 1em;
 	width: 70%;
   }
   
@@ -957,14 +955,7 @@ h3{
 	}
   }
 
-.card-derecha:hover {
-	cursor: pointer;
-	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
-	border-radius: 20px;
-	transform: scale(1.1);
-	border: 3px solid #FFFFFF;
-	transition: 3s;
- }
+
  /*end  como surge GES*/
 
 
@@ -1206,7 +1197,7 @@ border-radius: 1em;
 /* start galeria*/
 /*-----start-gallery----*/
 .gallery{
-	padding: 2.5em 0 0 0;
+	padding: 3em 0 0 0;
 	background: #5fd9fe;	
 }
 
@@ -1229,9 +1220,15 @@ border-radius: 1em;
 
 }
 
+.container-escudo{
+text-align: center;
+padding: 2em 0em;
+
+}
+
 .escudo{
-	width: 140px;
-	height: 140px;
+	width: 160px;
+	height: 160px;
 }
 
 .list-lugares {
@@ -1657,10 +1654,12 @@ p.img_slider{
 
 /* cambio 4*/
 .titulo-beneficios{
+
 	width: 100%;
-	height: 20px;
+	font-size: xx-large;
+	text-align: center;
 	background:#5fd9fe;
-	padding: 2em 0 4em 0;	
+	padding: 1.5em 0em;
 }
 /* cambio 4*/
 .titulo-beneficios h2{
@@ -2282,7 +2281,7 @@ para modo obscuro
 	border:  2px #FFFFFF solid;
 	border-radius: 5px;
 }
-.container-cards{
+.container-2-cards-superior{
 	width: 100%;
 	height: 900px;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
@@ -2297,7 +2296,7 @@ para modo obscuro
 	margin-left: 3em;
 	}
 
-.card-derech{
+.card-derecha{
 	display:inline-block;
 	width: 90%;
 	height: 370px;
@@ -2698,7 +2697,7 @@ margin-left: 25px;
 	border-radius: 5px;
 	transition: 3s;
 }
-.container-cards{
+.container-2-cards-superior{
 	width: 100%;
 	height: 900px;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
@@ -2713,7 +2712,7 @@ margin-left: 25px;
 	margin-left: .1em;
 	}
 
-.card-derech{
+.card-derecha{
 	display:inline-block;
 	width: 100%;
 	height: 370px;
@@ -3101,7 +3100,7 @@ padding-top: .5em;
 	border-radius: 5px;
 	transition: 3s;
 }
-.container-cards{
+.container-2-cards-superior{
 	width: 100%;
 	height: 830px;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
@@ -3116,7 +3115,7 @@ padding-top: .5em;
 	border-radius: 5px;
 	}
 
-.card-derech{
+.card-derecha{
 	display:inline-block;
 	width: 100%;
 	height: 350px;
@@ -3572,110 +3571,119 @@ line-height: 1.5em;
 		top: 1%;
 		text-align: center;
 	}
-
-	.logo_ges_titulo{
-		width: 10em;
-		height: 5em;
-	}
 	
+	/* logo cetral GES */
+	.logo_ges_titulo{
+		width: 12em;
+		height: 6em;
+	}
+
 	.sub-titles{
 		text-align: center;
-		font-size: large;
-		margin-bottom: .5em;
-	}
-	.sub-title-cards{
-		font-weight: bold;
-		text-align: center;
 		font-size: medium;
+		font-weight: lighter;
+		margin-bottom: .8em;
+		margin-top: .8em;
 	}
-	
-	
 	.container-center{
 		width: 100%;
-		background: #5fd9fe;  
-	}
-	
-	.card-center{
-	    font-size: small;
-		width: 100%;
-		height: 350px;
-		border:  2px #FFFFFF solid;
-		border-radius: 3px;
-		transition: 3s;
-		margin: auto;
+		background: #5fd9fe;
 	}
 
+	.sub-title-cards{
+		font-weight: lighter;
+		text-align: center;
+		font-size: small;
+	}
+	
+	.text-container{
+		font-size: smaller;
+		text-align: center;
+	}
+
+	.card-center{
+		width: 80%;
+		height: 23em;
+		border:  2px #FFFFFF solid;
+		border-radius: 1em;
+		transition: 3s;	
+		padding: 1em .5em;
+	}
+
+	.list-1{
+		font-size: smaller;
+		line-height: 1.3em;
+		padding: .2em 0em;
+	}
+	
 	.container-logo{
 		text-align: center;
-		
+		margin: .5em 0em
+	}
+
+	.loader12{
+		width: 40px;
+		height: 40px;
+		color: #FFFFFF;
 	}
 	.card-center:hover{
 		transform: scale(1.0);
-		box-shadow: 0 4px 9px #FFFFFF;
+		box-shadow: 0 10px 20px #FFFFFF;
 		transition: 2s;
 	}
-	
 	
 	.logo1{
 		width: 45px;
 		height:45px;
-		margin: 0 2em;	
+		margin: 0 1.4em;	
 		box-shadow: 0 3px 8px #FFFFFF;
 	}
-	.list-1{
-		font-size: small;
-		line-height: 1.5em;
-		padding: 1em 0;
-	}
-	.text-final-face{
-		font-size: small;
-	}
 	
-	
-	.container-cards{
+	.container-2-cards-superior{
+		margin-top: 2em;
 		width: 100%;
-		height: 1300px;
-		background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+		height: 61em;
+		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 	}
 	
 	.card-izqui{
-		font-size: small;
-		position: relative;
-		float: left;
-		display:block;
-		width: 100%;
-		height: 470px;
+		width: 80%;
+		height: 25em;
 		border: 2px solid #FFFFFF;
-		border-radius: 3px;
+		border-radius: 1em;
 		transition: 3s;
+		margin-left: 2.1em;
+		margin-right: 2.1em;
 		
 		}
+	
 		.card-izqui:hover{
 			transform: scale(1.0);
-			box-shadow: 0 4px 9px #FFFFFF;
+			box-shadow: 0 10px 20px #FFFFFF;
 			transition: 2s;
 			}
-		.card-derech{
-			font-size: small;
-			position: relative;
-			float: right;
-			display:block;
-			width: 100%;
-			height: 700px;
-			border: 2px solid #FFFFFF;
-			border-radius: 3px;
-			transition: 3s;
-			
-		}
-		.card-derech:hover{
+
+			.card-derecha{
+				width: 80%;
+				height: 32em;
+				border: 2px solid #FFFFFF;
+				border-radius: 1em;
+				transition: 3s;
+				margin-left: 2em;
+				margin-right: 2.1em;
+				margin-top: 2.1em;
+			}
+
+
+		.card-derecha:hover{
 			transform: scale(1.0);
-			box-shadow: 0 4px 9px #FFFFFF;
+			box-shadow: 0 10px 20px #FFFFFF;
 			transition: 2s;
 		
 		}
-		.container-4-img{
-			
-			margin: 1em 5em;	
+
+		.container-4-img{	
+			margin: 1em 0em;	
 		}
 		
 		.experiencia{
@@ -3683,7 +3691,6 @@ line-height: 1.5em;
 		}
 		
 		.analisis1{
-			
 			display: inline-block;
 		}
 		.modelo{
@@ -3698,12 +3705,22 @@ line-height: 1.5em;
 		}
 		
 		.logo2{
-			margin: .2em;
-			width: 40px;
-			height:40px;
+			margin-bottom: 1em;
+			display: inline-block;
+			width: 35px;
+			height:35px;
 			box-shadow: 0 3px 8px #FFFFFF;
 		}
-		
+		.text-icon{
+			display: inline-block;
+			font-size: xx-small;
+		}
+
+		.container-loader3 {
+			margin: .1em;
+			 width: 70%;
+		   }
+
             /* Definicion*/
 
 			.title-cards{
