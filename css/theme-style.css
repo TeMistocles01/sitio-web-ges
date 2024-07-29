@@ -1314,8 +1314,10 @@ padding: 2em 0em;
 	opacity: 1;
 	visibility: visible;
 }
+
+/* Text-grande titulo */
 .container-img figure:hover > .capa .title-foto{
-	font-size: 1.7em;
+	font-size: x-large;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
@@ -1323,24 +1325,22 @@ padding: 2em 0em;
 	transform: scale(1.3);
 }
 
-.container-img figure .capa .title-foto{
-	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 1.7em;
+/* Text-grande titulo */
+.container-img figure .capa .title-foto {
+	font-size: x-large;
+	color: #FFFFFF;	
 	margin-bottom: 120px;
 	transition: all 400ms ease-out;
 	margin-top: 30px;
 }
 
-.container-img figure .capa .title-foto {
-	
-	color: #FFFFFF;
 
-}
 
+
+/* texto pequeño imagen */
 .container-img figure .capa p{
 	color: #FFFFFF;
-	font-size: 1.2em;
+	font-size: medium;
 	line-height: 1.3;
 	width: 100%;
 	max-width: 220px;
