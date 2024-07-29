@@ -961,28 +961,34 @@ h3{
 
 /*Cards*/
 /*box-shadow: inset 30px 30px 40px 50px  #5fd9fe;*/
-.principa-car{
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);		
+.principa-cars{
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);		
 }
 
-.title-cards{
-	width: 100%;
-	max-width: 1080px;
+
+.title-definicion{
+	width: 60%;
+	font-size: x-large;
+	font-weight: lighter;
 	margin: auto;
 	padding: 1.8em;
 	text-align: center;
-	background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
+	background: linear-gradient( #5fd9fe 70%,#FFFFFF );	
+}
+.card-title{
+	text-align: center;
+	font-size: medium;
+	display: block;
+	font-weight: lighter;
 }
 
-.title_card{
-	font-size: 2em;
-}
 
 .container-card{
 	width: 100%;
 	display: flex;
 	max-width: 1100px;
 	margin: auto;
+
 }
 
 
@@ -1125,9 +1131,14 @@ border-radius: 1em;
 }
 
 .features .descripccion{
-	font-size: 1.3em;
+	font-size: large;
 	color: #FFFFFF;
 }
+
+.features .text-funciones{
+	font-size: medium;
+}
+
 /*louder9*/
 .loader9 {
 	user-select: none;
@@ -1173,6 +1184,16 @@ border-radius: 1em;
 	height: 230px;
 	display: inline-block;
 	background: url(../images/top-icons1.png) no-repeat 0px 0px;
+}
+
+.titulo-features{
+	text-align: center;
+	font-size: x-large;
+	font-weight: lighter;
+}
+
+.loader9{
+	margin: 2em 0em 0em 0em;
 }
 
 .features-grid p{
@@ -1227,8 +1248,8 @@ padding: 2em 0em;
 }
 
 .escudo{
-	width: 160px;
-	height: 160px;
+	width: 140px;
+	height: 140px;
 }
 
 .list-lugares {
@@ -1249,12 +1270,8 @@ padding: 2em 0em;
 	margin-bottom: 2em;
 	margin-left: 1em;
 	margin-right: 1em;
-	
     position: relative;
     display: inline-block;
-	
-    
-	
 }
 
 .container-img figure{
@@ -1314,6 +1331,13 @@ padding: 2em 0em;
 	transition: all 400ms ease-out;
 	margin-top: 30px;
 }
+
+.container-img figure .capa .title-foto {
+	
+	color: #FFFFFF;
+
+}
+
 .container-img figure .capa p{
 	color: #FFFFFF;
 	font-size: 1.2em;
@@ -3723,31 +3747,40 @@ line-height: 1.5em;
 
             /* Definicion*/
 
-			.title-cards{
-				width: 100%;
-				max-width: 1080px;
+
+			.principa-cars{
+				background: linear-gradient( #5fd9fe 98% ,#FFFFFF);		
+			}
+
+			.title-definicion{
+				width: 90%;
+				font-size: large;
+				font-weight: lighter;
 				margin: auto;
-				padding: 1em;
+				padding: 1.3em;
 				text-align: center;
-				background: linear-gradient( #5fd9fe 60%,#FFFFFF );	
+				background: linear-gradient( #5fd9fe 80%,#FFFFFF );	
 			}
 
-			.title_card{
-				text-align: center;
-		        font-size: 1.5em;
-			}
-
+			
 			.container-card{
 				width: 90%;
 				display: flex;
 				max-width: 1100px;
 				margin: auto;
 				display: inline-block;
-				
 			}
+
+			.card-title{
+				text-align: center;
+				font-size: medium;
+				display: block;
+				font-weight: lighter;
+			}
+
 			
-			.card{
-				
+
+			.card{	
 				width: 90%;		
 				border-radius: 3px;
 				overflow: hidden;
@@ -3776,7 +3809,8 @@ line-height: 1.5em;
 			}
 			/*fin card*/
 
-		/*funciones destacadas */		
+		/*funciones destacadas */	
+
            .features-grid,.descripccion p{
 			font-size: small;
 			width: 100%;
@@ -3785,7 +3819,8 @@ line-height: 1.5em;
 
 .titulo-features{
 	text-align: center;
-	font-size: small;
+	font-size: large;
+	font-weight: lighter;
 }
 
   		/*Multiples sitios*/
