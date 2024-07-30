@@ -1218,7 +1218,6 @@ border-radius: 1em;
 /* start galeria*/
 /*-----start-gallery----*/
 .gallery{
-	padding: 3em 0 0 0;
 	background: #5fd9fe;	
 }
 
@@ -1234,11 +1233,13 @@ border-radius: 1em;
 	line-height: 1.3em;
     font-size: 1.6em;
 }
+
+/*Multiples lugares*/
+
 .container-title {
 	text-align: center;
 	color: #FFFFFF;
 	font-size: x-large;
-
 }
 
 .container-escudo{
@@ -1257,7 +1258,6 @@ padding: 2em 0em;
 	list-style: none;
 }
 
-/*Multiples lugares*/
 
 .container-imgs{
 	width: 100%;
@@ -1266,11 +1266,10 @@ padding: 2em 0em;
 }
 
 .container-img{
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 2em;
 	margin-left: 1em;
 	margin-right: 1em;
-    position: relative;
     display: inline-block;
 }
 
@@ -3749,7 +3748,7 @@ line-height: 1.5em;
 
 
 			.principa-cars{
-				background: linear-gradient( #5fd9fe 98% ,#FFFFFF);		
+				background: linear-gradient( #5fd9fe 99% ,#FFFFFF);		
 			}
 
 			.title-definicion{
@@ -3759,7 +3758,7 @@ line-height: 1.5em;
 				margin: auto;
 				padding: 1.3em;
 				text-align: center;
-				background: linear-gradient( #5fd9fe 80%,#FFFFFF );	
+				background: linear-gradient( #5fd9fe 70%,#FFFFFF );	
 			}
 
 			
@@ -3809,44 +3808,74 @@ line-height: 1.5em;
 			}
 			/*fin card*/
 
-		/*funciones destacadas */	
-
-           .features-grid,.descripccion p{
-			font-size: small;
-			width: 100%;
-			margin: 0 auto;
-			}
-
+		/*funciones destacadas */
+	
+		.features{
+			padding:2em 0 3em;
+			/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
+			background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+			/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
+			
+		}
+		
 .titulo-features{
 	text-align: center;
 	font-size: large;
 	font-weight: lighter;
 }
 
-  		/*Multiples sitios*/
-			
-		  .list-lugares{
-			font-size: medium;
-		  }
+.features .descripccion{
+	font-size: medium;
+	color: #FFFFFF;
+}
 
-		  .container-imgs{
-			background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+.features .text-funciones{
+	font-size: small;
+}
+
+.features-grid{
+width: 100%;
+margin: 0 auto;
+			}
+
+  		/*Multiples sitios 320*/
+			
+		  .container-title {
+			margin-top: 1.5em;
+			text-align: center;
+			color: #FFFFFF;
+			font-size: large;
+		}
+		.container-escudo{
+			text-align: center;
+			padding: 0em 0em;
+			
+			}
+
+			.escudo{
+				width: 100px;
+				height: 100px;
+			}
+
+		.container-imgs{
+		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 		}
 		
 		.container-img{
 			position: relative;
 			display: inline-block;
 			width: 100%;
-			height:auto;
+			margin-top: 0em;
 			margin-left: auto;
 		    margin-right: auto;
-			margin-bottom: 1em;
+			margin-bottom: .1em;
+			
 			
 		}
 		.container-img figure{
 			position:relative;
 			width: 100%;
-			height: 19em;
+			height: 22em;
 			cursor: pointer;
 			overflow: hidden;
 			border-radius: 8px;
@@ -3911,7 +3940,7 @@ line-height: 1.5em;
        /* ges en accion 320px */
 
 	   .titulo-accion{
-		padding: 0em .3em;
+		
 		text-align: center;
 		background:  #5fd9fe;	
 	}
