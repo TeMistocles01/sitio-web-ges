@@ -1083,12 +1083,22 @@ h3{
 
 /*------ start funciones destacadas-----*/
 .features{
-	padding:2em 0 3em;
+	width: 100%;
+	height: 36em;
+	margin-top: 2em;
+	
 	/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
 	
 }
+
+.titulo-features{
+	text-align: center;
+	font-size: x-large;
+	font-weight: lighter;
+}
+
 
 /*animation container feature*/
 
@@ -1186,30 +1196,18 @@ border-radius: 1em;
 	background: url(../images/top-icons1.png) no-repeat 0px 0px;
 }
 
-.titulo-features{
-	text-align: center;
-	font-size: x-large;
-	font-weight: lighter;
-}
 
 .loader9{
 	margin: 2em 0em 0em 0em;
 }
 
-.features-grid p{
-	font-size: medium;
-	width: 85%;
-	margin: 0 auto;
-}
+
 
 .features-grid span.t-icon1{
 	background-position: -400px 0px;
 }
 .features-grid span.t-icon2{
 	background-position: -799px 0px;
-}
-.features-grids{
-	padding-top:2em;
 }
 
 /* end funciones destacadas*/
@@ -1221,20 +1219,14 @@ border-radius: 1em;
 	background: #5fd9fe;	
 }
 
-.gallery .container-centrado{
-	text-align: center;
-}
-.gallery .container-centrado h2{
-	color: #FFFFFF;
-}
+/*Multiples lugares*/
+
 
 .gallery .container p{
 	display: inline-block;
-	line-height: 1.3em;
     font-size: 1.6em;
 }
 
-/*Multiples lugares*/
 
 .container-title {
 	margin-top: 1.5em;
@@ -1246,6 +1238,7 @@ border-radius: 1em;
 .container-escudo{
 text-align: center;
 margin-bottom: 2.5em;
+margin-top: 2em;
 
 }
 
@@ -1267,7 +1260,7 @@ margin-bottom: 2.5em;
 }
 
 .container-img{
-	margin-top: 0em;
+	
 	margin-bottom: 2em;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -1348,13 +1341,28 @@ margin-bottom: 2.5em;
 
 
 /* ges en accion  */
+
 .titulo-accion{
 	width: 100%;
 	padding: 2.5em 0 1em 0;
 	text-align: center;
-	background:  #5fd9fe;	
+	background:  #5fd9fe;
 }
 
+
+.titulo-accion .titulo-mapa{
+	text-align: center;
+	display: block;
+	font-size: x-large;
+	font-weight: lighter;
+}
+
+.titulo-accion .text-youtube{
+	font-size: medium;
+
+ }
+
+ /* Contenedor inferior*/
 .container-accion{
 	width: 100%;
 	height: 70em;
@@ -1362,17 +1370,24 @@ margin-bottom: 2.5em;
 }
 
 
-.titulo-mapa{
-	text-align: center;
-	display: block;
-	font-size: xx-large;
-	font-weight: lighter;
 
-}
 .container-accion-mapa{
 	position: relative;
 	display: inline-block;
 	width: 100%;
+}
+
+
+.text-map1 {
+	margin-bottom: 1em;
+	font-size: medium;
+	
+ }
+.text-map2{
+	margin-top: 1em;
+	text-align: center;
+	font-size: xx-large;
+	color: #FFFFFF;
 }
 
 .secc-mapa {
@@ -1389,22 +1404,8 @@ margin-bottom: 2.5em;
  }
 
 
- .text-youtube{
-	font-size: large;
-
- }
- .text-map1{
-	margin-bottom: 1em;
-	font-size: large;
-	
- }
-.text-map2{
-	margin-top: 1em;
-	text-align: center;
-	font-size: xx-large;
-	color: #FFFFFF;
-}
-
+ 
+ 
 
 
 .barras{
@@ -1442,7 +1443,7 @@ margin-bottom: 2.5em;
 }
 
 
-.contenido-tabla{
+.contenido-tabla1,.contenido-tabla2{
 	width: 100%;
 }
 
@@ -1467,7 +1468,7 @@ margin-bottom: 2.5em;
 }
 
 .container-lis2{
-	height: 100%;
+	width: 100%;
 	margin-left: 4em;
     font-size: large;
 
@@ -3602,7 +3603,7 @@ line-height: 1.5em;
 
 	.sub-titles{
 		text-align: center;
-		font-size: medium;
+		font-size: large;
 		font-weight: lighter;
 		margin-bottom: .8em;
 		margin-top: .8em;
@@ -3750,12 +3751,12 @@ line-height: 1.5em;
 				background: linear-gradient( #5fd9fe 99% ,#FFFFFF);		
 			}
 
-			.title-definicion{
+			.principa-cars .title-definicion{
 				width: 90%;
 				font-size: large;
 				font-weight: lighter;
 				margin: auto;
-				padding: 1.3em;
+				margin-top: 1.3em;
 				text-align: center;
 				background: linear-gradient( #5fd9fe 70%,#FFFFFF );	
 			}
@@ -3771,7 +3772,7 @@ line-height: 1.5em;
 
 			.card-title{
 				text-align: center;
-				font-size: medium;
+				font-size: large;
 				display: block;
 				font-weight: lighter;
 			}
@@ -3809,13 +3810,12 @@ line-height: 1.5em;
 
 		/*funciones destacadas */
 	
-		.features{
-			padding:2em 0 3em;
-			/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
-			background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-			/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
-			
-		}
+.features{
+		width: 100%;
+		height: 60em;
+		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+		
+}
 		
 .titulo-features{
 	text-align: center;
@@ -3823,19 +3823,37 @@ line-height: 1.5em;
 	font-weight: lighter;
 }
 
-.features .descripccion{
+
+
+
+
+
+.features-grid,.descripccion p{
+	font-size: 1em;
+	width: 90%;
+	margin: 0 auto;
+}
+ 
+ .features-grid span.t-icon1 {
+    background-position: -210px 0px;
+ }
+ .features-grid span.t-icon2 {
+    background-position: -410px 0px;
+ }
+
+ 
+
+ .features .descripccion{
+	
 	font-size: medium;
 	color: #FFFFFF;
 }
+
 
 .features .text-funciones{
 	font-size: small;
 }
 
-.features-grid{
-width: 100%;
-margin: 0 auto;
-			}
 
   		/*Multiples sitios 320*/
 			
@@ -3843,19 +3861,23 @@ margin: 0 auto;
 			margin-top: 1.5em;
 			text-align: center;
 			color: #FFFFFF;
-			font-size: large;
+			font-size: medium;
 		}
 		.container-escudo{
+			margin: .3em 0em;
 			text-align: center;
-			margin-bottom: .2em;
+			
 		}
 
 			.escudo{
 				width: 100px;
 				height: 100px;
+				
 			}
 
 		.container-imgs{
+		width: 100%;
+		text-align: center;
 		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 		}
 		
@@ -3863,7 +3885,6 @@ margin: 0 auto;
 			
 			display: block;
 			width: 100%;
-			margin-top: 0em;
 			margin-left: auto;
 		    margin-right: auto;
 			margin-bottom: .1em;
@@ -3936,11 +3957,7 @@ margin: 0 auto;
 		
        /* ges en accion 320px */
  
-	.container-accion{
-		width: 100%;
-		height: 1150px;
-		background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-	}
+	
 
 	.titulo-accion{
 		text-align: center;
@@ -3951,29 +3968,29 @@ margin: 0 auto;
 	.titulo-mapa{
 		text-align: center;
 		display: block;
-		font-size: large;
+		font-size: x-large;
 		font-weight: lighter;
 	}
 
 .titulo-accion .text-youtube{
 	font-size: medium;
 }
-		
-/* icon you tube*/
+	
 
+/* Contenedor inferior*/
+.container-accion{
+	width: 100%;
+	height: 112em;
+	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+}
+
+/* icon you tube*/
 .img-youtube
 {
-
-	width: 6em;
-	height: 4em;
+	width: 5em;
+	height: 3.5em;
 	text-align: center;
 }
-
-.text-map1{
-font-size: medium;
-}
-
-
 .box-animate{
 	margin: 1em 0em;
 	position: relative;
@@ -3985,7 +4002,9 @@ font-size: medium;
 	overflow:hidden;
 	border-radius: 10px;
 }
-
+.text-map1{
+font-size: small;
+}
 
 .container-accion-mapa{
 	position: relative;
@@ -3995,36 +4014,64 @@ font-size: medium;
 
 .secc-mapa {
    width:100%;
-  
-	
 }
+
 iframe {
-	margin: .5em .5em;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
-	height: 280px;
-	border-radius: .8em;
+	height: 290px;
+	border-radius: .4em;
    }
 
    .text-map2{
-	margin: 0em .7em;
+	margin: .9em 0em;
 	font-size: large;
    }
 
    .img-barras{
-	width: 3.5em;
-	height: 3.5em;
+	width: 6em;
+	height: 6em;
    }
+
+   .container-tablas{
+	margin-top: 4em;
+	width: 100%;
+	background: #5fd9fe;
+}
    
+
+
 .center-text{
+	width: 100%;
+	font-size: medium;
+	margin-bottom: 0em;
+}
+
+.container-lis2{
+	width: 100%;
+	margin: 0em .5em;
+    font-size: medium;
+
+}
+
+.list2{
+	margin-top: .5em;
+	margin-left: 2em;
 	font-size: small;
 }
 
 
+
 table{
-	width: 85%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
     
+}
+
+.contenido-tabla2{
+	margin-top: 3em;
 }
 
 
