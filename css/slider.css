@@ -1,7 +1,8 @@
 .da-slider{
 	width: 70%;
-	min-width:200px;
-	height:200px;
+	min-width:270px;
+
+	min-height: 180px;
 	position: relative;
 	margin:0 auto;
 	overflow: hidden;
@@ -10,9 +11,9 @@
 	-o-transition: background-position 1s ease-out 0.3s;
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
-	margin-left: -30px;
+	margin-left: -10px;
 	background:#fff;
-	margin-top: 7%;
+	margin-top: 5%;
 	
 	
 	

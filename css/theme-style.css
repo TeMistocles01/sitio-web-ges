@@ -1563,15 +1563,10 @@ td,th{
 }
 
 .head-para{
-	width: 70%;
+	width: 100%;
 	
 }
 
-p.img_slider{
-	
-	
-	width: 79%;
-}
 
 #youtube{
 	width: 100px;
@@ -4094,11 +4089,32 @@ table{
 	display: inline-table;
  }
 
- 
- .head-para{
+ .Share-instantly-right h2{
+	font-size: large;
+    padding: .5em 0;
+}
 
-	font-size: xx-small;
- }
+.Share-instantly-right p{
+	font-size: smaller;
+	line-height: .1;
+    padding: .5em 0;
+}
+
+
+p.img_slider{
+	width: 100%;
+	
+}
+
+#youtube{
+	width: 50px;
+	height: 40px;
+}
+
+
+
+
+ 
 /* footer 320 */
 
  .footer-right input[type="text"] {
