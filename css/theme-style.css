@@ -1488,13 +1488,13 @@ table{
     
 }
 
-.sin-ges{
+.sin-ges-head{
     background: #8fadc6;
     color:white;
     font-weight: bold;
 }
 
-.con-ges{
+.con-ges-head{
     background: #8fadc6;
     color:white;
     font-weight: bold;
@@ -1529,7 +1529,6 @@ td,th{
 /*-----start-Share-instantly----*/
 
 .Share-instantly{
-	padding-top: 1em;
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);	
 }
 
@@ -1549,36 +1548,30 @@ td,th{
 }
 
 
-/*
-.Share-instantly-left span:hover {
-	-webkit-transform: rotateY(180deg);
-	-webkit-transform-style: preserve-3d;
-	transform: rotateY(180deg);
-	transform-style: preserve-3d;	
-}
-*/
+
 
 .Share-instantly-right h2{
     padding: .5em 0;
 }
 
-.head-para{
-	width: 100%;
-	
+.Share-instantly-right p{
+	font-size: medium;
 }
-
 
 #youtube{
-	width: 100px;
-	height: 90px;
+	width: 70px;
+	height: 70px;
 }
+
+
+
 
 /*loader13*/
 
   
   /* carrucel*/
 .owl-carousel2 .item p{
-	font-size: 1.3em;
+	font-size: 3em;
 }
 
 
@@ -1623,10 +1616,10 @@ td,th{
 	}
 
 
-/*------ start-feature----*/
+/*------ Actualice el numero de emergencia----*/
 .feature{
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-	padding-top:3em;
+	
 }
 .feature h2 {
 	padding: .5em 0;
@@ -4065,13 +4058,28 @@ iframe {
 }
 
 
-
 table{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
     
 }
+
+.con-ges-head{
+
+	font-size: smaller;
+}
+
+.sin-ges-head{
+	font-size: smaller;
+
+}
+
+.body-table{
+
+	font-size: small;
+}
+
 
 .contenido-tabla2{
 	margin-top: 3em;
@@ -4081,6 +4089,9 @@ table{
 
 		
 /* telefono completo */
+.Share-instantly{
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
+}
 
 .Share-instantly-left span, .feature-right span {
 	background-size: 59%;
@@ -4094,6 +4105,7 @@ table{
     padding: .5em 0;
 }
 
+/* Texto superior parrafos*/
 .Share-instantly-right p{
 	font-size: smaller;
 	line-height: .1;
@@ -4105,13 +4117,22 @@ p.img_slider{
 	width: 100%;
 	
 }
-
+/* img you tube*/
 #youtube{
 	width: 50px;
 	height: 40px;
 }
 
+/* Espacio */
+.da-img{
+margin-left: 1.5em;
+margin-top: -1.5em;
+}
 
+.da-slide{
+	margin-top: 2.5em;
+
+}
 
 
  
