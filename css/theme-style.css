@@ -1471,12 +1471,18 @@ margin-top: 2em;
 	width: 100%;
 	margin-left: 4em;
     font-size: large;
+}
 
+.container-lis2{
+	font-size: medium;
+	
 }
 
 .list2{
+	font-size: medium;
 	margin-top: .5em;
 	margin-left: 4em;
+	
 }
 
 table{
@@ -1626,7 +1632,8 @@ td,th{
 }
 
 .feature p {
-	line-height: 1.5;
+	font-size: medium;
+	
    
 	
 }
@@ -1688,8 +1695,8 @@ td,th{
 
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 20em;
+    height: 38em;
     margin: 20px;
 	
 }
@@ -1838,8 +1845,15 @@ line-height: 2.2em;
     transition: var(--transition);
 }
 
-.titulo-modal{
+.container-titulo-form{
 	text-align: center;
+	margin-top: 1em;
+}
+
+.titulo-modal{	
+	
+	font-size: x-large;
+	
 	
 }
 
@@ -1862,7 +1876,7 @@ form {
 }
 
 .inputGroup {
-	margin: 3em 0 2em 0;
+	margin: 2em 0 2em 0;
 	width: 100%;
 	position: relative;
   }
@@ -1989,22 +2003,25 @@ text-align: center;
 .download{
 	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
 	padding: 3em 0;
-}
-.download-left{
-	text-align: center;
-	margin-top: 4em;
 	
 }
-.download-left a span{
-	position: relative;
-	width:300px;  /*304px*/
-	height:290px;  /*299px*/
-	display:inline-block;
-	background:url(../images/storeplay-web-logo.jpg) no-repeat 0px 0px;
-	border-radius: 40px;
+
+.download-center{
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.download-left  span:hover{
+.logo-ges-store{
+	width: 300px;
+	height: 300px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+
+.logo-ges-store:hover{
 	border-radius:50%;
 	-webkit-border-radius:20%;
 	/*box-shadow: 0px 0px 15px 15px #777777;*/
@@ -2015,21 +2032,27 @@ text-align: center;
 	cursor: pointer;
 	}
 	
-.download-right .titulo .titulo_p{
-font-size: 2.2em; 
-color: #FFFFFF;
-}
-.start{
-	margin: 1em 0;
-}
-.start p{
-	font-size: 1.5em;
+.titulos-container{
+	margin-top: 1em;
+	
 }
 
-.download-right .comprar{
-	margin-top: 10px;
-    font-size: 1.4em;	
+.titulo_p{
+display: inline-block;
+font-size: xx-large; 
+color: #FFFFFF;
+
 }
+.calif{
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.comprar p{
+	font-size: large;
+}
+
+
 
 /* boton mostrar modal*/
 .btn_ir_modal_mostrar{
@@ -3976,7 +3999,7 @@ line-height: 1.5em;
 /* Contenedor inferior*/
 .container-accion{
 	width: 100%;
-	height: 106em;
+	height: 103em;
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
@@ -4112,11 +4135,10 @@ table{
     padding: .5em 0;
 }
 
-
 p.img_slider{
-	width: 100%;
-	
+	width: 100%;	
 }
+
 /* img you tube*/
 #youtube{
 	width: 50px;
@@ -4154,12 +4176,10 @@ margin-top: -1.5em;
 
 /*Beneficios de adquirir GES 320*/
 
-
 .titulo-beneficios{
-
+    margin-top: 1.5em;
 	font-size: large;
 }
-
 
 .titulo-beneficios h2{
 	text-align: center;	
@@ -4171,15 +4191,14 @@ margin-top: -1.5em;
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
+	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
+/* Definir el tamaño de la card*/
 .container-tarjeta .card-tarjeta{
     position: relative;
     width: 20em;
-    height: 27em;
-   ma
-	
+    height: 26em;	
 }
 
 .card-tarjeta .face {
@@ -4191,6 +4210,160 @@ margin-top: -1.5em;
     overflow: hidden;
     transition: .5s;
 	cursor: pointer;
+}
+
+.card-tarjeta .back .container-card1,.container-card2,.container-card3{
+	font-size: smaller;
+}
+
+
+/*Seccion adquirir GES*/
+
+.download{
+	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
+	padding: 3em 0;
+}
+.download-left{
+	text-align: center;
+	margin-top: 2em;
+	
+}
+.download-left a span{
+	position: relative;
+	width:300px;  /*304px*/
+	height:290px;  /*299px*/
+	display:inline-block;
+	background:url(../images/storeplay-web-logo.jpg) no-repeat 0px 0px;
+	border-radius: 40px;
+}
+
+/* Modal*/
+
+.titulo-modal{
+	text-align: center;
+	
+}
+
+
+.modal_container{
+    margin: auto;
+    width: 85%;
+    max-width: 450px;
+    max-height: 100%;
+	background: #5fd9fe;
+    border-radius: 30px;
+    padding: .8em .8em;
+    transform: var(--transform);
+    transition: var(--transition);
+}
+
+
+form {
+	width: 100%;
+	padding: 0 .5em;
+	border: 2px solid #FFFFFF;
+	border-radius: 30px;
+}
+
+.inputGroup {
+	margin: 2em 0 1em 0;
+	width: 100%;
+	position: relative;
+  }
+  
+  .inputGroup input, textarea {
+	padding: 0.5em;
+	outline: none;
+	border: 2px solid #FFFFFF;
+	/*background-color: transparent;*/
+	border-radius: 10px;
+	width: 100%;
+  }
+
+  .inputGroup label {
+	font-size: 100%;
+	position: absolute;
+	left: 0;
+	padding: 0.8em;
+	margin-left: 0.5em;
+	pointer-events: none;
+	transition: all 0.3s ease;
+	color: rgb(100, 100, 100);
+  }
+
+
+/*adquirir GES  320*/
+
+
+.download{
+	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
+	padding: 3em 0;
+}
+
+
+.download-center{
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-ges-store{
+	width: 200px;
+	height: 200px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+
+.logo-ges-store:hover{
+	border-radius:50%;
+	-webkit-border-radius:20%;
+	/*box-shadow: 0px 0px 15px 15px #777777;*/
+	-webkit-box-shadow: 0px 0px 15px 15px #5F7D8B;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transition: 400ms;
+	cursor: pointer;
+	}
+	
+.titulo_p{
+margin: 0;
+font-size: medium; 
+color: #FFFFFF;
+}
+.calif{
+	font-size: smaller;
+	margin: .5em 0;
+	font-weight: bolder;
+}
+
+.comprar p{
+	font-size: smaller;
+}
+
+
+/* boton mostrar modal*/
+.btn_ir_modal_mostrar{
+	width: 80%;
+    padding: .7em 0;
+    font-size: smaller;
+    font-weight: bold;
+    color:#5fd9fe;
+    background: #FFFFFF;
+   
+    border-radius: 8px;
+    transition: 1s all;
+    cursor:pointer;
+	margin-bottom: 30px;
+    
+}
+.btn_ir_modal_mostrar:hover{
+	color: #FFFFFF;
+	background: #5fd9fe;
+    transform: scale(1.1);
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
 	
 }
 
@@ -4199,7 +4372,8 @@ margin-top: -1.5em;
 
 
 
- 
+
+
 /* footer 320 */
 
  .footer-right input[type="text"] {
