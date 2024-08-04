@@ -4006,8 +4006,8 @@ line-height: 1.5em;
 /* Contenedor inferior*/
 .container-accion{
 	width: 100%;
-	height: 95em;
-	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+	height: 89em;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 }
 
 /* icon you tube*/
@@ -4060,6 +4060,10 @@ iframe {
 	height: 4em;
    }
 
+   .center-text{
+	width: 100%;
+	height: 20px;
+}
    .container-tablas{
 	margin-top: 2em;
 	width: 100%;
@@ -4124,7 +4128,7 @@ td,th{
 		
 /* telefono completo */
 .Share-instantly{
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);	
 }
 
 .Share-instantly-left span, .feature-right span {
@@ -4169,6 +4173,12 @@ margin-top: -1.5em;
 }
 
 /* Actualice el numero de emergencia*/
+.feature{
+
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+}
+
+
 
 .feature-left h2{
 	font-size: large;
@@ -4190,7 +4200,7 @@ margin-top: -1.5em;
 
 .titulo-beneficios{
 	font-size: large;
-	padding: 1em 0em;
+	margin-top: 1.5em;
 }
   
 .container-tarjeta{
@@ -4286,33 +4296,12 @@ line-height: 1.4em;
 
 
 
-/*Seccion adquirir GES*/
 
-.download{
-	background: linear-gradient( #5fd9fe 90%,#FFFFFF);
-	padding: 3em 0;
-}
-.download-left{
-	text-align: center;
-	margin-top: 2em;
-	
-}
-.download-left a span{
-	position: relative;
-	width:300px;  /*304px*/
-	height:290px;  /*299px*/
-	display:inline-block;
-	background:url(../images/storeplay-web-logo.jpg) no-repeat 0px 0px;
-	border-radius: 40px;
-}
-
-/* Modal*/
+/* Modal formulario*/
 
 .titulo-modal{
 	text-align: center;
-	
 }
-
 
 .modal_container{
     margin: auto;
@@ -4437,6 +4426,7 @@ color: #FFFFFF;
 }
 
 
+/* ficha tecnica 320*/
 
 
 
@@ -4466,19 +4456,5 @@ color: #FFFFFF;
 	top:70%;
  }
  
- .download-left a span {
-	background-size: 60%;
-	width: 200px;
-	height: 125px;
-	background-position: 50px 0;
- }
- .download-right ul li a span {
-	width: 250px;
-	height:35px;
-	background-size: 95%;
-	background-position:1px 0;
- }
-.download-right ul li a.l-google span {
-	display: none;
- }
+ 
 }
