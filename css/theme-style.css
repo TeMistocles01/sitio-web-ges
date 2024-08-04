@@ -224,15 +224,6 @@ nav a#pull {
   margin: 0 auto;
 }
 
-.card-center{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	border:  2px #FFFFFF solid;
-	border-radius: 5px;
-	padding-bottom: 30px;
-	transition: 3s;
-}
 
 
 
@@ -449,7 +440,7 @@ nav a#pull {
 
 /* colores https://es.dreamstime.com/tonos-blancos-cambia-la-paleta-con-nombres-sombras-de-color-blanco-vector-image257782189*/
 
-/*  strat Tarjeta giratoria*/
+
 
 .titulo-container{
 	padding: 50px 0;
@@ -478,6 +469,7 @@ nav a#pull {
 
 .text-container{
 	text-align: center;
+	font-size: medium;
 	
 	
 }
@@ -587,7 +579,7 @@ nav a#pull {
 }
 
 .card-center{
-	padding: 1em 0em;
+	padding: 2em 0em;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -609,12 +601,12 @@ nav a#pull {
 .container-2-cards-superior{
 	margin-top: 2em;
 	width: 100%;
-	height: 25em;
+	height: 29em;
 	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
 }
 
 .card-izqui{
-	padding: 1em 1em;
+	padding: 2em 0em;
 	position: relative;
 	float: left;
 	display:block;
@@ -633,7 +625,7 @@ nav a#pull {
 	}
 
 .card-derecha{
-	padding: 1em 1em;
+	padding: 2em 0em;
 	position: relative;
 	float: right;
 	display:block;
@@ -773,6 +765,7 @@ h3{
 }
 
 .list-1{
+	font-size: medium;
 	line-height: 1.5em;
 	text-align: center;
 	margin: 1em 0em;
@@ -1357,7 +1350,7 @@ margin-top: 2em;
 	font-weight: lighter;
 }
 
-.titulo-accion .text-youtube{
+.text-youtube{
 	font-size: medium;
 
  }
@@ -1431,9 +1424,6 @@ margin-top: 2em;
 	/*border-radius: 5px;*/
 }
 
-.text-sin-ges{
-	font-size: large;
-}
 
 .seccion-tabla-derecha {
 	position: relative;
@@ -1443,8 +1433,8 @@ margin-top: 2em;
 }
 
 
-.contenido-tabla1,.contenido-tabla2{
-	width: 100%;
+.text-sin-ges{
+	font-size: large;
 }
 
 
@@ -1463,14 +1453,12 @@ margin-top: 2em;
 	text-align: center;
 	margin-bottom: .5em;
 }
-.center-text .title{
-	font-size: larger;
-}
+
 
 .container-lis2{
 	width: 100%;
 	margin-left: 4em;
-    font-size: large;
+    font-size: medium;
 }
 
 .container-lis2{
@@ -1485,6 +1473,17 @@ margin-top: 2em;
 	
 }
 
+
+
+.resaltado-gris{
+	background-color:#8fadc6; ;
+	font-weight: 800;
+	color: #FFFFFF;
+	
+}
+
+
+
 table{
 	width: 90%;
 	height: 250px;
@@ -1495,18 +1494,19 @@ table{
 }
 
 .sin-ges-head{
-    background: #8fadc6;
+    background: #738493;
     color:white;
     font-weight: bold;
 }
 
 .con-ges-head{
-    background: #8fadc6;
+    background: #738493;
     color:white;
     font-weight: bold;
 }
 
 td,th{
+	text-align: center;
     border: 1px solid #FFFFFF;
     padding: 8px 15px;
 }
@@ -1672,16 +1672,11 @@ td,th{
 
 /* cambio 4*/
 .titulo-beneficios{
-
 	width: 100%;
 	font-size: xx-large;
 	text-align: center;
 	background:#5fd9fe;
-	padding: 1.5em 0em;
-}
-/* cambio 4*/
-.titulo-beneficios h2{
-	text-align: center;	
+	padding: 1em 0em;
 }
   
 .container-tarjeta{
@@ -1689,14 +1684,14 @@ td,th{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 55vh;
 	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
 }
 
 .container-tarjeta .card-tarjeta{
     position: relative;
     width: 20em;
-    height: 38em;
+    height: 28em;
     margin: 20px;
 	
 }
@@ -1728,7 +1723,7 @@ td,th{
     object-fit: cover;
 }
 
-
+/* Beneficios card frontal*/
 .card-tarjeta .front h3 {
     position: absolute;
     bottom: 0;
@@ -1737,6 +1732,7 @@ td,th{
     color: #FFFFFF;
     background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
     text-align: center;
+	font-size: large;
 	/*rgba(95,217,254,.9);*/
 }
 
@@ -1758,39 +1754,50 @@ td,th{
     line-height: 50px;
 }
 
+/* texto bajo card*/
 .card-tarjeta .back .link  {
+	font-size: smaller;
 	text-align: center;
     color: #000000; /* tetxo bajo*/
 }
 
+/* titulo card posterior*/
 .card-tarjeta .back h3 {
-    font-size: 1.5em;
+    font-size: large;
 	color: #FFFFFF;
 	text-align: center;
-	padding-bottom: 1em;	
+	padding-bottom: .5em;	
 }
- 
-/*checar*/
+
+/* titulo card posterior*/
+.card-tarjeta .back p {
+	font-weight: bold;
+    font-size: smaller;	
+}
+
 
 .card-tarjeta .back .container-card1{
-	padding-top: 1.2em;
-	padding-bottom: 1.2em;
-	line-height: 4.9em;
+	font-size: smaller;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	line-height: 3.7em;
 		  
 	}
 	/*checar*/
 
 .card-tarjeta .back .container-card2{
-padding-top: 1.2em;
+font-size: smaller;
+padding-top: 1em;
 padding-bottom: 1.2em;
-line-height: 2.2em;
+line-height: 2em;
 	  
 }
 
 .card-tarjeta .back .container-card3{
-	padding-top: 1.2em;
+	font-size: smaller;
+	padding-top: 1em;
 	padding-bottom: 1.2em;
-	line-height: 2.5em;
+	line-height: 2em;
 		  
 	}
 
@@ -2014,9 +2021,9 @@ text-align: center;
 }
 
 .logo-ges-store{
-	width: 300px;
-	height: 300px;
-	border-radius: 30px;
+	width: 19em;
+	height: 19em;
+	border-radius: 2.5em;
 	display: inline-block;
 }
 
@@ -3999,7 +4006,7 @@ line-height: 1.5em;
 /* Contenedor inferior*/
 .container-accion{
 	width: 100%;
-	height: 103em;
+	height: 95em;
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
@@ -4049,39 +4056,38 @@ iframe {
    }
 
    .img-barras{
-	width: 5em;
-	height: 5em;
+	width: 4em;
+	height: 4em;
    }
 
    .container-tablas{
-	margin-top: 1em;
+	margin-top: 2em;
 	width: 100%;
-	background: #5fd9fe;
 }
    
 
 .center-text{
-	width: 100%;
-	font-size: medium;
-	margin-bottom: 0em;
+	font-size: smaller;
+	
 }
 
 .container-lis2{
 	width: 100%;
-	margin: 0em .5em;
-    font-size: small;
+	margin-left: .5em;
+    font-size: x-small;
 
 }
 
 .list2{
 	margin-top: .5em;
 	margin-left: 2em;
-	font-size: small;
+	font-size: x-small;
 }
 
 
 table{
 	width: 100%;
+	height: 220px;
 	margin-left: auto;
 	margin-right: auto;
     
@@ -4099,12 +4105,18 @@ table{
 
 .body-table{
 
-	font-size: small;
+	font-size: x-small;
 }
 
 
 .contenido-tabla2{
 	margin-top: 3em;
+}
+
+td,th{
+	text-align: center;
+    border: 1px solid #FFFFFF;
+    padding: 2px 8px;
 }
 
 /* coadyubar con el mp 320*/
@@ -4177,12 +4189,8 @@ margin-top: -1.5em;
 /*Beneficios de adquirir GES 320*/
 
 .titulo-beneficios{
-    margin-top: 1.5em;
 	font-size: large;
-}
-
-.titulo-beneficios h2{
-	text-align: center;	
+	padding: 1em 0em;
 }
   
 .container-tarjeta{
@@ -4190,15 +4198,16 @@ margin-top: -1.5em;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 55vh;
 	background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 }
 
 /* Definir el tamaño de la card*/
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 20em;
-    height: 26em;	
+    width: 15em;
+    height: 26em;
+	margin: 20px;	
 }
 
 .card-tarjeta .face {
@@ -4212,9 +4221,69 @@ margin-top: -1.5em;
 	cursor: pointer;
 }
 
-.card-tarjeta .back .container-card1,.container-card2,.container-card3{
-	font-size: smaller;
+/* Beneficios card frontal*/
+.card-tarjeta .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 45px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
+    text-align: center;
+	font-size: medium;
+	/*rgba(95,217,254,.9);*/
 }
+
+/* texto bajo card*/
+.card-tarjeta .back .link  {
+	font-size: smaller;
+	text-align: center;
+    color: #000000; /* tetxo bajo*/
+}
+
+/* titulo card posterior*/
+.card-tarjeta .back h3 {
+    font-size: medium;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: .3em;	
+}
+
+/* titulo card posterior*/
+.card-tarjeta .back p {
+	font-weight: bold;
+    font-size: smaller;
+		
+}
+
+.card-tarjeta .back .container-card1{
+	font-size: smaller;
+	padding-top: .5em;
+	padding-bottom: 1.2em;
+	line-height: 2em;
+		  
+	}
+	/*checar*/
+
+.card-tarjeta .back .container-card2{
+font-size: smaller;
+padding-top: .5em;
+padding-bottom: 1em;
+line-height: 1.4em;
+	  
+}
+
+.card-tarjeta .back .container-card3{
+	font-size: smaller;
+	padding-top: .5em;
+	padding-bottom: 1em;
+	line-height: 1.1em;
+		  
+	}
+
+
+
+
 
 
 /*Seccion adquirir GES*/
@@ -4309,9 +4378,9 @@ form {
 }
 
 .logo-ges-store{
-	width: 200px;
-	height: 200px;
-	border-radius: 30px;
+	width: 15em;
+	height: 15em;
+	border-radius: 2.5em;
 	display: inline-block;
 }
 
