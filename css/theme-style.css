@@ -437,20 +437,36 @@ nav a#pull {
 .slide-text-info{
 	margin-top: 9%;
 }
-/* Problematica */
+
 
 /* colores https://es.dreamstime.com/tonos-blancos-cambia-la-paleta-con-nombres-sombras-de-color-blanco-vector-image257782189*/
 
-.sub-titles{
-	text-align: center;
-	margin-bottom: .8em;
-	margin-top: .8em;
+
+
+
+
+/* origen y definicion */
+
+.container-origen-y-definicion{
+	width: 100%;
+	height: 70em;
+	padding-top: 1.5em;
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	
 }
 
-.sub-titles p{
+
+.sub-title{
+	text-align: center;
+	margin: 1.5em 0em;
+	
+}
+
+.sub-title p{
 	font-size: large;
 	font-weight: lighter;
 }
+
 
 .sub-title-cards{
 	text-align: center;
@@ -564,15 +580,10 @@ nav a#pull {
 	}
   }
 
-.container-center{
-	width: 100%;
-	padding-top: 1.5em;
-	background: #5fd9fe;  
-}
 
 .card-center{
 	padding: 2em 0em;
-	width: 50%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	border:  3px #FFFFFF solid;
@@ -587,23 +598,22 @@ nav a#pull {
 }
 
 .container-2-cards-superior{
-	margin-top: 2em;
 	width: 100%;
-	height: 29em;
-	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	text-align: center;
+	margin-top: 2.5em;
+
 }
 
 .card-izqui{
 	padding: 2em 0em;
-	position: relative;
-	float: left;
-	display:block;
-    width: 47%;
+	display:inline-block;
+    width: 40%;
     border: 3px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
-	margin-left: 2em;
-	margin-right: 0em;
+	margin-right: 2em;
+	margin-left: auto;
+	
 	}
 
 	.card-izqui:hover{
@@ -614,16 +624,62 @@ nav a#pull {
 
 .card-derecha{
 	padding: 2em 0em;
-	position: relative;
-	float: right;
-	display:block;
-	width: 47%;
+	display:inline-block;
+	width: 40%;
 	border: 3px solid #FFFFFF;
 	border-radius: 5px;
 	transition: 3s;
-	margin-left: 0em;
-	margin-right: 2em;
+	margin-left: 2em;
+	margin-right: auto;
+	
 }
+
+.logo2:hover{
+-webkit-transform: rotateY(960deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(960deg);
+transform-style: preserve-3d;
+transition: 3s;
+
+}
+
+/*loader 3*/
+
+
+
+.loader3 {
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	border-radius: 2px;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding-left: 2em;
+	
+  }
+  
+  .loader3::before {
+	
+	content: "";
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	width: 0%;
+	height: 2px;
+	border-radius: 2px;
+	animation: load 3.5s ease-in-out infinite;
+	box-shadow: rgb(255, 255, 255) 0px 2px 29px 0px;
+  }
+  
+  
+  @keyframes load {
+	50% {
+	  width: 100%;
+	}
+  
+	100% {
+	  right: 0;
+	  left: unset;
+	}
+  }
 
 .card-derecha:hover{
 	transform: scale(1.0);
@@ -636,106 +692,7 @@ nav a#pull {
 	text-align: center;
 	margin: 1em 4em;	
 }
-		
-/*como surge ges 2
-.container-principal
-{
-	width: 100%;
-	height: 420px;
-	padding: 0em 1.8em;
-	background: #5fd9fe;
-	
-}
 
-.card-izquierda {
-	position: relative;
-	float: left;
-	display:block;
-    width: 49%;
-    height: 430px;
-	border-radius: 20px;
-}
-
-.card-izquierda .face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-	border-radius: 20px;
-    overflow: hidden;
-    transition: .5s;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-.card-izquierda .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-	transition: 2s;
-}
-.container-principal h3{
-	text-align: center;
-	color: #FFFFFF;	
-}
-
-
-
-/*  strat Tarjeta giratoria
-
-
-.titulo-container{
-	width: 100%;
-	padding: 50px 0;
-	background: #5fd9fe;
-	
-}
-
-.titulo-container h1 {
-	text-align: center;
-	color: #FFFFFF;
-}
-
-                  
-.container-principal
-{
-	width: 100%;
-	height: 420px;
-	padding: 0em 1.8em;
-	background: #5fd9fe;
-}
-
-.card-izquierda {
-	position: relative;
-	float: left;
-	display:block;
-    width: 49%;
-    height: 430px;
-	border-radius: 20px;
-}
-
-.card-izquierda .face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-	border-radius: 20px;
-    overflow: hidden;
-    transition: .5s;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
- 
-.card-izquierda .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-	transition: 2s;
-}
-
-.container-principal h3{
-	text-align: center;
-	color: #FFFFFF;	
-}
-*/
-/* loader*/
 
 .logo1{
 	width: 65px;
@@ -870,21 +827,6 @@ nav a#pull {
 }
 
   
-.card-izquierda .back { 
-    transform: perspective(600px) rotateX(180deg);
-    box-shadow: 0 5px 10px #000;
-	transition: 2s;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-
-.card-izquierda:hover .front {
-	cursor: pointer;
-    transform: perspective(900px) rotateX(180deg);
-	border: 4px solid #FFFFFF;
-	
-	/*transform: scale(1.1);*/
-}
 
 .card-izquierda:hover .back {
 	cursor: pointer;
@@ -896,50 +838,14 @@ nav a#pull {
 
 
 
-/*loader 3*/
-.loader3 {
-	
-	width: 90%;
-	height: 2px;
-	border-radius: 2px;
-	background-color: rgba(0, 0, 0, 0.2);
-	position: absolute;
-  }
-  
-  .loader3::before {
-	content: "";
-	position: absolute;
-	background-color: rgb(255, 255, 255);
-	width: 0%;
-	height: 90%;
-	border-radius: 2px;
-	animation: load 3.5s ease-in-out infinite;
-	box-shadow: rgb(255, 255, 255) 0px 2px 29px 0px;
-  }
-  
-  .container-loader3 {
-   margin: 1em;
-	width: 70%;
-  }
-  
-  @keyframes load {
-	50% {
-	  width: 100%;
-	}
-  
-	100% {
-	  right: 0;
-	  left: unset;
-	}
-  }
-
-
  /*end  como surge GES*/
 
 
 /*Cards*/
 /*box-shadow: inset 30px 30px 40px 50px  #5fd9fe;*/
 .principa-cars{
+	width: 100%;
+	padding-top: 1em;
 	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);		
 }
 
@@ -2324,772 +2230,39 @@ para modo obscuro
  }
 
 
- /* origen ges 1024 */
-
- .container-center{
-	padding-top: 40px;
-	background: #5fd9fe;
-	padding: 1em 2.8em;
-	margin: 0 auto;
-}
- .card-center{
-	width: 90%;
-	height: 370px;
-	display: block;
-	border:  2px #FFFFFF solid;
-	border-radius: 5px;
-}
-.container-2-cards-superior{
-	width: 100%;
-	height: 900px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-.card-izqui{
-	display:inline-block;
-    width: 90%;
-	height: 370px;
-    border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	margin-left: 3em;
-	}
-
-.card-derecha{
-	display:inline-block;
-	width: 90%;
-	height: 370px;
-	border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	margin: 4em 0;
-	margin-right: 4em;
-}
-
-/* gestion estacionamiento seguro card*/
-
-.principa-car{
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);	
-}
-
-.container-card{
-	width: 95%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
-}
-
-.title-cards{
-	width: 85%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 30px;
-	text-align: center;
-	background: linear-gradient( #5fd9fe 70%,#FFFFFF );
-	/*background-color: #5fd9fe;*/
-}
-
-.card{
-	width: 100%;
-	margin: 1em;
-	border-radius: 6px;
-	overflow: hidden;
-	background:#FFFFFF;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;
-}
-
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
-}
-
-.list-lugares {
-	font-size: 1.2em;
-	list-style: none;
-	line-height: 1.5;
-	
-}
-
-.gallery .container p{
-	display: inline-block;
-	line-height: 1.3em;
-    font-size: 1.4em;
-}
-
-/* multiples lugares cards */
-.container-imgs{
-	padding: 3em 5px 0 5px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-.container-img{
-    position: relative;
-    display: inline-block;
-    width: 24%;
-    height: 330px;
-	margin: 0 .2em 0 .2em;
-}
-
-.container-img figure:hover > .capa .title-foto{
-	font-size: 1.5em;
-	margin-top: 25px;
-	margin-bottom: 15px;
-
-}
-.container-img figure:hover > img{
-	transform: scale(1.2);
-}
-
-.container-img figure .capa .title-foto{
-	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 1.5em;
-	margin-bottom: 120px;
-	transition: all 400ms ease-out;
-	margin-top: 25px;
-	
-}
-.container-img figure .capa p{
-	color: #FFFFFF;
-	font-size: 1.1em;
-	line-height: 1;
-	width: 100%;
-	max-width: 220px;
-	margin: auto;
-}
-
-/* ges en accion  */
-.container-accion{
-	width: 100%;
-	height: 930px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-.container-accion-mapa{
-	position: relative;
-	display: inline-block;
-	width: 100%;	
-}
-
-.titulo-accion h3{
-	font-size: 1.4em;	
-}
-.secc-mapa h4{
-	font-size: 1.4em;
-	padding: .5em 0;
-	text-align: start;
- }
-
-.secc-mapa {
-    width:90%;
-    height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
- .secc-mapa h4{
-	font-size: 1.4em;
-	padding: .5em 0;
-	text-align: start;
- }
-
- .conten-map{
-	display: block;
-	width: 100%;
-	padding: 1em 1em;
-}
-
-.container-tablas{
-	width: 100%;
-	background: #5fd9fe;	
-}
-
-.seccion-tabla-izquierda {
-	position: relative;
-	float: left;
-	display:block;
-    width: 50%;
-    /*border: 2px solid #FFFFFF;*/
-	/*border-radius: 5px;*/
-}
-
-.seccion-tabla-derecha {
-	position: relative;
-	float: right;
-	display:block;
-	width: 50%;
-}
-
-.contenido-tabla{
-	width: 100%;
-}
-
-.center-text{
-	width: 100%;
-	height: 50px;
-}
-
-.center-text, h3, h4{
-	font-size: 1em;
-	text-align: center;
-}
-
-table{
-	width: 96%;
-	height: 250px;
-	margin: 15px 0 0 0;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sin-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-.con-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-td,th{
-    border: 1px solid #FFFFFF;
-    padding: 8px 15px;
-}
-
-
-/* icon you tube*/
-.img-youtube
-{
-	width: 140px;
-	height: 70px;
-}
-
-/* end ges en accion */
-
-/*coadyubar */
-.Share-instantly{
-	padding-bottom: 25px;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);	
-}
-
-
-.Share-instantly-right p{
-	line-height: 1.3;   	
-}
-
- .header{
-	left:0;
- }
-
-
- .download-right p {
-	font-size: 1.8em;
- }
  
- .feature-left {
-	margin: 0 0 2em 0;
- }
- .download-left {
-	margin-top: 2.2em;
- }
- .slide-text-info {
-	margin-top: 7%;
- }
-
- .container-tarjeta{
-	display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    min-height: 75vh;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-}
-
-/*beneficios*/
-
-.container-tarjeta{
-	display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    min-height: 85vh;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-}
-
-.container-tarjeta .card-tarjeta{
-    position: relative;
-    width: 300px;
-    height: 450px;
-    margin: 15px;	
-}
-
-.card-tarjeta .back .container-card1{
-	padding-top: 1.2em;
-	padding-bottom: 1.2em;
-	line-height: 4.2em; 
-	}
-
-	/* Se crea no existe en la vista mayor a 1024 */
-	.card-tarjeta .front h3 {
-		font-size: 1.5em;
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		line-height: 45px;
-		color: #FFFFFF;
-		background: rgba(0,0,0,.4); /*rgba(0,0,0,.4); */
-		text-align: center;
-		/*rgba(95,217,254,.9);*/
-	}
-	
-	
-
-.card-tarjeta .back .container-card2{
-padding-top: 1.2em;
-padding-bottom: 1.2em;
-line-height: 1.9em;
-}
-
-.card-tarjeta .back .container-card3{
-	padding-top: 1.2em;
-	padding-bottom: 1.2em;
-	line-height: 2.1em;  
-	}
-
- /* Funciones destacadas*/
- .features-grid span {
-	width: 120px;
-	height: 120px;
-	background-size: 446%;
- }
- .features-grid span.t-icon1 {
-    background-position: -210px 0px;
- }
- .features-grid span.t-icon2 {
-    background-position: -410px 0px;
- }
- 
- .Share-instantly-left span{
-	background-size:65%;
-	width: 270px;
-	height: 430px;
- }
-
- .feature-right span{
-	background-size:75%;
-	width: 270px;
-	height: 430px;	
- }
-
-
- .download-left a span {
-	background-size:100%;
-	width: 250px;
-	height: 240px;
-	display:inline-block;
-	border-radius: 30px;
- }
-
- .download-right .titulo .titulo_p{
-	font-size: 2.2em; 
-	color: #FFFFFF;
-	}
- 
- .start{
-	margin: .5em 0;
-}
-.start p{
-	font-size: 1.5em;
-}
-
- .download-right .comprar{
-	margin-top: 5px;
-    font-size: .8em;	
-}
-
-p.cousel_demo{
-	display:none;
-}
-
-
-/*  footer*/
-
-.box {
-margin-left: 25px;
-}
-  
-}
-
-
-
-@media (max-width:800px){
- .top-nav ul li a {
-	color: #FFF;
-	padding: 2em 0.4em;
-	font-size: 0.8125em;
- }
-
- .logo_ges{
-	width: 90px;
-	height: 50px;	
-}
-
-
-/* origen ges 800 */
-
-.container-center{
-	padding-top: 40px;
-	background: #5fd9fe;
-	padding: .5em 3em;
-	margin: 0 auto;
-}
- .card-center{
-	width: 100%;
-	height: 350px;
-	display: block;
-	border:  2px #FFFFFF solid;
-	border-radius: 5px;
-	transition: 3s;
-}
-.container-2-cards-superior{
-	width: 100%;
-	height: 900px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-}
-
-.card-izqui{
-	display:inline-block;
-    width: 100%;
-	height: 370px;
-    border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	margin-left: .1em;
-	}
-
-.card-derecha{
-	display:inline-block;
-	width: 100%;
-	height: 370px;
-	border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	margin: 3em 0;
-}
-
-
-.slide-text-info{
-	margin-top: 17%;
-}
-
- .slide-text-info h1 {
-	font-size: 2em;
- }
- .slide-text-info-btns {
-	margin-top: 1.5em;
- }
- .slide-text-info-btns {
-	margin-top: 1.5em;
- }
- .callbacks_tabs {
-	left: 40%;
- }
- 
- .head-para {
-	width: 100%;
- }
-
- /* cards gestion estacionamiento seguro*/
-
-.principa-car{
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
-}
-
-.container-card{
-	width: 98%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
-}
-
-.title-cards{
-	width: 85%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 30px;
-	text-align: center;
-	background: linear-gradient( #5fd9fe 80%,#FFFFFF );
-	/*background-color: #5fd9fe;*/
-	
-}
-
-.card{
-	width: 100%;
-	margin: .3em;
-	border-radius: 6px;
-	overflow: hidden;
-	background:#FFFFFF;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;	
-}
-
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
-}
-
-
-.features-grid,.descripccion p{
-	font-size: 1em;
-	width: 50%;
-	margin: 0 auto;
-}
-
-
-
-
-/*Multiples */
-.container-imgs{
-	padding: 4em 1em 0 1em;
-}
-
-.container-img{
-    position: relative;
-    display: inline-block;
-    width: 48%;
-    height: 330px;
-	margin: 0 .4em 0 .4em;
-}
-
-.container-img figure:hover > .capa .title-foto{
-	font-size: 1.5em;
-	margin-top: 40px;
-	margin-bottom: 15px;
-}
-.container-img figure:hover > img{
-	transform: scale(1.2);
-}
-
-.container-img figure .capa .title-foto{
-	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 1.5em;
-	margin-bottom: 120px;
-	transition: all 400ms ease-out;
-	margin-top: 20px;
-}
-.container-img figure .capa p{
-	color: #FFFFFF;
-	font-size: 1em;
-	line-height: 1.3;
-	width: 100%;
-	max-width: 220px;
-	margin: auto;
-}
-
-/* ges en accion  */
-
-.container-accion-mapa{
-	position: relative;
-	display: inline-block;
-	width: 100%;	
-}
-
-.secc-mapa {
-    width:90%;
-    height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
- 
-.titulo-accion h3{
-	font-size: 1.4em;	
-}
-.secc-mapa h4{
-	font-size: 1.4em;
-	padding: .5em 0;
-	text-align: start;
- }
-
- .conten-map{
-	display: block;
-	width: 100%;
-	padding: 1em .5em;
-}
-
-.container-tablas{
-	width: 100%;
-	background: #5fd9fe;	
-}
-
-.seccion-tabla-izquierda {
-	position: relative;
-	float: left;
-	display:block;
-    width: 50%;
-}
-
-.seccion-tabla-derecha {
-	position: relative;
-	float: right;
-	display:block;
-	width: 50%; 
-}
-
-.contenido-tabla{
-	width: 100%;
-}
-
-.center-text{
-	text-align: center;
-}
-
-table{
-	width: 96%;
-	height: 250px;
-	margin: 15px 0 0 0;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sin-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-.con-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-td,th{
-    border: 1px solid #FFFFFF;
-    padding: 8px 15px;
-}
-
-.img-youtube
-{
-	width: 140px;
-	height: 70px;
-}
-
-/* end ges en accion */
-
-
-/*beneficios*/
-
-.container-tarjeta{
-	display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    min-height: 75vh;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-}
-
-.container-tarjeta .card-tarjeta{
-    position: relative;
-    width: 250px;
-    height: 400px;
-    margin: 5px;
-	
-}
-.card-tarjeta .back h3 {
-	font-size: 1.5em;
-	color: #FFFFFF;
-	text-align: center;
-	padding-bottom: .2em;
-		
-}
-.card-tarjeta .back .container-card1{
-	line-height: 2.6em;
-	padding-top: .5em;
-		  
-	}
-	/*checar*/
-
-.card-tarjeta .back .container-card2{
-
-line-height: 1.4em;
-padding-top: .5em;
-	  
-}
-
-.card-tarjeta .back .container-card3{
-	line-height: 1.3em;
-	padding-top: .5em;
-	
-		  
-	}
 	
 
 	
 	
-/*end  beneficios*/
-
- div.col-md-5.Share-instantly-left, div.col-md-5.feature-right{
-    text-align: center;
- }
- .Share-instantly-left span, .feature-right span {
-	background-size: 85%;
-	width: 250px;
-	height: 330px;
-	display: inline-table;
- }
- div.col-md-7.download-right {
-    text-align: center;
- }
-    
- .download {
-	background: linear-gradient( #5fd9fe 96%,#FFFFFF);
-	padding: 4em 0;
- }
-
-.container-btn-formulario{
-	text-align: center;
-}
-
-
- .footer {
-	padding:10px 0;
- }
- .Share-instantly-right h3, .feature h3{
-	font-size: 1.5em;
- }
-
- .pie-pagina{
-    width: 100%;
-	background: url(/images/bg.jpg);
-    
-}
-
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:2px;
-    padding: 45px 0px;
-	color: #efebeb;
-}
-	
-.box {
-	margin-left: 25px;
-	}
-.box  p{
-    font-size: 1em;
-}
 
 
 
 }
 
 @media (max-width:768px){
- .top-nav ul li.active a, .top-nav ul li a:hover {
+
+ 
+}
+
+
+@media (max-width:640px){
+ 
+
+/* origen ges 640 */
+
+  
+}
+
+
+/*Ruta para definir medias querys https://risi.cl/media-queries-para-dispositivos-moviles-css3/ */
+/*320 medias querys */
+
+@media screen and (min-width:0px) and (max-width:320px){
+
+	
+	
+.top-nav ul li.active a, .top-nav ul li a:hover {
 	color: #5fd9fe;
   }
   .top-nav ul li a {
@@ -3104,512 +2277,29 @@ padding-top: .5em;
  nav a#pull img {
    margin-right:0;
  }
-}
-
-
-@media (max-width:640px){
- .header {
-	position: absolute;
-	top: 0;
-	z-index: 777;
-	right: 0;
- }
-
-
- .logo_ges{
-	width: 70px;
-	height: 40px;	
-}
- .slide-text-info h1 {
-	font-size: 1.5em;
- }
- .callbacks_tabs {
-	left: 36%;
- }
- .footer {
-	padding: 10px 0;
- }
- 
- .callbacks_tabs {
-    top:83%;
- }
- .feature-right span {
-	height: 320px;
- }
-
-
-/* origen ges 640 */
-
-.container-center{
-	padding-top: 40px;
-	background: #5fd9fe;
-	padding: .5em 1em;
-	margin: 0 auto;
-}
- .card-center{
-	width: 90%;
-	height: 290px;
-	display: block;
-	border:  2px #FFFFFF solid;
-	border-radius: 5px;
-	transition: 3s;
-}
-.container-2-cards-superior{
-	width: 100%;
-	height: 830px;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	
-}
-
-.card-izqui{
-	display:inline-block;
-    width: 100%;
-	height: 350px;
-    border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	}
-
-.card-derecha{
-	display:inline-block;
-	width: 100%;
-	height: 350px;
-	border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	margin: 3em 0;
-}
-
-.container-logo{
-	text-align: center;
-	padding: .5em 0;
-}
-
-.logo1{
-	width: 45px;
-	height:45px;
-}
-
-.logo2{
-	margin-left: auto;
-	margin-left: auto;
-	display:block;
-	width: 40px;
-	height:40px;
-	margin: 0 .5em;
-	box-shadow: 0 3px 8px #FFFFFF;
-}
-
-.logo-back{
-	width: 45px;
-	height: 45px;
-}
-
-.contenido-text {
-	text-align: center;
-	padding: 0 2em;
-}
-
-.list-1{
-	line-height: 1.5em;
-	padding: 1em 0;
-}
-
-.text-final-face{
-	font-size: 1.1em;
-}
-
-
-/* cards gestion estacionamiento seguro 640 */
-
-.principa-car{
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
-}
-
-.container-card{
-	width: 100%;
-	display: flex;
-	max-width: 1100px;
-	margin: auto;
-}
-
-.title-cards{
-	width: 85%;
-	max-width: 1080px;
-	margin: auto;
-	padding: 20px;
-	text-align: center;
-	background: linear-gradient( #5fd9fe 80%,#FFFFFF );
-	/*background-color: #5fd9fe;*/
 	
-}
-
-.card{
-	width: 100%;
-	margin: .2em;
-	border-radius: 6px;
-	overflow: hidden;
-	background:#FFFFFF;
-	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-	transition: all 400ms ease-out;
-	cursor: default;	
-}
-
-.card .contenido-card{
-	padding: 15px;
-	text-align: center;
-}
-
-/*Multiples */
-.container-imgs{
-	padding: auto;
-}
-
-.container-img{
-    position: relative;
-    display: inline-block;
-    width: 47%;
-    height: 330px;
-	margin: 0 .5em 0 .5em;
-}
-
-.container-img figure:hover > .capa .title-foto{
-	font-size: 1.5em;
-	margin-top: 40px;
-	margin-bottom: 15px;
-}
-.container-img figure:hover > img{
-	transform: scale(1.2);
-}
-
-.container-img figure .capa .title-foto{
-	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 1.7em;
-	margin-bottom: 120px;
-	transition: all 400ms ease-out;
-	margin-top: 20px;
-}
-.container-img figure .capa p{
-	color: #FFFFFF;
-	font-size: 1em;
-	line-height: 1.3;
-	width: 100%;
-	max-width: 220px;
-	margin: auto;
-}
-/* ges en accion  */
-
-.titulo-accion{
-	width: 100%;
-	padding: 2.5em auto;
-	text-align: center;
-	background:  #5fd9fe;	
-}
-
-
-.container-accion{
-	width: 100%;
-	height: 1280px;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-}
-
-.container-accion h2{
-	font-size: 1.9em;
-	text-align: center;
-	color: #FFFFFF;
-	padding: 1em 0 0 0;
 	
-
-}
-
-.container-accion-mapa{
-	position: relative;
-	display: inline-block;
-	width: 100%;	
-}
-
-.secc-mapa {
-    width:97%;
-    height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
- .secc-mapa h4{
-	font-size: 1.4em;
-	padding: .5em .5em;
-	text-align: start;
- }
-
- .conten-map{
-	display: block;
-	width: 100%;
-	padding: 1em .5em;
-}
-
-.container-tablas{
-	width: 100%;
-	background: #5fd9fe;	
-}
-
-.seccion-tabla-izquierda {
-	position: relative;
-	display:block;
-    width: 100%;
-}
-
-.seccion-tabla-derecha {
-	position: relative;
-	display:block;
-	width: 100%; 
-}
-
-.contenido-tabla{
-	width: 100%;
-}
-
-.center-text, h3, h4{
-	font-size: 1.1em;
-	text-align: center;
-}
-
-table{
-	width: 96%;
-	height: 250px;
-	margin: 15px 0 0 0;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sin-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-.con-ges{
-    background: #8fadc6;
-    color:white;
-    font-weight: bold;
-}
-
-td,th{
-    border: 1px solid #FFFFFF;
-    padding: 8px 15px;
-}
-
-.img-youtube
-{
-	width: 140px;
-	height: 70px;
-}
-.center-text{
-	width: 100%;
-	height: 60px;
-}
-
-/* end ges en accion */
-
-/*beneficios*/
-
-.container-tarjeta{
 	
-   flex-direction: column;
-    align-items: center;
-    justify-content: center;
-	background: linear-gradient( #5fd9fe 90% ,#FFFFFF);
-}
-
-.container-tarjeta .card-tarjeta{
-    position: relative;
-    width: 500px;
-    height: 350px;
-	margin: 1.2em 0;
-}
-
-.card-tarjeta .back .container-card1{
-	padding-top: .5em;
-	padding-bottom: 2.5em;
-	line-height: 2em;
-		  
-	}
-	/*checar*/
-
-.card-tarjeta .back .container-card2{
-padding-top: .5em;
-padding-bottom: 2em;
-line-height: 1.5em;
-	  
-}
-
-.card-tarjeta .back .container-card3{
-	padding-top: .5em;
 	
-	line-height: 1.3em;
-		  
-	}
-	.card-tarjeta .back h3 {
-		font-size: 1.5em;
-		color: #FFFFFF;
-		text-align: center;
-		padding-bottom: 1em;	
-	}
+	/*Ajuste cabecero*/
+
+	.header {
+		position: absolute;
+		top: 0;
+		z-index: 777;
+		right: 0;
+	 }
 	
-/*end  beneficios*/
-
-
-.download {
-	padding: 3em 0;
- }
-
-.container-btn-formulario{
-	text-align: center;
-}
-
-
- .footer {
-	padding:10px 0;
- }
- .Share-instantly-right h3, .feature h3{
-	font-size: 1em;
- }
-
- .pie-pagina{
-    width: 100%;
-	background: url(/images/bg.jpg);
-    
-}
-
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:10px;
-    padding: 45px 0px;
-	color: #efebeb;
-}
 	
-.box {
+	 .logo_ges{
+		width: 70px;
+		height: 40px;	
+	}
+	 .slide-text-info h1 {
+		font-size: 1em;
+	 }
 	
-	}
-.box  p{
-    font-size: 1em;
-}
-
-
-.social-container{
-	width: fit-content;
-	height: fit-content;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 25px 25px;
-	gap: 20px;
-  }
-  
-  
-  .socialContainer {
-	  width: 52px;
-	  height: 52px;
-	  border-radius: 50%;
-	  background-color: rgb(44, 44, 44);
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  overflow: hidden;
-	  transition-duration: .3s;
-	}
-  
-  /* instagram*/
-  .containerOne:hover {
-	  background-color: #d62976;
-	  transition-duration: .3s;
-	}
-	/* twitter*/
-	.containerTwo:hover {
-	  background-color: #00acee;
-	  transition-duration: .3s;
-	}
-	/* linkdin*/
-	.containerThree:hover {
-	  background-color: #0072b1;
-	  transition-duration: .3s;
-	}
-	/* Whatsapp*/
-	.containerFour:hover {
-	  background-color: #128C7E;
-	  transition-duration: .3s;
-	}
-	
-	.socialContainer:active {
-	  transform: scale(0.9);
-	  transition-duration: .3s;
-	}
-	
-	.socialSvg {
-	  width: 17px;
-	}
-	
-	.socialSvg path {
-	  fill: rgb(255, 255, 255);
-	}
-	
-	.socialContainer:hover .socialSvg {
-	  animation: slide-in-top 0.3s both;
-	}
-	
-	@keyframes slide-in-top {
-	  0% {
-		transform: translateY(-50px);
-		opacity: 0;
-	  }
-	
-	  100% {
-		transform: translateY(0);
-		opacity: 1;
-	  }
-	}
-	
-  
-  .pie-pagina .grupo-2{
-	  background-color: #000;
-	  padding: 15px 15px;
-	  text-align: center;
-	  color: #fff;
-  }
-  
-  #toTop {
-	  display: none;
-	  text-decoration: none;
-	  position: fixed;
-	  bottom: 26px;
-	  right: 3%;
-	  overflow: hidden;
-	  width: 40px;
-	  height: 40px;
-	  border: none;
-	  text-indent: 100%;
-	  background: url("../images/to-top.png") no-repeat 0px 0px;
-	  border-radius: 30em;
-  }
-  #toTopHover {
-	  width: 40px;
-	  height: 40px;
-	  display: block;
-	  overflow: hidden;
-	  float: right;
-	  opacity: 0;
-	  -moz-opacity: 0;
-	  filter: alpha(opacity=0);
-  }
-  
-}
-
-
-/*Ruta para definir medias querys https://risi.cl/media-queries-para-dispositivos-moviles-css3/ */
-/*320 medias querys */
-
-@media screen and (min-width:0px) and (max-width:320px){
 	.callbacks .caption {
 		display: block;
 		position: absolute;
@@ -3626,33 +2316,42 @@ line-height: 1.5em;
 		text-align: center;
 	}
 	
-	/* logo cetral GES */
-	.logo_ges_titulo{
-		width: 12em;
-		height: 6em;
-	}
 
-	.sub-titles{
-		text-align: center;
-		margin-bottom: .8em;
-		margin-top: .8em;
-	}
 
-	.sub-titles p{
-		font-size: small;
-		font-weight: lighter;
+
+	/* 320 origen y definicion */
+
+
+	.container-origen-y-definicion{
+		width: 100%;
+		height: 100em;
+		padding-top: 1em;
+		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+		
 	}
 	
-	.container-center{
-		width: 100%;
-		height: max-content;
-		background: #5fd9fe;
+	
+	.sub-title{
+		text-align: center;
+		margin: 1.5em 0em;
 	}
+	
+
+	.sub-title p{
+		font-size: small;
+		
+	}
+	
+	
 
 	.sub-title-cards{	
 		text-align: center;
 	}
 
+	.logo_ges_titulo{
+		width: 12em;
+		height: 6em;
+	}
 
 	.card-center{
 		width: 80%;
@@ -3711,9 +2410,7 @@ line-height: 1.5em;
 	
 	.container-2-cards-superior{
 		margin-top: 2em;
-		width: 100%;
-		height: max-content;
-		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
+		
 	}
 	
 	.card-izqui{
@@ -3733,7 +2430,7 @@ line-height: 1.5em;
 			transition: 2s;
 			}
 
-			.card-derecha{
+	.card-derecha{
 				width: 80%;
 				height: max-content;
 				border: 2px solid #FFFFFF;
@@ -3790,6 +2487,14 @@ line-height: 1.5em;
 			margin: .1em;
 			 width: 70%;
 		   }
+
+
+
+
+
+
+
+
 
             /* Definicion*/
 
