@@ -474,6 +474,7 @@ nav a#pull {
 .sub-title-cards p{
 	font-size: medium;
 	font-weight: lighter;
+
 }
 
 .text-container{
@@ -2366,6 +2367,7 @@ para modo obscuro
 
 	.sub-title p{
 		font-size: medium;
+	
 		
 	}
 	
@@ -2376,7 +2378,9 @@ para modo obscuro
 
 	.sub-title-cards p{	
 		font-size: smaller;
+		
 	}
+
 
 	.text-container{
 		text-align: center;
@@ -2386,8 +2390,16 @@ para modo obscuro
 		font-size: small;	
 	}
 	
-
+	.contenido-text {
 	
+		text-align: center;
+		
+	}
+	
+	.contenido-text p{
+		
+		font-size: smaller;
+	}	
 
 	.card-center{
 		width: 80%;
@@ -2398,15 +2410,14 @@ para modo obscuro
 		padding: 1.5em 1em;
 		
 	}
-	.sub-title-cards{
-		width: 100%;
-	}
-	.sub-title-cards p{
-		font-size: smaller;
+
+	.container-list-1{
+		margin: .5em 0em;
 		
 	}
 	
-	.list-1{
+	
+	.list{
 		font-size: x-small;
 		line-height: 1.7em;
 		
