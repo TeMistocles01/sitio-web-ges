@@ -442,24 +442,18 @@ nav a#pull {
 /* colores https://es.dreamstime.com/tonos-blancos-cambia-la-paleta-con-nombres-sombras-de-color-blanco-vector-image257782189*/
 
 
-
-
-
 /* origen y definicion */
 
 .container-origen-y-definicion{
 	width: 100%;
-	height: 70em;
-	padding-top: 1.5em;
+	max-height: max-content;
+	padding: 3em 0em;
 	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-	
 }
-
 
 .sub-title{
 	text-align: center;
-	margin: 1.5em 0em;
-	
+	margin: 1.5em 0em;	
 }
 
 .sub-title p{
@@ -467,10 +461,10 @@ nav a#pull {
 	font-weight: lighter;
 }
 
-
 .sub-title-cards{
 	text-align: center;
 }
+
 .sub-title-cards p{
 	font-size: medium;
 	font-weight: lighter;
@@ -826,23 +820,7 @@ transition: 3s;
 	text-align: center;
 	margin: 1.5em 1em;	
 }
- /*
-.experiencia{
-	display: inline-block;
-}
 
-.analisis1{
-	display: inline-block;
-}
-.modelo{
-	display: inline-block;
-
-}
-
-.programacion1{
-	display: inline-block;
-}
-*/
 .logo2{
 	width: 60px;
 	height:60px;
@@ -859,17 +837,17 @@ transition: 3s;
 	border: 4px solid #FFFFFF;
 }
 
-
-
-
  /*end  como surge GES*/
 
 
-/*Cards*/
+/* Definicion */
+
 /*box-shadow: inset 30px 30px 40px 50px  #5fd9fe;*/
+
 .principa-cars{
 	width: 100%;
-	padding-top: 1em;
+	max-height: max-content;
+	padding: 1em 0em;
 	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);		
 }
 
@@ -900,7 +878,6 @@ transition: 3s;
 	display: flex;
 	max-width: 1100px;
 	margin: auto;
-
 }
 
 
@@ -996,9 +973,8 @@ transition: 3s;
 /*------ start funciones destacadas-----*/
 .features{
 	width: 100%;
-	height: 36em;
-	margin-top: 2em;
-	
+	max-height: max-content;
+	padding: 1em 0em;
 	/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
@@ -1167,16 +1143,29 @@ margin-top: 2em;
 
 .container-imgs{
 	width: 100%;
-	text-align: center;
+	height: max-content;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	
 }
 
+.bloke1{
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+.bloke2{
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+
 .container-img{
-	
 	margin-bottom: 2em;
 	margin-left: 1em;
 	margin-right: 1em;
-    display: inline-block;
+	display: inline-block;
+    
 }
 
 .container-img figure{
@@ -2340,9 +2329,6 @@ para modo obscuro
 		text-align: center;
 	}
 	
-
-
-
 	/* 320 origen y definicion */
 
 	.logo_ges_titulo{
@@ -2352,54 +2338,49 @@ para modo obscuro
 
 	.container-origen-y-definicion{
 		width: 100%;
-		height: 100em;
+		height: 102em;
 		padding-top: 1em;
-		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
-		
+		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
 	}
-	
 	
 	.sub-title{
 		text-align: center;
 		margin: 1.5em 0em;
 	}
 	
-
 	.sub-title p{
-		font-size: medium;
-	
-		
+		font-size: medium;	
 	}
 	
-
 	.sub-title-cards{	
 		text-align: center;
 	}
 
 	.sub-title-cards p{	
-		font-size: smaller;
+		font-size: small;
 		
 	}
+
+	.contenido-text {
+		text-align: center;
+	}
+	
+	.contenido-text p{
+		font-size: smaller;
+	}	
 
 
 	.text-container{
 		text-align: center;
 	}
 	
-	.text-container p, .text-icon{
+	.text-icon{
 		font-size: small;	
 	}
 	
-	.contenido-text {
-	
-		text-align: center;
-		
-	}
-	
-	.contenido-text p{
-		
+	.text-container p{
 		font-size: smaller;
-	}	
+	}
 
 	.card-center{
 		width: 80%;
@@ -2407,8 +2388,7 @@ para modo obscuro
 		border:  3px #FFFFFF solid;
 		border-radius: .8em;
 		transition: 3s;	
-		padding: 1.5em 1em;
-		
+		padding: 1.5em 1em;	
 	}
 
 	.container-list-1{
@@ -2416,14 +2396,11 @@ para modo obscuro
 		
 	}
 	
-	
 	.list{
 		font-size: x-small;
 		line-height: 1.7em;
 		
 	}
-
-	
 
 	.container-logo{
 		text-align: center;
@@ -2454,13 +2431,14 @@ para modo obscuro
 	}
 	
 	.card-izqui{
+		padding: 1.5em 1em;
 		width: 80%;
 		height: max-content;
 		border: 3px solid #FFFFFF;
 		border-radius: 1em;
 		transition: 3s;
-		margin-left: 2.1em;
-		margin-right: 2.1em;
+		margin-left: auto;
+		margin-right: auto;
 		
 		}
 	
@@ -2471,16 +2449,16 @@ para modo obscuro
 			}
 
 	.card-derecha{
+				padding: 1.5em 1em;
 				width: 80%;
 				height: max-content;
 				border: 2px solid #FFFFFF;
 				border-radius: 1em;
 				transition: 3s;
-				margin-left: 2em;
-				margin-right: 2.1em;
+				margin-left: auto;
+				margin-right: auto;
 				margin-top: 2.1em;
 			}
-
 
 		.card-derecha:hover{
 			transform: scale(1.0);
@@ -2523,62 +2501,51 @@ para modo obscuro
 			font-size: xx-small;
 		}
 
-		.container-loader3 {
-			margin: .1em;
-			 width: 70%;
-		   }
-
-
-
-
-
-
-
-
-
-            /* Definicion*/
-
+		
+            /* 320 Definicion*/
 
 			.principa-cars{
-				background: linear-gradient( #5fd9fe 99% ,#FFFFFF);		
+				width: 100%;
+				max-height: max-content;
+				padding: 1em 0em;
+				background: linear-gradient( #5fd9fe 98% ,#ffffff);		
 			}
 
-			.principa-cars .title-definicion{
-				width: 90%;
-				font-size: large;
-				font-weight: lighter;
-				margin: auto;
-				margin-top: 1.3em;
+			.title-definicion{
+				width: 70%;
 				text-align: center;
-				background: linear-gradient( #5fd9fe 70%,#FFFFFF );	
+				background: linear-gradient( #5fd9fe 80%,#FFFFFF );	
 			}
 
-			
+			.title-definicion p{
+				font-size: medium;
+			}
+
 			.container-card{
-				width: 90%;
-				display: flex;
+				margin-top: 1em;
+				width: 100%;
 				max-width: 1100px;
-				margin: auto;
-				display: inline-block;
+				display: block;
 			}
 
 			.card-title{
 				text-align: center;
-				font-size: medium;
+				font-size: small;
 				display: block;
 				font-weight: lighter;
 				font-weight: bold;				
 			}
 
 			.card{	
-				width: 90%;		
-				border-radius: 1em;
+				width: 80%;		
+				border-radius: .8em;
 				overflow: hidden;
 				background:#FFFFFF;
 				box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
 				transition: all 400ms ease-out;
 				cursor: default;
-				margin: 2.2em;
+				margin-left: auto;
+				margin-right: auto;
 				
 			}
 			
@@ -2627,23 +2594,21 @@ para modo obscuro
 
 			/*fin card*/
 
-		/*funciones destacadas */
+		/*320 funciones destacadas */
 	
 .features{
+		max-height: max-content;
+		padding: 1em 0em;
 		width: 100%;
-		height: 60em;
 		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
 		
 }
 		
 .titulo-features{
 	text-align: center;
-	font-size: large;
-	font-weight: lighter;
+	font-size: medium;
+	
 }
-
-
-
 
 
 
@@ -2653,12 +2618,7 @@ para modo obscuro
 	margin: 0 auto;
 }
  
- .features-grid span.t-icon1 {
-    background-position: -210px 0px;
- }
- .features-grid span.t-icon2 {
-    background-position: -410px 0px;
- }
+
 
  
 
@@ -2695,26 +2655,25 @@ para modo obscuro
 			}
 
 	.container-imgs{
+		
 		width: 100%;
-		height: 100%;
-		text-align: center;
+		height: max-content;
 		background: linear-gradient( #5fd9fe 99% ,#FFFFFF);
 		}
 		
 		.container-img{
 			display: block;
 			width: 100%;
-			height: 50%;
-			margin-left: auto;
-		    margin-right: auto;
-			margin-bottom: 1em;
+			height: 40%;
+			
+			
 		}
 
 		/* tamaño de card*/
 		.container-img figure{
 			position:relative;
 			width: 100%;
-			height: 14em;
+			height: max-content;
 			cursor: pointer;
 			overflow: hidden;
 			border-radius: 12px;
@@ -2723,7 +2682,7 @@ para modo obscuro
 		
 		 .container-img figure img{
 			width: 100%;
-			height: 100%;
+			height: max-content;
 			transition: all 400ms ease-out;
 			will-change: transform;
 		}
@@ -2745,7 +2704,7 @@ para modo obscuro
 			opacity: 0;
 			visibility: hidden;
 			text-align: center;
-			padding: 0 1.5em;
+			
 		}
 		.container-img figure:hover > .capa {
 			opacity: 1;
