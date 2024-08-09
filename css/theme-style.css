@@ -476,7 +476,7 @@ nav a#pull {
 }
 
 .text-container p, .text-icon{
-	font-size: smaller;	
+	font-size: medium;	
 }
 
 
@@ -653,46 +653,8 @@ transition: 3s;
 transform: rotateY(960deg);
 transform-style: preserve-3d;
 transition: 3s;
-
 }
 
-/*loader 3*/
-
-
-
-.loader3 {
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	border-radius: 2px;
-	background-color: rgba(0, 0, 0, 0.2);
-	padding-left: 2em;
-	
-  }
-  
-  .loader3::before {
-	
-	content: "";
-	position: absolute;
-	background-color: rgb(255, 255, 255);
-	width: 0%;
-	height: 2px;
-	border-radius: 2px;
-	animation: load 3.5s ease-in-out infinite;
-	box-shadow: rgb(255, 255, 255) 0px 2px 29px 0px;
-  }
-  
-  
-  @keyframes load {
-	50% {
-	  width: 100%;
-	}
-  
-	100% {
-	  right: 0;
-	  left: unset;
-	}
-  }
 
 .card-derecha:hover{
 	transform: scale(1.0);
@@ -716,7 +678,7 @@ transition: 3s;
 
 .contenido-text p{
 	
-	font-size: smaller;
+	font-size: medium;
 }
 
 .container-list-1{
@@ -727,12 +689,12 @@ transition: 3s;
 .list{
 	text-align: center;
 	display: block;
-	font-size: smaller;
+	font-size: medium;
 	
 }
 
 
-.logo-back{
+.icono-soborno{
 	width: 70px;
 	height:70px;
 	box-shadow: 0 3px 8px #FFFFFF;
@@ -974,7 +936,7 @@ transition: 3s;
 .features{
 	width: 100%;
 	max-height: max-content;
-	padding: 1em 0em;
+	padding: 2em 0em;
 	/*box-shadow: inset 10px 10px 40px 40px  #5fd9fe;*/
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
 	/*box-shadow: inset 10px 10px 30px  #5fd9fe;*/
@@ -1116,19 +1078,22 @@ border-radius: 1em;
 }
 
 
-.container-title {
-	margin-top: 1.5em;
+.container-title{
+ text-align: center;
+ padding: 0em 0em 3em 0em;
+}
+
+.bloke-central{
 	text-align: center;
+	padding: 0em 0em 1.5em 0em;
+}
+
+.container-title p{
+
 	color: #FFFFFF;
-	font-size: x-large;
+	font-size: xx-large;
 }
 
-.container-escudo{
-text-align: center;
-margin-bottom: 2.5em;
-margin-top: 2em;
-
-}
 
 .escudo{
 	width: 130px;
@@ -1145,7 +1110,7 @@ margin-top: 2em;
 	width: 100%;
 	height: max-content;
 	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
-	
+	padding: 1.5em 0em;
 }
 
 .bloke1{
@@ -1253,47 +1218,41 @@ margin-top: 2em;
 	background:  #5fd9fe;
 }
 
-
-.titulo-accion .titulo-mapa{
-	text-align: center;
-	display: block;
-	font-size: x-large;
-	font-weight: lighter;
+.titulo-accion p{
+  font-size: x-large;
 }
 
 .text-youtube{
+	display: block;
 	font-size: medium;
-
  }
 
  /* Contenedor inferior*/
 .container-accion{
 	width: 100%;
-	height: 65em;
-	background: linear-gradient( #5fd9fe 95% ,#FFFFFF);
+	height: max-content;
+	background: linear-gradient( #5fd9fe 97% ,#FFFFFF);
+	padding-bottom: 3em;
 }
 
-
-
 .container-accion-mapa{
+	margin-top: 2em;
 	position: relative;
 	display: inline-block;
 	width: 100%;
 }
 
 .text-map1{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 .text-map1 p {
-	
-	font-size: medium;
-	
+	font-size: large;
  }
 
 .text-map2 {
-	margin-top: 1.5em;
-	text-align: center;
 	
+	padding: .5em 0em;
+	text-align: center;
 }
 
 .text-map2 p{
@@ -1306,30 +1265,22 @@ margin-top: 2em;
     height: 300px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
-
- .secc-mapa h4{
-	font-size: 1.4em;
-	padding: .5em 0;
-	text-align: start;
- }
-
-
- 
- 
 
 
 .barras{
 	text-align: center;
 }
 .img-barras{
-	width: 120px;
-	height: 100px;
+	width: 100px;
+	height: 80px;
 }
 
 .container-tablas{
+	margin-top: 2em;
 	width: 100%;
-	background: #5fd9fe;
+	
 	
 }
 
@@ -1350,54 +1301,32 @@ margin-top: 2em;
 	width: 50%;
 }
 
-
-
-
-/*
-
-.center-text{
-	width: 100%;
-	height: 50px;
-}
-
-*/
-
 .center-text {
-	
 	width: 100%;
 	text-align: center;
-	margin-bottom: .5em;
+	padding: 1em 0em .5em 0em;
 }
 
 .center-text p{
 	font-size: large;
-	
 }
 
-
 .container-lis2{
+	text-align: center;
 	width: 100%;
-	margin-left: 4em;
-   
 }
 
 .container-lis2 p{
-	font-size: small;
-	
+	font-size: medium;	
 }
 
-.list2{
-	font-size: small;
-	margin-top: .5em;
-	margin-left: 4em;
-	
+.container-lis2 .list2{
+	font-size: medium;
+	margin-top: .5em; 	
 }
-
-
 
 .resaltado-gris{
 	background-color:#8fadc6; ;
-	font-weight: 800;
 	color: #FFFFFF;
 	
 }
@@ -1414,22 +1343,23 @@ table{
 }
 
 .sin-ges-head{
-    background: #738493;
+    background: #708293;
     color:white;
-    font-weight: bold;
+    
 }
 
 .con-ges-head{
-    background: #738493;
+    background: #708293;
     color:white;
-    font-weight: bold;
+	
+    
 }
 
 td,th{
 	text-align: center;
     border: 1px solid #FFFFFF;
     padding: 8px 15px;
-	font-size: small;
+	font-size: medium;
 }
 
 
@@ -1477,18 +1407,22 @@ td,th{
 
 
 
-.Share-instantly-right h2{
-    padding: .5em 0;
-}
+.conatainer-mp{
+	margin-top: 1.5em;
 
+}
 .Share-instantly-right p{
 	font-size: medium;
 }
 
-#youtube{
-	width: 70px;
-	height: 70px;
+
+.loader3-container{
+	width: 80%;
+
 }
+
+
+
 
 
 
@@ -1534,7 +1468,7 @@ td,th{
 }
  
 
-.logo-back:hover{
+.icono-soborno:hover{
 		-webkit-transform: rotateY(180deg);
 		-webkit-transform-style: preserve-3d;
 		transform: rotateY(180deg);
@@ -1617,8 +1551,8 @@ td,th{
 
 .container-tarjeta .card-tarjeta{
     position: relative;
-    width: 20em;
-    height: 28em;
+    width: 22em;
+    height: 32em;
     margin: 20px;
 	
 }
@@ -1632,9 +1566,7 @@ td,th{
     overflow: hidden;
     transition: .5s;
 	cursor: pointer;
-	
 }
-
 
 
 .card-tarjeta .front {
@@ -1683,49 +1615,46 @@ td,th{
 
 /* texto bajo card*/
 .card-tarjeta .back .link  {
-	font-size: smaller;
+	font-size: small;
 	text-align: center;
     color: #000000; /* tetxo bajo*/
 }
 
 /* titulo card posterior*/
-.card-tarjeta .back h3 {
+.card-tarjeta .back .title-back {
     font-size: large;
+	
 	color: #FFFFFF;
 	text-align: center;
-	padding-bottom: .5em;	
+	margin-top: 1em;	
 }
 
 /* titulo card posterior*/
 .card-tarjeta .back p {
-	font-weight: bold;
-    font-size: smaller;	
+    font-size: medium;	
 }
 
 
 .card-tarjeta .back .container-card1{
-	font-size: smaller;
-	padding-top: 1em;
+	font-size: medium;
+	padding-top: .5em;
 	padding-bottom: 2em;
-	line-height: 3.7em;
-		  
+	line-height: 3em;  
 	}
 	/*checar*/
 
 .card-tarjeta .back .container-card2{
-font-size: smaller;
-padding-top: 1em;
+font-size: medium;
+padding-top: .5em;
 padding-bottom: 1.2em;
-line-height: 2em;
-	  
+line-height: 1.5em; 
 }
 
 .card-tarjeta .back .container-card3{
-	font-size: smaller;
-	padding-top: 1em;
+	font-size: medium;
+	padding-top: .5em;
 	padding-bottom: 1.2em;
-	line-height: 2em;
-		  
+	line-height: 1.8em;  
 	}
 
 
@@ -2014,7 +1943,6 @@ color: #FFFFFF;
     transform: scale(1.1);
 	font-weight: bold;
 	border: 2px solid #FFFFFF;
-	
 }
 
 
@@ -2022,6 +1950,7 @@ color: #FFFFFF;
 
 .titulo-ficha{
 	font-size: medium;
+	
 }
 
 .compatibility h3{
@@ -2039,10 +1968,12 @@ color: #FFFFFF;
 .list-compativilyti{
 	list-style: none;
 	line-height: 1.6;
-	font-size: smaller;
+	font-size: medium;
+	
 }
-.compatibility p{
-	line-height: 1.6;
+.compatibility-right p{
+	
+	font-size: medium;
    
 }
 
@@ -2294,10 +2225,7 @@ para modo obscuro
    margin-right:0;
  }
 	
-	
-	
-	
-	
+
 	/*Ajuste cabecero*/
 
 	.header {
@@ -2306,8 +2234,6 @@ para modo obscuro
 		z-index: 777;
 		right: 0;
 	 }
-	
-	
 	 .logo_ges{
 		width: 70px;
 		height: 40px;	
@@ -2341,7 +2267,7 @@ para modo obscuro
 
 	.container-origen-y-definicion{
 		width: 100%;
-		height: 102em;
+		height: max-content;
 		padding-top: 1em;
 		background: linear-gradient( #5fd9fe 98% ,#FFFFFF);	
 	}
@@ -2378,7 +2304,7 @@ para modo obscuro
 	}
 	
 	.text-icon{
-		font-size: small;	
+		font-size: smaller;	
 	}
 	
 	.text-container p{
@@ -2400,7 +2326,7 @@ para modo obscuro
 	}
 	
 	.list{
-		font-size: x-small;
+		font-size: smaller;
 		line-height: 1.7em;
 		
 	}
@@ -2449,6 +2375,12 @@ para modo obscuro
 			transform: scale(1.0);
 			box-shadow: 0 10px 20px #FFFFFF;
 			transition: 2s;
+			}
+			
+			.icono-soborno{
+				width: 50px;
+				height:50px;
+				box-shadow: 0 3px 8px #FFFFFF;
 			}
 
 	.card-derecha{
@@ -2613,48 +2545,61 @@ para modo obscuro
 	
 }
 
-
-
-.features-grid,.descripccion p{
-	font-size: 1em;
-	width: 90%;
+.features-grid .descripccion {
+	font-size: small;
 	margin: 0 auto;
-}
- 
-
-
- 
-
- .features .descripccion{
-	
-	font-size: medium;
 	color: #FFFFFF;
 }
 
 
-.features .text-funciones{
-	font-size: small;
+.features-grid .text-funciones{
+	font-size: smaller;
 }
 
+
+
+/* Ajuste de imagen*/
+
+.features-grid span {
+	width: 120px;
+	height: 120px;
+	background-size: 430%;
+ }
+ .features-grid span.t-icon1 {
+    background-position: -200px 0px;
+ }
+ .features-grid span.t-icon2 {
+    background-position: -395px 0px;
+ }
+ 
 
   		/*Multiples sitios 320*/
 			
 		  .container-title {
-			margin-top: 1.5em;
+			margin-top: 1em;
+			text-align: center;
+		}
+
+
+		.container-title p{
 			text-align: center;
 			color: #FFFFFF;
 			font-size: medium;
 		}
+
+
+		.container-loader{
+		margin: 1em 0em 0em 0em;	
+			}
+
 		.container-escudo{
 			margin: .3em 0em;
 			text-align: center;
-			
 		}
 
 			.escudo{
 				width: 100px;
 				height: 100px;
-				
 			}
 
 	.container-imgs{
@@ -2715,6 +2660,13 @@ para modo obscuro
 
 
        /* ges en accion 320px */
+/* Contenedor inferior*/
+.container-accion{
+	width: 100%;
+	max-height: max-content;
+	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+}
+
 	.titulo-accion{
 		text-align: center;
 		background:  #5fd9fe;	
@@ -2741,18 +2693,37 @@ para modo obscuro
 	
 	
 
-/* Contenedor inferior*/
-.container-accion{
-	width: 100%;
-	height: 89em;
-	background: linear-gradient( #5fd9fe 98% ,#FFFFFF);
+
+.container-tablas{
+	margin-top: .3em;
+	width: 100%;	
+}
+
+.seccion-tabla-izquierda{
+ width: 100%;
+ height: max-content;
+ display: block;
+ padding: 1em 1.5em;
+}
+
+.seccion-tabla-derecha{
+height: max-content;
+width: 100%;
+ display: block;
+ padding: 2em 1.5em;
+
+}
+
+
+.titulo-accion .text-youtube{
+	font-size: small;
 }
 
 /* icon you tube*/
 .img-youtube
 {
-	width: 5em;
-	height: 3.5em;
+	width: 6em;
+	height: 4em;
 	text-align: center;
 }
 .box-animate{
@@ -2768,20 +2739,24 @@ para modo obscuro
 }
 
 .container-accion-mapa{
-	position: relative;
 	display: inline-block;
 	width: 100%;
 }
 
 .secc-mapa {
-   width:100%;
-}
-
-iframe {
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
-	height: 250px;
+    width:85%;
+}
+
+
+.secc-mapa .text-map1 p{
+	font-size: small;	
+}
+
+
+iframe {
+	height: 17em;
 	border-radius: 8px;
    }
 
@@ -2791,77 +2766,50 @@ iframe {
    }
 
    .img-barras{
-	width: 3em;
-	height: 3em;
+	width: 4em;
+	height: 4em;
    }
 
-   .center-text{
+   .center-text {
 	width: 100%;
-	height: 20px;
+	text-align: center;
+	padding: .5em 0em .5em 0em;
 }
-   .container-tablas{
-	margin-top: 2em;
-	width: 100%;
-}
-   
+
+	
 
 .center-text p{
-	font-size: smaller;
-	
+	font-size: medium;
 }
-
 
 
 .container-lis2{
-	width: 100%;
-	margin-left: .5em;
-    
+	width: 100%;	
 }
 .container-lis2 p{
-	font-size: x-small;
+	font-size: smaller;
 }
 
-
-
-.list2{
+.container-lis2 .list2{
 	margin-top: .5em;
-	margin-left: 2em;
-	font-size: x-small;
+	font-size: smaller;
 }
-
 
 table{
 	width: 100%;
-	height: 220px;
-	margin-left: auto;
-	margin-right: auto;
-    
+	height:max-content;
 }
 
-.con-ges-head{
-
-	font-size: smaller;
+.con-ges-head, .sin-ges-head {
+	font-size: small;
 }
 
-.sin-ges-head{
-	font-size: smaller;
-
-}
-
-.body-table{
-
-	font-size: smaller;
-}
-
-
-.contenido-tabla2{
-	margin-top: 3em;
-}
 
 td,th{
 	text-align: center;
     border: 1px solid #FFFFFF;
-    padding: 2px 8px;
+   font-size: smaller;
+   padding: 7px 15px;
 }
 
 /* coadyubar con el mp 320*/
